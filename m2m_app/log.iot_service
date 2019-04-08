@@ -1,0 +1,225 @@
+2019-01-16 06:17:15,516 ******************************************
+2019-01-16 06:17:15,517 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:15,521 2019-01-16 06:17:15.521348 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:17,530 2019-01-16 06:17:17.530081 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:17,530 Last element in Command Return is ['AT', 'OK', 'AT+UPSD=0,0,2', 'OK', 'AT+UPSDA=0,3', 'ERROR', 'AT', 'OK', 'AT+CGDCONT?', '+CGDCONT: 1,"IPV4V6","vzwinternet","100.82.194.150 38.0.16.1.176.29.5.14.0.0.0.75.14.244.161.1",0,0,0,0', '+CGDCONT: 2,"IPV4V6","VZWADMIN","10.131.51.237 38.0.16.1.240.11.35.15.0.0.0.75.14.245.106.1",0,0,0,0', '+CGDCONT: 3,"IPV4V6","vzwinternet","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', '+CGDCONT: 6,"IPV4V6","VZWCLASS6","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', 'OK', 'AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 06:17:17,530 Error in return code
+2019-01-16 06:17:17,530 2019-01-16 06:17:17.530421 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:19,534 2019-01-16 06:17:19.534268 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:19,534 Last element in Command Return is ['AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 06:17:21,537 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:21,538 2019-01-16 06:17:21.538203 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:23,543 2019-01-16 06:17:23.543020 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:23,543 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:25,544 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:25,544 2019-01-16 06:17:25.544693 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:27,549 2019-01-16 06:17:27.549585 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:27,549 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:29,552 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:29,552 2019-01-16 06:17:29.552919 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:31,557 2019-01-16 06:17:31.556905 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:31,557 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:33,561 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:33,561 2019-01-16 06:17:33.561540 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:35,565 2019-01-16 06:17:35.565520 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:35,565 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:37,569 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:37,569 2019-01-16 06:17:37.569607 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:39,573 2019-01-16 06:17:39.573641 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:39,573 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:41,577 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:41,578 2019-01-16 06:17:41.578042 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:43,582 2019-01-16 06:17:43.582189 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:43,582 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:17:45,585 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:45,585 2019-01-16 06:17:45.585750 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:46,299 2019-01-16 06:17:46.298060 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-01-16 06:17:48,303 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:17:48,304 2019-01-16 06:17:48.304147 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:17:48,345 2019-01-16 06:17:48.345908 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-01-16 06:22:32,600 ******************************************
+2019-01-16 06:22:32,601 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:22:32,601 2019-01-16 06:22:32.601927 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:34,610 2019-01-16 06:22:34.610140 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:34,610 Last element in Command Return is ['AT', 'OK', 'AT', 'OK', 'AT+CGDCONT?', '+CGDCONT: 1,"IPV4V6","vzwinternet","100.82.194.150 38.0.16.1.176.29.5.14.0.0.0.75.14.244.161.1",0,0,0,0', '+CGDCONT: 2,"IPV4V6","VZWADMIN","10.131.51.237 38.0.16.1.240.11.35.15.0.0.0.75.14.245.106.1",0,0,0,0', '+CGDCONT: 3,"IPV4V6","vzwinternet","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', '+CGDCONT: 6,"IPV4V6","VZWCLASS6","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', 'OK', '+UUHTTPCR: 0,1,1'] 
+2019-01-16 06:22:40,617 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:22:40,618 2019-01-16 06:22:40.618075 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:42,622 2019-01-16 06:22:42.621933 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:42,622 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:22:48,631 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:22:48,631 2019-01-16 06:22:48.631616 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:50,635 2019-01-16 06:22:50.635291 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:50,635 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:22:56,645 sendCommand(AT+UHTTP=0,1,"google.com")
+2019-01-16 06:22:56,646 2019-01-16 06:22:56.646032 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:58,649 2019-01-16 06:22:58.649768 : Command is AT+UHTTP=0,1,"google.com" 
+2019-01-16 06:22:58,650 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"AT+URDFILE="r"AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not supported'] 
+2019-01-16 06:27:04,910 ******************************************
+2019-01-16 06:27:04,910 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 06:27:04,910 2019-01-16 06:27:04.910935 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:06,918 2019-01-16 06:27:06.918115 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:06,918 Last element in Command Return is ['AT', 'OK', 'AT', 'OK', 'AT+CGDCONT?', '+CGDCONT: 1,"IPV4V6","vzwinternet","100.82.194.150 38.0.16.1.176.29.5.14.0.0.0.75.14.244.161.1",0,0,0,0', '+CGDCONT: 2,"IPV4V6","VZWADMIN","10.131.51.237 38.0.16.1.240.11.35.15.0.0.0.75.14.245.106.1",0,0,0,0', '+CGDCONT: 3,"IPV4V6","vzwinternet","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', '+CGDCONT: 6,"IPV4V6","VZWCLASS6","0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0', 'OK', 'AT+UHTTP=0,1,"google.com"', '+CME ERROR: Operation not allowed', '+UUHTTPCR: 0,1,1'] 
+2019-01-16 06:27:12,927 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 06:27:12,927 2019-01-16 06:27:12.927864 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:14,937 2019-01-16 06:27:14.937572 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:14,937 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 16 Jan 2019 06:27:09 GMT', 'Expires: Fri, 15 Feb 2019 06:27:09 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 06:27:20,947 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 06:27:20,947 2019-01-16 06:27:20.947489 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:22,957 2019-01-16 06:27:22.957058 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:22,957 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 16 Jan 2019 06:27:18 GMT', 'Expires: Fri, 15 Feb 2019 06:27:18 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 06:27:28,966 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 06:27:28,966 2019-01-16 06:27:28.966467 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:30,975 2019-01-16 06:27:30.975308 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 06:27:30,975 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 16 Jan 2019 06:27:25 GMT', 'Expires: Fri, 15 Feb 2019 06:27:25 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 08:27:46,068 ******************************************
+2019-01-16 08:27:46,069 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 08:27:46,071 2019-01-16 08:27:46.071051 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 08:27:48,074 2019-01-16 08:27:48.074859 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 08:27:48,075 Last element in Command Return is ['AT', 'OK', 'AT+UPSD=0,0,2', 'OK', 'AT+UPSDA=0,3AAA', '+CME ERROR: Unspecified GPRS error'] 
+2019-01-16 09:12:49,151 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 09:12:49,153 2019-01-16 09:12:49.153247 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:12:51,156 2019-01-16 09:12:51.156304 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:12:51,156 Last element in Command Return is [] 
+2019-01-16 09:36:36,994 ******************************************
+2019-01-16 09:36:36,995 sendCommand(AT
+)
+2019-01-16 09:36:36,996 2019-01-16 09:36:36.996118 : Command is AT
+ 
+2019-01-16 09:36:39,000 2019-01-16 09:36:39.000142 : Command is AT
+ 
+2019-01-16 09:36:39,000 Last element in Command Return is ['AT', '+CME ERROR: operation not allowed'] 
+2019-01-16 09:36:41,003 sendCommand(AT+CFUN=1,1)
+2019-01-16 09:36:41,031 2019-01-16 09:36:41.030980 : Command is AT+CFUN=1,1 
+2019-01-16 09:36:46,037 2019-01-16 09:36:46.037835 : Command is AT+CFUN=1,1 
+2019-01-16 09:36:46,038 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-01-16 09:37:16,038 sendCommand(AT+CEGREG=1)
+2019-01-16 09:37:16,087 2019-01-16 09:37:16.087216 : Command is AT+CEGREG=1 
+2019-01-16 09:37:21,093 2019-01-16 09:37:21.093459 : Command is AT+CEGREG=1 
+2019-01-16 09:37:21,093 Last element in Command Return is ['AT+CEGREG=1'] 
+2019-01-16 09:37:23,096 sendCommand(AT+UPSD=0,0,2
+)
+2019-01-16 09:37:23,123 2019-01-16 09:37:23.123399 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:37:25,126 2019-01-16 09:37:25.126630 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:37:25,126 Last element in Command Return is ['AT+UPSD=0,0,2', '+CME ERROR: operation not supported'] 
+2019-01-16 09:37:27,130 sendCommand(AT+UPSDA=0,3
+)
+2019-01-16 09:37:27,158 2019-01-16 09:37:27.157966 : Command is AT+UPSDA=0,3
+ 
+2019-01-16 09:37:29,161 2019-01-16 09:37:29.161846 : Command is AT+UPSDA=0,3
+ 
+2019-01-16 09:37:29,162 Last element in Command Return is ['AT+UPSDA=0,3', '+CME ERROR: Unspecified GPRS error'] 
+2019-01-16 09:37:31,165 sendCommand(AT
+)
+2019-01-16 09:37:31,191 2019-01-16 09:37:31.191043 : Command is AT
+ 
+2019-01-16 09:37:33,194 2019-01-16 09:37:33.194022 : Command is AT
+ 
+2019-01-16 09:37:33,194 Last element in Command Return is ['AT', 'OK'] 
+2019-01-16 09:37:35,196 sendCommand(AT+CGDCONT?
+)
+2019-01-16 09:37:35,225 2019-01-16 09:37:35.225752 : Command is AT+CGDCONT?
+ 
+2019-01-16 09:37:37,231 2019-01-16 09:37:37.231022 : Command is AT+CGDCONT?
+ 
+2019-01-16 09:37:37,231 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV4V6","VZWIMS","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-01-16 09:37:39,234 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 09:37:39,259 2019-01-16 09:37:39.259116 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:37:41,262 2019-01-16 09:37:41.262559 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:37:41,262 Last element in Command Return is ['AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 09:37:47,299 sendCommand(AT
+)
+2019-01-16 09:37:47,300 2019-01-16 09:37:47.300333 : Command is AT
+ 
+2019-01-16 09:37:49,303 2019-01-16 09:37:49.303596 : Command is AT
+ 
+2019-01-16 09:37:49,303 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+CME ERROR: FILE NOT FOUND', 'AT', 'OK'] 
+2019-01-16 09:41:45,158 ******************************************
+2019-01-16 09:41:45,158 sendCommand(AT
+)
+2019-01-16 09:41:45,159 2019-01-16 09:41:45.159540 : Command is AT
+ 
+2019-01-16 09:41:47,162 2019-01-16 09:41:47.162588 : Command is AT
+ 
+2019-01-16 09:41:47,162 Last element in Command Return is ['AT', 'OK'] 
+2019-01-16 09:41:49,166 sendCommand(AT+CFUN=1,1)
+2019-01-16 09:41:49,193 2019-01-16 09:41:49.193291 : Command is AT+CFUN=1,1 
+2019-01-16 09:41:54,200 2019-01-16 09:41:54.200401 : Command is AT+CFUN=1,1 
+2019-01-16 09:41:54,200 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-01-16 09:42:24,232 sendCommand(AT+CEREG=1)
+2019-01-16 09:42:24,252 2019-01-16 09:42:24.249687 : Command is AT+CEREG=1 
+2019-01-16 09:42:29,257 2019-01-16 09:42:29.257101 : Command is AT+CEREG=1 
+2019-01-16 09:42:29,257 Last element in Command Return is ['AT+CEREG=1'] 
+2019-01-16 09:42:31,260 sendCommand(AT+UPSD=0,0,2
+)
+2019-01-16 09:42:31,280 2019-01-16 09:42:31.280637 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:42:33,284 2019-01-16 09:42:33.284236 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:42:33,284 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-01-16 09:42:33,284 Error in return code
+2019-01-16 09:42:33,285 2019-01-16 09:42:33.285420 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:42:35,289 2019-01-16 09:42:35.289225 : Command is AT+UPSD=0,0,2
+ 
+2019-01-16 09:42:35,289 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-01-16 09:42:37,292 sendCommand(AT+UPSDA=0,3
+)
+2019-01-16 09:42:37,320 2019-01-16 09:42:37.320249 : Command is AT+UPSDA=0,3
+ 
+2019-01-16 09:42:40,445 2019-01-16 09:42:40.445574 : Command is AT+UPSDA=0,3
+ 
+2019-01-16 09:42:40,445 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"192.168.3.2"'] 
+2019-01-16 09:42:42,448 sendCommand(AT
+)
+2019-01-16 09:42:42,449 2019-01-16 09:42:42.449541 : Command is AT
+ 
+2019-01-16 09:42:44,452 2019-01-16 09:42:44.452484 : Command is AT
+ 
+2019-01-16 09:42:44,452 Last element in Command Return is ['AT', 'OK'] 
+2019-01-16 09:42:46,456 sendCommand(AT+CGDCONT?
+)
+2019-01-16 09:42:46,483 2019-01-16 09:42:46.483187 : Command is AT+CGDCONT?
+ 
+2019-01-16 09:42:48,488 2019-01-16 09:42:48.487981 : Command is AT+CGDCONT?
+ 
+2019-01-16 09:42:48,488 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV4V6","VZWIMS.mnc480.mcc311.gprs","192.168.2.2 254.128.0.0.0.0.0.0.32.1.1.19.32.0.0.1",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","192.168.3.2 254.128.0.0.0.0.0.0.32.1.1.19.48.0.0.1",0,0,0,0,0,0', 'OK'] 
+2019-01-16 09:42:50,491 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 09:42:50,517 2019-01-16 09:42:50.517623 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:42:52,520 2019-01-16 09:42:52.520846 : Command is AT+UHTTP=0,1,"google.com"
+ 
+2019-01-16 09:42:52,521 Last element in Command Return is ['AT+UHTTP=0,1,"google.com"', 'OK'] 
+2019-01-16 09:42:58,559 sendCommand(AT
+)
+2019-01-16 09:42:58,559 2019-01-16 09:42:58.559647 : Command is AT
+ 
+2019-01-16 09:43:00,563 2019-01-16 09:43:00.563585 : Command is AT
+ 
+2019-01-16 09:43:00,563 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-01-16 09:53:00,625 sendCommand(AT+UHTTP=0,1,"google.com"
+)
+2019-01-16 09:53:00,625 2019-01-16 09:53:00.625527 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
