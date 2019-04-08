@@ -1,4 +1,6 @@
 #!/usr/bin/python
 import M2MModule
+import M2MConnect
 
-M2MModule.init()
+ser = M2MModule.init()
+M2MConnect.connect(ser)

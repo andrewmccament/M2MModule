@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import time
 import M2MSendCommand
 
 def connect(ser):
