@@ -13,18 +13,13 @@ def sendCommand(command, ser):
         return_code = 'ERROR'
         tryAgain = 'yes'
         while tryAgain == 'yes':
-            if ser.isOpen():
-                print "SER connection is open!"
-            else:
-                print "SER connection is not open"
+            if not ser.isOpen():
                 logging.debug('Serial Port can not be opened to send Command - check cable connections')
                 ser.close()
-            print "Attempting to send command"
             ser.write(command)
             logging.debug('%s : Command is %s ' % (datetime.now(), command))
             time.sleep(2)
             ret = []
-            print "Command sent.  Messages in waiting: " + ser.inWaiting()
             while ser.inWaiting() > 0:
                 msg = ser.readline().strip()
                 msg = msg.replace("\r","")
