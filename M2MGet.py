@@ -3,7 +3,7 @@ import time
 import M2MConnect
 import M2MSendCommand
 
-def connect(ser):
+def get(ser):
     ret = M2MSendCommand.sendCommand("AT+CGDCONT?\r\n", ser)
     print "AT+CGDCONT"
     print ret
