@@ -8,8 +8,6 @@ import sys
 import syslog
 
 def sendCommand(command, ser):
-    print "command to send: " + command
-    print ser
     try:
         logging.debug('sendCommand(%s)' % command)
         return_code = 'ERROR'
