@@ -23,4 +23,4 @@ def connect(ser):
     print "AT+UPSDA=0,3"
     print ret
     time.sleep(2)
-    return true
+    return True

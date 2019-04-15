@@ -12,3 +12,131 @@
 2019-04-08 16:04:37,247 2019-04-08 16:04:37.247534 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
 2019-04-08 16:05:07,278 sendCommand(AT+CEREG=1)
 2019-04-08 16:05:07,279 2019-04-08 16:05:07.279441 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:17:53,705 ******************************************
+2019-04-08 16:17:53,706 sendCommand(AT
+)
+2019-04-08 16:17:53,707 2019-04-08 16:17:53.707225 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:17:55,710 sendCommand(AT+CFUN=1,1)
+2019-04-08 16:17:55,710 2019-04-08 16:17:55.710834 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:19:16,108 ******************************************
+2019-04-08 16:19:16,110 sendCommand(AT
+)
+2019-04-08 16:19:16,110 2019-04-08 16:19:16.110481 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:19:18,113 sendCommand(AT+CFUN=1,1)
+2019-04-08 16:19:18,114 2019-04-08 16:19:18.114028 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:20:02,233 ******************************************
+2019-04-08 16:20:02,234 sendCommand(AT
+)
+2019-04-08 16:20:02,235 2019-04-08 16:20:02.235221 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:20:04,237 sendCommand(AT+CFUN=1,1)
+2019-04-08 16:20:04,238 2019-04-08 16:20:04.238791 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:20:52,207 ******************************************
+2019-04-08 16:20:52,208 sendCommand(AT
+)
+2019-04-08 16:20:52,209 2019-04-08 16:20:52.208935 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:20:54,211 sendCommand(AT+CFUN=1,1)
+2019-04-08 16:20:54,212 2019-04-08 16:20:54.212631 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:21:24,243 sendCommand(AT+CEREG=1)
+2019-04-08 16:21:24,244 2019-04-08 16:21:24.244656 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:21:26,247 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-08 16:21:26,248 2019-04-08 16:21:26.248499 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:21:28,251 sendCommand(AT+UPSDA=0,3
+)
+2019-04-08 16:21:28,252 2019-04-08 16:21:28.251969 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:21:50,929 ******************************************
+2019-04-08 16:21:50,930 sendCommand(AT
+)
+2019-04-08 16:21:50,931 2019-04-08 16:21:50.931136 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:21:52,933 sendCommand(AT+CFUN=1,1)
+2019-04-08 16:21:52,934 2019-04-08 16:21:52.934626 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:22:22,965 sendCommand(AT+CEREG=1)
+2019-04-08 16:22:22,966 2019-04-08 16:22:22.966025 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:22:24,968 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-08 16:22:24,969 2019-04-08 16:22:24.969478 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-08 16:22:26,972 sendCommand(AT+UPSDA=0,3
+)
+2019-04-08 16:22:26,973 2019-04-08 16:22:26.973282 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-15 15:31:54,098 ******************************************
+2019-04-15 15:34:56,292 ******************************************
+2019-04-15 15:36:01,864 ******************************************
+2019-04-15 15:37:29,388 sendCommand(AT
+)
+2019-04-15 15:37:29,393 2019-04-15 15:37:29.392431 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-15 15:37:31,401 sendCommand(AT+CFUN=1,1)
+2019-04-15 15:37:31,406 2019-04-15 15:37:31.405145 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-15 15:42:01,064 ******************************************
+2019-04-15 15:42:01,065 sendCommand(AT
+)
+2019-04-15 15:42:01,066 2019-04-15 15:42:01.066472 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-15 15:42:03,069 sendCommand(AT+CFUN=1,1)
+2019-04-15 15:42:03,070 2019-04-15 15:42:03.070267 : sendCommand() ERROR!: <type 'exceptions.AttributeError'> 
+2019-04-15 15:42:29,729 ******************************************
+2019-04-15 15:43:28,996 ******************************************
+2019-04-15 15:44:03,176 ******************************************
+2019-04-15 15:44:03,176 sendCommand(AT
+)
+2019-04-15 15:44:03,177 2019-04-15 15:44:03.177438 : Command is AT
+ 
+2019-04-15 15:44:05,180 2019-04-15 15:44:05.180223 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:44:07,183 sendCommand(AT+CFUN=1,1)
+2019-04-15 15:44:07,184 2019-04-15 15:44:07.184686 : Command is AT+CFUN=1,1 
+2019-04-15 15:44:09,188 2019-04-15 15:44:09.187757 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:44:39,219 sendCommand(AT+CEREG=1)
+2019-04-15 15:44:39,219 2019-04-15 15:44:39.219681 : Command is AT+CEREG=1 
+2019-04-15 15:44:41,222 2019-04-15 15:44:41.222314 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:44:43,225 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-15 15:44:43,226 2019-04-15 15:44:43.226732 : Command is AT+UPSD=0,0,2
+ 
+2019-04-15 15:44:45,229 2019-04-15 15:44:45.229675 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:44:47,233 sendCommand(AT+UPSDA=0,3
+)
+2019-04-15 15:44:47,234 2019-04-15 15:44:47.234177 : Command is AT+UPSDA=0,3
+ 
+2019-04-15 15:44:49,237 2019-04-15 15:44:49.237137 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:50:15,645 ******************************************
+2019-04-15 15:50:15,646 sendCommand(AT
+)
+2019-04-15 15:50:15,647 2019-04-15 15:50:15.647801 : Command is AT
+ 
+2019-04-15 15:50:17,650 2019-04-15 15:50:17.650609 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:50:19,655 sendCommand(AT+CFUN=1,1)
+2019-04-15 15:50:19,657 2019-04-15 15:50:19.657293 : Command is AT+CFUN=1,1 
+2019-04-15 15:50:21,660 2019-04-15 15:50:21.660258 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:50:51,692 sendCommand(AT+CEREG=1)
+2019-04-15 15:50:51,693 2019-04-15 15:50:51.693638 : Command is AT+CEREG=1 
+2019-04-15 15:50:53,697 2019-04-15 15:50:53.696827 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:50:55,700 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-15 15:50:55,701 2019-04-15 15:50:55.700956 : Command is AT+UPSD=0,0,2
+ 
+2019-04-15 15:50:57,703 2019-04-15 15:50:57.703688 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:50:59,707 sendCommand(AT+UPSDA=0,3
+)
+2019-04-15 15:50:59,708 2019-04-15 15:50:59.708423 : Command is AT+UPSDA=0,3
+ 
+2019-04-15 15:51:01,711 2019-04-15 15:51:01.711340 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:55:43,164 ******************************************
+2019-04-15 15:55:43,165 sendCommand(AT
+)
+2019-04-15 15:55:43,166 2019-04-15 15:55:43.166083 : Command is AT
+ 
+2019-04-15 15:55:45,169 2019-04-15 15:55:45.168884 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:55:47,172 sendCommand(AT+CFUN=1,1)
+2019-04-15 15:55:47,174 2019-04-15 15:55:47.173855 : Command is AT+CFUN=1,1 
+2019-04-15 15:55:49,177 2019-04-15 15:55:49.177037 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:56:19,208 sendCommand(AT+CEREG=1)
+2019-04-15 15:56:19,210 2019-04-15 15:56:19.209838 : Command is AT+CEREG=1 
+2019-04-15 15:56:21,213 2019-04-15 15:56:21.212749 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:56:23,216 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-15 15:56:23,217 2019-04-15 15:56:23.217660 : Command is AT+UPSD=0,0,2
+ 
+2019-04-15 15:56:25,220 2019-04-15 15:56:25.220633 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
+2019-04-15 15:56:27,224 sendCommand(AT+UPSDA=0,3
+)
+2019-04-15 15:56:27,228 2019-04-15 15:56:27.228079 : Command is AT+UPSDA=0,3
+ 
+2019-04-15 15:56:29,231 2019-04-15 15:56:29.231162 : sendCommand() ERROR!: <type 'exceptions.TypeError'> 
