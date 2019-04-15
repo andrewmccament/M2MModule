@@ -9,7 +9,7 @@ def connect(ser):
     print ret
     time.sleep(2)
   
-  while True:
+while True:
    ret = sendCommand('AT+UHTTP=0,1,"google.com"\r\n', ser)
    print "AT+UHTTP"
    print ret
