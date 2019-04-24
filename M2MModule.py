@@ -65,6 +65,26 @@ def get(ser, address):
         time.sleep(6)
         return True
 
+def post(ser, address, data):
+    while True:
+        ret = sendCommand('AT+UHTTP=0,1,' + address + '\r\n', ser)
+        print "AT+UHTTP"
+        print ret
+        time.sleep(2)
+        ret = ser.write('AT+UHTTPC=0,5,"/","r","' + data + '",0\r\n')
+        print "AT+UHTTPC"
+        print ret
+        time.sleep(2)
+        ret = ser.write('AT+URDFILE="r"\r\n')
+        print "AT+URDFILE"
+        print ret
+        time.sleep(2)
+        ret = sendCommand("AT\r\n", ser)
+        print "AT"
+        print ret
+        time.sleep(6)
+        return True
+
 def sendCommand(command, ser):
     try:
         logging.debug('sendCommand(%s)' % command)
@@ -94,5 +114,3 @@ def sendCommand(command, ser):
     except:
         e = sys.exc_info()[0]
         logging.debug('%s : sendCommand() ERROR!: %s ' % (datetime.now(), e))
-
-
