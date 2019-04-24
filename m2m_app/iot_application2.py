@@ -13,7 +13,7 @@ print "setting up"
 ser = serial.Serial("/dev/ttyACM0", baudrate=115200, timeout=3.0)
 
 logging.basicConfig(filename='./log.iot_service', level=logging.DEBUG, format='%(asctime)s %(message)s')
-logging.debug("******************************************")/dev/
+logging.debug("******************************************")
 
 def sendCommand(com):
     global ser
