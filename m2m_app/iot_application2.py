@@ -85,7 +85,7 @@ while True:
    print ret
    time.sleep(2)
    #ret = ser.write("AT+UHTTPC=0,1,\"/\",\"r\"\r\n")
-   ret = ser.write('AT+UHTTPC=0,4,"/","r"\r\n')
+   ret = ser.write('AT+UHTTPC=0,5,"/","r"\r\n')
    print "AT+UHTTPC"
    print ret
    time.sleep(2)
