@@ -5657,3 +5657,90 @@
 2019-04-19 16:10:34,310 2019-04-19 16:10:34.310043 : Command is AT
  
 2019-04-19 16:10:34,311 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-24 16:19:07,753 ******************************************
+2019-04-24 16:19:07,755 sendCommand(AT
+)
+2019-04-24 16:19:20,850 ******************************************
+2019-04-24 16:19:20,850 sendCommand(AT
+)
+2019-04-24 16:20:01,342 ******************************************
+2019-04-24 16:20:01,342 sendCommand(AT
+)
+2019-04-24 16:20:01,343 2019-04-24 16:20:01.342995 : Command is AT
+ 
+2019-04-24 16:20:03,345 2019-04-24 16:20:03.345636 : Command is AT
+ 
+2019-04-24 16:20:03,346 Last element in Command Return is [] 
+2019-04-24 16:20:05,349 sendCommand(AT+CFUN=1,1)
+2019-04-24 16:20:05,350 2019-04-24 16:20:05.350488 : Command is AT+CFUN=1,1 
+2019-04-24 16:20:07,353 2019-04-24 16:20:07.353370 : Command is AT+CFUN=1,1 
+2019-04-24 16:20:07,354 Last element in Command Return is [] 
+2019-04-24 16:20:37,385 sendCommand(AT+CEREG=1)
+2019-04-24 16:20:37,386 2019-04-24 16:20:37.386098 : Command is AT+CEREG=1 
+2019-04-24 16:20:39,389 2019-04-24 16:20:39.388955 : Command is AT+CEREG=1 
+2019-04-24 16:20:39,389 Last element in Command Return is [] 
+2019-04-24 16:20:41,392 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-24 16:20:41,393 2019-04-24 16:20:41.393649 : Command is AT+UPSD=0,0,2
+ 
+2019-04-24 16:20:46,400 2019-04-24 16:20:46.400034 : Command is AT+UPSD=0,0,2
+ 
+2019-04-24 16:20:46,401 Last element in Command Return is ['A'] 
+2019-04-24 16:20:48,403 sendCommand(AT+UPSDA=0,3
+)
+2019-04-24 16:20:48,405 2019-04-24 16:20:48.404851 : Command is AT+UPSDA=0,3
+ 
+2019-04-24 16:20:53,411 2019-04-24 16:20:53.411214 : Command is AT+UPSDA=0,3
+ 
+2019-04-24 16:20:53,412 Last element in Command Return is ['A'] 
+2019-04-24 16:21:28,934 ******************************************
+2019-04-24 16:21:28,935 sendCommand(AT
+)
+2019-04-24 16:21:28,935 2019-04-24 16:21:28.935818 : Command is AT
+ 
+2019-04-24 16:21:33,942 2019-04-24 16:21:33.941957 : Command is AT
+ 
+2019-04-24 16:21:33,942 Last element in Command Return is ['A'] 
+2019-04-24 16:21:35,945 sendCommand(AT+CFUN=1,1)
+2019-04-24 16:21:35,946 2019-04-24 16:21:35.946010 : Command is AT+CFUN=1,1 
+2019-04-24 16:21:40,952 2019-04-24 16:21:40.952297 : Command is AT+CFUN=1,1 
+2019-04-24 16:21:40,953 Last element in Command Return is ['A'] 
+2019-04-24 16:22:10,984 sendCommand(AT+CEREG=1)
+2019-04-24 16:22:10,985 2019-04-24 16:22:10.985037 : Command is AT+CEREG=1 
+2019-04-24 16:22:15,991 2019-04-24 16:22:15.991521 : Command is AT+CEREG=1 
+2019-04-24 16:22:15,992 Last element in Command Return is ['AA'] 
+2019-04-24 16:22:17,995 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-24 16:22:17,996 2019-04-24 16:22:17.996369 : Command is AT+UPSD=0,0,2
+ 
+2019-04-24 16:22:23,003 2019-04-24 16:22:23.002876 : Command is AT+UPSD=0,0,2
+ 
+2019-04-24 16:22:23,003 Last element in Command Return is ['A'] 
+2019-04-24 16:22:25,006 sendCommand(AT+UPSDA=0,3
+)
+2019-04-24 16:22:25,007 2019-04-24 16:22:25.007549 : Command is AT+UPSDA=0,3
+ 
+2019-04-24 16:22:30,014 2019-04-24 16:22:30.013959 : Command is AT+UPSDA=0,3
+ 
+2019-04-24 16:22:30,014 Last element in Command Return is ['A'] 
+2019-04-24 16:22:32,017 sendCommand(AT+CGDCONT?
+)
+2019-04-24 16:22:32,018 2019-04-24 16:22:32.018767 : Command is AT+CGDCONT?
+ 
+2019-04-24 16:22:37,025 2019-04-24 16:22:37.025093 : Command is AT+CGDCONT?
+ 
+2019-04-24 16:22:37,026 Last element in Command Return is ['A'] 
+2019-04-24 16:22:39,028 sendCommand(AT+UHTTP=0,1,http://www.google.com
+)
+2019-04-24 16:22:39,030 2019-04-24 16:22:39.030035 : Command is AT+UHTTP=0,1,http://www.google.com
+ 
+2019-04-24 16:22:44,051 2019-04-24 16:22:44.051061 : Command is AT+UHTTP=0,1,http://www.google.com
+ 
+2019-04-24 16:22:44,052 Last element in Command Return is ['A'] 
+2019-04-24 16:22:50,059 sendCommand(AT
+)
+2019-04-24 16:22:50,061 2019-04-24 16:22:50.060959 : Command is AT
+ 
+2019-04-24 16:22:55,067 2019-04-24 16:22:55.067610 : Command is AT
+ 
+2019-04-24 16:22:55,071 Last element in Command Return is ['AAA'] 
