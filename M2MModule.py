@@ -47,7 +47,7 @@ def get(ser, address):
     time.sleep(2)
     
     while True:
-        ret = sendCommand('AT+UHTTP=0,1,' + address + '\r\n', ser)
+        ret = sendCommand('AT+UHTTP=0,1,"' + address + '"\r\n', ser)
         print "AT+UHTTP"
         print ret
         time.sleep(2)
@@ -67,7 +67,7 @@ def get(ser, address):
 
 def post(ser, address, data):
     while True:
-        ret = sendCommand('AT+UHTTP=0,1,' + address + '\r\n', ser)
+        ret = sendCommand('AT+UHTTP=0,1,"' + address + '"\r\n', ser)
         print "AT+UHTTP"
         print ret
         time.sleep(2)
@@ -90,7 +90,12 @@ def sendCommand(command, ser):
         logging.debug('sendCommand(%s)' % command)
         return_code = 'ERROR'
         tryAgain = 'yes'
+        loopCount = 0;
         while tryAgain == 'yes':
+            loopCount+=1
+            if (loopCount > 50):
+                print "Error: operation " + command + " timed out with errors"
+                return ret;
             if not ser.isOpen():
                 logging.debug('Serial Port can not be opened to send Command - check cable connections')
                 ser.close()

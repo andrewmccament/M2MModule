@@ -5744,3 +5744,2651 @@
 2019-04-24 16:22:55,067 2019-04-24 16:22:55.067610 : Command is AT
  
 2019-04-24 16:22:55,071 Last element in Command Return is ['AAA'] 
+2019-04-27 18:50:26,328 ******************************************
+2019-04-27 18:50:26,328 sendCommand(AT
+)
+2019-04-27 18:50:26,329 2019-04-27 18:50:26.329095 : Command is AT
+ 
+2019-04-27 18:50:28,333 2019-04-27 18:50:28.333001 : Command is AT
+ 
+2019-04-27 18:50:28,333 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 18:50:30,336 sendCommand(AT+CFUN=1,1)
+2019-04-27 18:50:30,337 2019-04-27 18:50:30.337635 : Command is AT+CFUN=1,1 
+2019-04-27 18:50:35,345 2019-04-27 18:50:35.345052 : Command is AT+CFUN=1,1 
+2019-04-27 18:50:35,346 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 18:53:41,000 ******************************************
+2019-04-27 18:53:41,000 sendCommand(AT
+)
+2019-04-27 18:53:41,009 2019-04-27 18:53:41.009760 : Command is AT
+ 
+2019-04-27 18:53:43,016 2019-04-27 18:53:43.015938 : Command is AT
+ 
+2019-04-27 18:53:43,016 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-04-27 18:53:45,019 sendCommand(AT+CFUN=1,1)
+2019-04-27 18:53:45,020 2019-04-27 18:53:45.020665 : Command is AT+CFUN=1,1 
+2019-04-27 18:53:50,028 2019-04-27 18:53:50.028032 : Command is AT+CFUN=1,1 
+2019-04-27 18:53:50,029 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 18:54:20,084 sendCommand(AT+CEREG=1)
+2019-04-27 18:54:20,086 2019-04-27 18:54:20.085899 : Command is AT+CEREG=1 
+2019-04-27 18:54:25,093 2019-04-27 18:54:25.093242 : Command is AT+CEREG=1 
+2019-04-27 18:54:25,094 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 18:54:27,099 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 18:54:27,100 2019-04-27 18:54:27.100409 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 18:54:29,106 2019-04-27 18:54:29.106000 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 18:54:29,106 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 18:54:29,107 Error in return code
+2019-04-27 18:54:29,108 2019-04-27 18:54:29.108111 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 18:54:31,113 2019-04-27 18:54:31.113380 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 18:54:31,135 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 18:54:33,138 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 18:54:33,138 2019-04-27 18:54:33.138834 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:35,144 2019-04-27 18:54:35.144046 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:35,145 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:35,145 Error in return code
+2019-04-27 18:54:35,146 2019-04-27 18:54:35.146174 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:37,151 2019-04-27 18:54:37.151573 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:37,154 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:37,155 Error in return code
+2019-04-27 18:54:37,156 2019-04-27 18:54:37.156332 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:39,162 2019-04-27 18:54:39.161808 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:39,162 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:39,163 Error in return code
+2019-04-27 18:54:39,164 2019-04-27 18:54:39.163955 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:41,169 2019-04-27 18:54:41.169425 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:41,170 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:41,170 Error in return code
+2019-04-27 18:54:41,171 2019-04-27 18:54:41.171527 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:43,177 2019-04-27 18:54:43.176941 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:43,180 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:43,181 Error in return code
+2019-04-27 18:54:43,182 2019-04-27 18:54:43.182119 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:45,187 2019-04-27 18:54:45.187617 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:45,188 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:45,189 Error in return code
+2019-04-27 18:54:45,190 2019-04-27 18:54:45.189941 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:47,195 2019-04-27 18:54:47.195391 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:47,196 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:47,196 Error in return code
+2019-04-27 18:54:47,197 2019-04-27 18:54:47.197547 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:49,203 2019-04-27 18:54:49.203084 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:49,204 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:49,204 Error in return code
+2019-04-27 18:54:49,205 2019-04-27 18:54:49.205264 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:51,210 2019-04-27 18:54:51.210762 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:51,211 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:51,212 Error in return code
+2019-04-27 18:54:51,213 2019-04-27 18:54:51.212913 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:53,218 2019-04-27 18:54:53.218358 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:53,219 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:53,219 Error in return code
+2019-04-27 18:54:53,220 2019-04-27 18:54:53.220551 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:55,224 2019-04-27 18:54:55.224619 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:55,225 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:55,225 Error in return code
+2019-04-27 18:54:55,225 2019-04-27 18:54:55.225814 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:57,231 2019-04-27 18:54:57.231051 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:57,232 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:57,232 Error in return code
+2019-04-27 18:54:57,233 2019-04-27 18:54:57.233171 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:59,238 2019-04-27 18:54:59.238612 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:54:59,239 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:54:59,240 Error in return code
+2019-04-27 18:54:59,240 2019-04-27 18:54:59.240749 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:01,246 2019-04-27 18:55:01.246187 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:01,247 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:01,247 Error in return code
+2019-04-27 18:55:01,248 2019-04-27 18:55:01.248334 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:03,254 2019-04-27 18:55:03.253826 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:03,254 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:03,255 Error in return code
+2019-04-27 18:55:03,256 2019-04-27 18:55:03.255929 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:05,261 2019-04-27 18:55:05.261337 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:05,262 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:05,262 Error in return code
+2019-04-27 18:55:05,263 2019-04-27 18:55:05.263454 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:07,269 2019-04-27 18:55:07.269008 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:07,274 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:07,275 Error in return code
+2019-04-27 18:55:07,275 2019-04-27 18:55:07.275735 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:09,281 2019-04-27 18:55:09.281202 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:09,282 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:09,282 Error in return code
+2019-04-27 18:55:09,283 2019-04-27 18:55:09.283320 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:11,289 2019-04-27 18:55:11.288971 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:11,290 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:11,290 Error in return code
+2019-04-27 18:55:11,291 2019-04-27 18:55:11.291382 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:13,297 2019-04-27 18:55:13.296905 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:13,297 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:13,381 Error in return code
+2019-04-27 18:55:13,382 2019-04-27 18:55:13.382820 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:15,388 2019-04-27 18:55:15.388320 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:15,389 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:15,389 Error in return code
+2019-04-27 18:55:15,390 2019-04-27 18:55:15.390555 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:17,396 2019-04-27 18:55:17.396019 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:17,396 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:17,397 Error in return code
+2019-04-27 18:55:17,398 2019-04-27 18:55:17.398158 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:19,403 2019-04-27 18:55:19.403658 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:19,404 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:19,405 Error in return code
+2019-04-27 18:55:19,405 2019-04-27 18:55:19.405815 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:21,411 2019-04-27 18:55:21.411318 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:21,412 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:21,412 Error in return code
+2019-04-27 18:55:21,413 2019-04-27 18:55:21.413419 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:23,419 2019-04-27 18:55:23.418946 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:23,419 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:23,420 Error in return code
+2019-04-27 18:55:23,421 2019-04-27 18:55:23.421105 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:25,426 2019-04-27 18:55:25.426520 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:25,443 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:25,443 Error in return code
+2019-04-27 18:55:25,444 2019-04-27 18:55:25.444467 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:27,450 2019-04-27 18:55:27.450013 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:27,451 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:27,451 Error in return code
+2019-04-27 18:55:27,452 2019-04-27 18:55:27.452181 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:29,457 2019-04-27 18:55:29.457576 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:29,458 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:29,459 Error in return code
+2019-04-27 18:55:29,459 2019-04-27 18:55:29.459811 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:31,465 2019-04-27 18:55:31.465251 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:31,466 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:31,466 Error in return code
+2019-04-27 18:55:31,467 2019-04-27 18:55:31.467437 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:33,473 2019-04-27 18:55:33.472887 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:33,473 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:33,474 Error in return code
+2019-04-27 18:55:33,475 2019-04-27 18:55:33.475039 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:35,480 2019-04-27 18:55:35.480585 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:35,481 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:35,482 Error in return code
+2019-04-27 18:55:35,482 2019-04-27 18:55:35.482709 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:37,488 2019-04-27 18:55:37.488144 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:37,489 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:37,489 Error in return code
+2019-04-27 18:55:37,490 2019-04-27 18:55:37.490446 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:39,496 2019-04-27 18:55:39.495914 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:39,496 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:39,497 Error in return code
+2019-04-27 18:55:39,498 2019-04-27 18:55:39.498065 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:41,503 2019-04-27 18:55:41.503618 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:41,504 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:41,505 Error in return code
+2019-04-27 18:55:41,505 2019-04-27 18:55:41.505730 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:43,511 2019-04-27 18:55:43.511347 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:43,512 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:43,512 Error in return code
+2019-04-27 18:55:43,513 2019-04-27 18:55:43.513521 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:45,519 2019-04-27 18:55:45.519023 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:45,520 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:45,520 Error in return code
+2019-04-27 18:55:45,521 2019-04-27 18:55:45.521172 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:47,526 2019-04-27 18:55:47.526587 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:47,527 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:47,528 Error in return code
+2019-04-27 18:55:47,528 2019-04-27 18:55:47.528757 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:49,534 2019-04-27 18:55:49.534223 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:49,535 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:49,535 Error in return code
+2019-04-27 18:55:49,536 2019-04-27 18:55:49.536391 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:51,542 2019-04-27 18:55:51.541810 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:51,542 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:51,543 Error in return code
+2019-04-27 18:55:51,544 2019-04-27 18:55:51.543942 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:53,549 2019-04-27 18:55:53.549402 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:53,550 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:53,550 Error in return code
+2019-04-27 18:55:53,551 2019-04-27 18:55:53.551529 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:55,557 2019-04-27 18:55:55.556980 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:55,557 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:55,558 Error in return code
+2019-04-27 18:55:55,559 2019-04-27 18:55:55.559301 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:57,564 2019-04-27 18:55:57.564713 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:57,565 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:57,566 Error in return code
+2019-04-27 18:55:57,566 2019-04-27 18:55:57.566837 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:59,572 2019-04-27 18:55:59.572256 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:55:59,573 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:55:59,573 Error in return code
+2019-04-27 18:55:59,574 2019-04-27 18:55:59.574384 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:01,580 2019-04-27 18:56:01.579892 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:01,580 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:01,581 Error in return code
+2019-04-27 18:56:01,582 2019-04-27 18:56:01.582039 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:03,587 2019-04-27 18:56:03.587452 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:03,588 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:03,589 Error in return code
+2019-04-27 18:56:03,589 2019-04-27 18:56:03.589713 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:05,595 2019-04-27 18:56:05.595143 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:05,596 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:05,597 Error in return code
+2019-04-27 18:56:05,598 2019-04-27 18:56:05.598274 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:07,604 2019-04-27 18:56:07.604048 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:07,605 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:07,605 Error in return code
+2019-04-27 18:56:07,606 2019-04-27 18:56:07.606170 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:09,611 2019-04-27 18:56:09.611575 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:09,612 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:09,613 Error in return code
+2019-04-27 18:56:09,613 2019-04-27 18:56:09.613674 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:11,619 2019-04-27 18:56:11.619174 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:11,620 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:11,620 Error in return code
+2019-04-27 18:56:11,621 2019-04-27 18:56:11.621346 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:13,626 2019-04-27 18:56:13.626738 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:13,627 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:13,628 Error in return code
+2019-04-27 18:56:13,629 2019-04-27 18:56:13.629017 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:15,634 2019-04-27 18:56:15.634474 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:15,635 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:15,635 Error in return code
+2019-04-27 18:56:15,636 2019-04-27 18:56:15.636586 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:17,641 2019-04-27 18:56:17.641635 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:17,642 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:17,643 Error in return code
+2019-04-27 18:56:17,643 2019-04-27 18:56:17.643770 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:19,649 2019-04-27 18:56:19.649259 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:19,650 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:19,650 Error in return code
+2019-04-27 18:56:19,651 2019-04-27 18:56:19.651382 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:21,657 2019-04-27 18:56:21.656837 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:21,657 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:21,658 Error in return code
+2019-04-27 18:56:21,659 2019-04-27 18:56:21.659019 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:23,664 2019-04-27 18:56:23.664478 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:23,665 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:23,665 Error in return code
+2019-04-27 18:56:23,666 2019-04-27 18:56:23.666629 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:25,672 2019-04-27 18:56:25.672044 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:25,673 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:25,673 Error in return code
+2019-04-27 18:56:25,674 2019-04-27 18:56:25.674203 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:27,678 2019-04-27 18:56:27.678280 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:27,678 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:27,679 Error in return code
+2019-04-27 18:56:27,679 2019-04-27 18:56:27.679544 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:29,684 2019-04-27 18:56:29.684718 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:29,685 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:29,686 Error in return code
+2019-04-27 18:56:29,687 2019-04-27 18:56:29.686863 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:31,692 2019-04-27 18:56:31.692276 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:31,693 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:31,693 Error in return code
+2019-04-27 18:56:31,694 2019-04-27 18:56:31.694468 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:33,700 2019-04-27 18:56:33.699980 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:33,700 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:33,701 Error in return code
+2019-04-27 18:56:33,702 2019-04-27 18:56:33.702129 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:35,707 2019-04-27 18:56:35.707559 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:35,708 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:35,709 Error in return code
+2019-04-27 18:56:35,709 2019-04-27 18:56:35.709791 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:37,715 2019-04-27 18:56:37.715197 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:37,716 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:37,716 Error in return code
+2019-04-27 18:56:37,717 2019-04-27 18:56:37.717319 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:39,723 2019-04-27 18:56:39.722795 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:39,723 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:39,724 Error in return code
+2019-04-27 18:56:39,725 2019-04-27 18:56:39.724954 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:41,730 2019-04-27 18:56:41.730435 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:41,731 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:41,731 Error in return code
+2019-04-27 18:56:41,732 2019-04-27 18:56:41.732575 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:43,738 2019-04-27 18:56:43.738030 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:43,739 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:43,739 Error in return code
+2019-04-27 18:56:43,740 2019-04-27 18:56:43.740234 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:45,745 2019-04-27 18:56:45.745670 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:45,746 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:45,747 Error in return code
+2019-04-27 18:56:45,747 2019-04-27 18:56:45.747785 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:47,753 2019-04-27 18:56:47.753231 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:47,754 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:47,754 Error in return code
+2019-04-27 18:56:47,755 2019-04-27 18:56:47.755371 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:49,759 2019-04-27 18:56:49.759485 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:49,760 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:49,760 Error in return code
+2019-04-27 18:56:49,760 2019-04-27 18:56:49.760699 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:51,766 2019-04-27 18:56:51.765867 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:51,766 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:51,767 Error in return code
+2019-04-27 18:56:51,768 2019-04-27 18:56:51.768017 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:53,773 2019-04-27 18:56:53.773524 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:53,774 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:53,775 Error in return code
+2019-04-27 18:56:53,775 2019-04-27 18:56:53.775659 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:55,781 2019-04-27 18:56:55.781157 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:55,782 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:55,782 Error in return code
+2019-04-27 18:56:55,783 2019-04-27 18:56:55.783302 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:57,789 2019-04-27 18:56:57.788802 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:57,789 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:57,790 Error in return code
+2019-04-27 18:56:57,791 2019-04-27 18:56:57.790931 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:59,796 2019-04-27 18:56:59.796359 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:56:59,797 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:56:59,797 Error in return code
+2019-04-27 18:56:59,798 2019-04-27 18:56:59.798645 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:01,804 2019-04-27 18:57:01.804114 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:01,805 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:01,805 Error in return code
+2019-04-27 18:57:01,806 2019-04-27 18:57:01.806246 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:03,811 2019-04-27 18:57:03.811656 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:03,812 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:03,813 Error in return code
+2019-04-27 18:57:03,813 2019-04-27 18:57:03.813767 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:05,819 2019-04-27 18:57:05.819266 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:05,820 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:05,820 Error in return code
+2019-04-27 18:57:05,821 2019-04-27 18:57:05.821429 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:07,827 2019-04-27 18:57:07.826856 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:07,827 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:07,828 Error in return code
+2019-04-27 18:57:07,829 2019-04-27 18:57:07.829099 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:09,834 2019-04-27 18:57:09.834542 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:09,835 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:09,836 Error in return code
+2019-04-27 18:57:09,836 2019-04-27 18:57:09.836659 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:11,840 2019-04-27 18:57:11.840743 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:11,841 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:11,841 Error in return code
+2019-04-27 18:57:11,842 2019-04-27 18:57:11.841954 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:13,847 2019-04-27 18:57:13.847101 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:13,848 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:13,848 Error in return code
+2019-04-27 18:57:13,849 2019-04-27 18:57:13.849293 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:15,854 2019-04-27 18:57:15.854701 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:15,855 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:15,856 Error in return code
+2019-04-27 18:57:15,856 2019-04-27 18:57:15.856825 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:17,862 2019-04-27 18:57:17.862275 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:17,863 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:17,863 Error in return code
+2019-04-27 18:57:17,864 2019-04-27 18:57:17.864428 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:19,870 2019-04-27 18:57:19.869942 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:19,870 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:19,871 Error in return code
+2019-04-27 18:57:19,872 2019-04-27 18:57:19.872092 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:21,877 2019-04-27 18:57:21.877518 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:21,878 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:21,879 Error in return code
+2019-04-27 18:57:21,879 2019-04-27 18:57:21.879833 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:23,885 2019-04-27 18:57:23.885304 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:23,886 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:23,886 Error in return code
+2019-04-27 18:57:23,887 2019-04-27 18:57:23.887470 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:25,893 2019-04-27 18:57:25.892940 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:25,893 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:25,894 Error in return code
+2019-04-27 18:57:25,895 2019-04-27 18:57:25.895001 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:27,899 2019-04-27 18:57:27.899106 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:27,899 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:27,899 Error in return code
+2019-04-27 18:57:27,900 2019-04-27 18:57:27.900367 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:29,905 2019-04-27 18:57:29.905540 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:29,906 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:29,907 Error in return code
+2019-04-27 18:57:29,907 2019-04-27 18:57:29.907710 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:31,913 2019-04-27 18:57:31.913168 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:31,914 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:31,914 Error in return code
+2019-04-27 18:57:31,915 2019-04-27 18:57:31.915314 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:33,921 2019-04-27 18:57:33.920834 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:33,921 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:33,922 Error in return code
+2019-04-27 18:57:33,923 2019-04-27 18:57:33.922988 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:35,928 2019-04-27 18:57:35.928453 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:35,929 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:35,930 Error in return code
+2019-04-27 18:57:35,930 2019-04-27 18:57:35.930702 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:37,936 2019-04-27 18:57:37.936145 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:37,937 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:37,937 Error in return code
+2019-04-27 18:57:37,938 2019-04-27 18:57:37.938296 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:39,944 2019-04-27 18:57:39.943856 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:39,944 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:39,945 Error in return code
+2019-04-27 18:57:39,946 2019-04-27 18:57:39.946007 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:41,951 2019-04-27 18:57:41.951472 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:41,952 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:41,952 Error in return code
+2019-04-27 18:57:41,953 2019-04-27 18:57:41.953653 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:43,959 2019-04-27 18:57:43.959166 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:43,960 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:43,960 Error in return code
+2019-04-27 18:57:43,961 2019-04-27 18:57:43.961331 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:45,967 2019-04-27 18:57:45.966815 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:45,967 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:45,968 Error in return code
+2019-04-27 18:57:45,969 2019-04-27 18:57:45.969052 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:47,974 2019-04-27 18:57:47.973989 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:47,974 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:47,975 Error in return code
+2019-04-27 18:57:47,976 2019-04-27 18:57:47.976240 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:49,981 2019-04-27 18:57:49.981738 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:49,982 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:49,983 Error in return code
+2019-04-27 18:57:49,984 2019-04-27 18:57:49.983894 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:51,989 2019-04-27 18:57:51.989419 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:51,990 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:51,990 Error in return code
+2019-04-27 18:57:51,991 2019-04-27 18:57:51.991595 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:53,997 2019-04-27 18:57:53.997028 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:53,998 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:53,998 Error in return code
+2019-04-27 18:57:53,999 2019-04-27 18:57:53.999282 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:56,004 2019-04-27 18:57:56.004738 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:56,005 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 18:57:56,006 Error in return code
+2019-04-27 18:57:56,007 2019-04-27 18:57:56.006948 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 18:57:56,757 2019-04-27 18:57:56.756913 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:06:56,289 ******************************************
+2019-04-27 19:06:56,290 sendCommand(AT
+)
+2019-04-27 19:06:56,290 2019-04-27 19:06:56.290733 : Command is AT
+ 
+2019-04-27 19:06:58,294 2019-04-27 19:06:58.294723 : Command is AT
+ 
+2019-04-27 19:06:58,295 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:07:00,298 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:07:00,299 2019-04-27 19:07:00.299073 : Command is AT+CFUN=1,1 
+2019-04-27 19:07:05,306 2019-04-27 19:07:05.306299 : Command is AT+CFUN=1,1 
+2019-04-27 19:07:05,307 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:07:35,338 sendCommand(AT+CEREG=1)
+2019-04-27 19:07:35,339 2019-04-27 19:07:35.339151 : Command is AT+CEREG=1 
+2019-04-27 19:07:40,346 2019-04-27 19:07:40.345743 : Command is AT+CEREG=1 
+2019-04-27 19:07:40,346 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 19:07:42,349 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 19:07:42,350 2019-04-27 19:07:42.350483 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:07:44,354 2019-04-27 19:07:44.354691 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:07:44,355 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 19:07:44,355 Error in return code
+2019-04-27 19:07:44,356 2019-04-27 19:07:44.356081 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:07:46,361 2019-04-27 19:07:46.361123 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:07:46,362 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 19:07:48,364 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 19:07:48,366 2019-04-27 19:07:48.365996 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:50,380 2019-04-27 19:07:50.380033 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:50,381 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:07:50,381 Error in return code
+2019-04-27 19:07:50,382 2019-04-27 19:07:50.382197 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:52,388 2019-04-27 19:07:52.387902 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:52,388 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:07:52,389 Error in return code
+2019-04-27 19:07:52,390 2019-04-27 19:07:52.390169 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:54,396 2019-04-27 19:07:54.395863 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:54,396 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:07:54,397 Error in return code
+2019-04-27 19:07:54,398 2019-04-27 19:07:54.398087 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:56,404 2019-04-27 19:07:56.403902 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:56,404 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:07:56,405 Error in return code
+2019-04-27 19:07:56,406 2019-04-27 19:07:56.406118 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:58,412 2019-04-27 19:07:58.411838 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:07:58,412 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:07:58,413 Error in return code
+2019-04-27 19:07:58,414 2019-04-27 19:07:58.414046 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:00,418 2019-04-27 19:08:00.418234 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:00,418 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:00,419 Error in return code
+2019-04-27 19:08:00,419 2019-04-27 19:08:00.419504 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:02,425 2019-04-27 19:08:02.424983 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:02,426 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:02,426 Error in return code
+2019-04-27 19:08:02,427 2019-04-27 19:08:02.427186 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:04,433 2019-04-27 19:08:04.433361 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:04,434 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:04,434 Error in return code
+2019-04-27 19:08:04,435 2019-04-27 19:08:04.435559 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:06,440 2019-04-27 19:08:06.440145 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:06,440 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:06,441 Error in return code
+2019-04-27 19:08:06,441 2019-04-27 19:08:06.441360 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:08,447 2019-04-27 19:08:08.447222 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:08,448 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:08,448 Error in return code
+2019-04-27 19:08:08,449 2019-04-27 19:08:08.449506 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:10,455 2019-04-27 19:08:10.455661 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:10,456 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:10,457 Error in return code
+2019-04-27 19:08:10,458 2019-04-27 19:08:10.457894 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:12,464 2019-04-27 19:08:12.464048 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:12,465 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:12,465 Error in return code
+2019-04-27 19:08:12,466 2019-04-27 19:08:12.466265 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:14,472 2019-04-27 19:08:14.472393 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:14,473 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:14,473 Error in return code
+2019-04-27 19:08:14,474 2019-04-27 19:08:14.474614 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:16,480 2019-04-27 19:08:16.480562 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:16,481 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:16,482 Error in return code
+2019-04-27 19:08:16,482 2019-04-27 19:08:16.482790 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:18,489 2019-04-27 19:08:18.488961 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:18,516 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:18,517 Error in return code
+2019-04-27 19:08:18,518 2019-04-27 19:08:18.518091 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:20,524 2019-04-27 19:08:20.524492 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:20,525 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:20,526 Error in return code
+2019-04-27 19:08:20,526 2019-04-27 19:08:20.526715 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:22,530 2019-04-27 19:08:22.530273 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:22,530 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:22,531 Error in return code
+2019-04-27 19:08:22,531 2019-04-27 19:08:22.531470 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:24,537 2019-04-27 19:08:24.537298 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:24,538 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:24,539 Error in return code
+2019-04-27 19:08:24,539 2019-04-27 19:08:24.539777 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:26,545 2019-04-27 19:08:26.545372 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:26,546 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:26,546 Error in return code
+2019-04-27 19:08:26,548 2019-04-27 19:08:26.547956 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:28,553 2019-04-27 19:08:28.553714 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:28,554 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:28,555 Error in return code
+2019-04-27 19:08:28,556 2019-04-27 19:08:28.556326 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:30,562 2019-04-27 19:08:30.562556 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:30,563 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:30,564 Error in return code
+2019-04-27 19:08:30,564 2019-04-27 19:08:30.564796 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:32,571 2019-04-27 19:08:32.570820 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:32,571 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:08:32,572 Error in return code
+2019-04-27 19:08:32,573 2019-04-27 19:08:32.573132 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:08:33,943 2019-04-27 19:08:33.943683 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:08:35,947 sendCommand(AT+CGDCONT?
+)
+2019-04-27 19:08:35,948 2019-04-27 19:08:35.948003 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:08:37,978 2019-04-27 19:08:37.978026 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:08:37,979 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR', 'AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.6.140.0.129",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-04-27 19:08:37,979 Error in return code
+2019-04-27 19:08:37,980 2019-04-27 19:08:37.980250 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:08:40,005 2019-04-27 19:08:40.005486 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:08:40,006 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.6.140.0.129",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-04-27 19:08:42,009 sendCommand(AT+UHTTP=0,1,http://www.yahoo.com
+)
+2019-04-27 19:08:42,010 2019-04-27 19:08:42.010603 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:44,016 2019-04-27 19:08:44.015934 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:44,016 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:44,016 Error in return code
+2019-04-27 19:08:44,017 2019-04-27 19:08:44.017122 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:46,024 2019-04-27 19:08:46.024609 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:46,025 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:46,026 Error in return code
+2019-04-27 19:08:46,026 2019-04-27 19:08:46.026730 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:48,034 2019-04-27 19:08:48.034512 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:48,040 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:48,041 Error in return code
+2019-04-27 19:08:48,042 2019-04-27 19:08:48.041971 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:50,050 2019-04-27 19:08:50.049810 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:50,050 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:50,051 Error in return code
+2019-04-27 19:08:50,052 2019-04-27 19:08:50.051963 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:52,060 2019-04-27 19:08:52.059837 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:52,060 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:52,061 Error in return code
+2019-04-27 19:08:52,062 2019-04-27 19:08:52.061969 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:54,070 2019-04-27 19:08:54.070209 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:54,071 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:54,097 Error in return code
+2019-04-27 19:08:54,098 2019-04-27 19:08:54.097859 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:56,105 2019-04-27 19:08:56.105655 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:56,106 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:56,107 Error in return code
+2019-04-27 19:08:56,108 2019-04-27 19:08:56.108057 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:58,116 2019-04-27 19:08:58.116466 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:08:58,117 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:08:58,117 Error in return code
+2019-04-27 19:08:58,118 2019-04-27 19:08:58.118616 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:00,127 2019-04-27 19:09:00.126871 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:00,127 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:09:00,129 Error in return code
+2019-04-27 19:09:00,130 2019-04-27 19:09:00.129987 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:02,137 2019-04-27 19:09:02.137777 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:02,138 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:09:02,139 Error in return code
+2019-04-27 19:09:02,140 2019-04-27 19:09:02.140245 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:04,148 2019-04-27 19:09:04.148637 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:04,149 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:09:04,150 Error in return code
+2019-04-27 19:09:04,150 2019-04-27 19:09:04.150679 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:06,156 2019-04-27 19:09:06.155895 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:06,156 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:09:06,156 Error in return code
+2019-04-27 19:09:06,157 2019-04-27 19:09:06.157082 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:09:06,249 2019-04-27 19:09:06.249692 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:09:46,854 ******************************************
+2019-04-27 19:09:46,854 sendCommand(AT
+)
+2019-04-27 19:09:46,855 2019-04-27 19:09:46.855047 : Command is AT
+ 
+2019-04-27 19:09:48,859 2019-04-27 19:09:48.859129 : Command is AT
+ 
+2019-04-27 19:09:48,860 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:09:50,863 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:09:50,864 2019-04-27 19:09:50.863963 : Command is AT+CFUN=1,1 
+2019-04-27 19:09:52,046 2019-04-27 19:09:52.046108 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:09:58,661 ******************************************
+2019-04-27 19:09:58,661 sendCommand(AT
+)
+2019-04-27 19:09:58,662 2019-04-27 19:09:58.662435 : Command is AT
+ 
+2019-04-27 19:10:00,667 2019-04-27 19:10:00.667004 : Command is AT
+ 
+2019-04-27 19:10:00,668 Last element in Command Return is ['AT', 'ERROR'] 
+2019-04-27 19:10:00,668 Error in return code
+2019-04-27 19:10:00,669 2019-04-27 19:10:00.669426 : Command is AT
+ 
+2019-04-27 19:10:02,674 2019-04-27 19:10:02.673775 : Command is AT
+ 
+2019-04-27 19:10:02,674 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:10:04,677 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:10:04,679 2019-04-27 19:10:04.678834 : Command is AT+CFUN=1,1 
+2019-04-27 19:10:09,686 2019-04-27 19:10:09.686286 : Command is AT+CFUN=1,1 
+2019-04-27 19:10:09,689 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:10:48,324 ******************************************
+2019-04-27 19:10:48,324 sendCommand(AT
+)
+2019-04-27 19:10:48,325 2019-04-27 19:10:48.324958 : Command is AT
+ 
+2019-04-27 19:10:50,329 2019-04-27 19:10:50.329418 : Command is AT
+ 
+2019-04-27 19:10:50,330 Last element in Command Return is ['AT', 'ERROR'] 
+2019-04-27 19:10:50,330 Error in return code
+2019-04-27 19:10:50,331 2019-04-27 19:10:50.331633 : Command is AT
+ 
+2019-04-27 19:10:52,336 2019-04-27 19:10:52.335812 : Command is AT
+ 
+2019-04-27 19:10:52,336 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:10:54,339 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:10:54,341 2019-04-27 19:10:54.340907 : Command is AT+CFUN=1,1 
+2019-04-27 19:10:55,090 2019-04-27 19:10:55.090708 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:11:12,871 ******************************************
+2019-04-27 19:11:12,871 sendCommand(AT
+)
+2019-04-27 19:11:12,872 2019-04-27 19:11:12.872044 : Command is AT
+ 
+2019-04-27 19:11:14,876 2019-04-27 19:11:14.876583 : Command is AT
+ 
+2019-04-27 19:11:14,877 Last element in Command Return is ['AT', 'ERROR'] 
+2019-04-27 19:11:14,878 Error in return code
+2019-04-27 19:11:14,879 2019-04-27 19:11:14.879150 : Command is AT
+ 
+2019-04-27 19:11:16,883 2019-04-27 19:11:16.883526 : Command is AT
+ 
+2019-04-27 19:11:16,884 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:11:18,887 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:11:18,889 2019-04-27 19:11:18.888898 : Command is AT+CFUN=1,1 
+2019-04-27 19:11:23,896 2019-04-27 19:11:23.896518 : Command is AT+CFUN=1,1 
+2019-04-27 19:11:23,897 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:11:53,928 sendCommand(AT+CEREG=1)
+2019-04-27 19:11:53,929 2019-04-27 19:11:53.929704 : Command is AT+CEREG=1 
+2019-04-27 19:11:58,937 2019-04-27 19:11:58.937222 : Command is AT+CEREG=1 
+2019-04-27 19:11:58,938 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 19:12:00,941 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 19:12:00,941 2019-04-27 19:12:00.941864 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:12:02,947 2019-04-27 19:12:02.947481 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:12:02,948 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 19:12:02,949 Error in return code
+2019-04-27 19:12:02,950 2019-04-27 19:12:02.950071 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:12:04,955 2019-04-27 19:12:04.955634 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:12:04,956 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 19:12:06,959 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 19:12:06,960 2019-04-27 19:12:06.960714 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:08,966 2019-04-27 19:12:08.966568 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:08,967 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:08,968 Error in return code
+2019-04-27 19:12:08,969 2019-04-27 19:12:08.969108 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:10,975 2019-04-27 19:12:10.974807 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:10,975 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:10,976 Error in return code
+2019-04-27 19:12:10,977 2019-04-27 19:12:10.977216 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:12,983 2019-04-27 19:12:12.982997 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:12,983 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:12,984 Error in return code
+2019-04-27 19:12:12,985 2019-04-27 19:12:12.985460 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:14,991 2019-04-27 19:12:14.991268 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:14,994 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:14,995 Error in return code
+2019-04-27 19:12:14,996 2019-04-27 19:12:14.995964 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:17,000 2019-04-27 19:12:17.000166 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:17,000 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:17,001 Error in return code
+2019-04-27 19:12:17,001 2019-04-27 19:12:17.001364 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:19,008 2019-04-27 19:12:19.008323 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:19,009 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:19,009 Error in return code
+2019-04-27 19:12:19,011 2019-04-27 19:12:19.011120 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:21,017 2019-04-27 19:12:21.016949 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:21,018 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:21,018 Error in return code
+2019-04-27 19:12:21,019 2019-04-27 19:12:21.019748 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:23,024 2019-04-27 19:12:23.024037 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:23,024 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:23,024 Error in return code
+2019-04-27 19:12:23,025 2019-04-27 19:12:23.025338 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:25,031 2019-04-27 19:12:25.030886 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:25,031 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:25,032 Error in return code
+2019-04-27 19:12:25,033 2019-04-27 19:12:25.033247 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:27,039 2019-04-27 19:12:27.039292 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:27,066 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:27,066 Error in return code
+2019-04-27 19:12:27,067 2019-04-27 19:12:27.067647 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:29,073 2019-04-27 19:12:29.073381 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:29,074 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:29,074 Error in return code
+2019-04-27 19:12:29,075 2019-04-27 19:12:29.075583 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:31,081 2019-04-27 19:12:31.081257 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:31,082 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:31,082 Error in return code
+2019-04-27 19:12:31,083 2019-04-27 19:12:31.083502 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:33,089 2019-04-27 19:12:33.089196 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:33,090 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:33,090 Error in return code
+2019-04-27 19:12:33,091 2019-04-27 19:12:33.091436 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:35,097 2019-04-27 19:12:35.097015 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:35,098 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:35,098 Error in return code
+2019-04-27 19:12:35,099 2019-04-27 19:12:35.099312 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:37,105 2019-04-27 19:12:37.104964 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:37,105 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:37,106 Error in return code
+2019-04-27 19:12:37,107 2019-04-27 19:12:37.107417 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:39,113 2019-04-27 19:12:39.113157 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:39,114 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:12:39,114 Error in return code
+2019-04-27 19:12:39,115 2019-04-27 19:12:39.115667 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:12:39,858 2019-04-27 19:12:39.858627 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-04-27 19:15:52,659 ******************************************
+2019-04-27 19:15:52,659 sendCommand(AT
+)
+2019-04-27 19:15:52,660 2019-04-27 19:15:52.660105 : Command is AT
+ 
+2019-04-27 19:15:54,664 2019-04-27 19:15:54.664040 : Command is AT
+ 
+2019-04-27 19:15:54,665 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:15:56,675 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:15:56,676 2019-04-27 19:15:56.676085 : Command is AT+CFUN=1,1 
+2019-04-27 19:16:01,683 2019-04-27 19:16:01.683542 : Command is AT+CFUN=1,1 
+2019-04-27 19:16:01,684 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:16:31,715 sendCommand(AT+CEREG=1)
+2019-04-27 19:16:31,716 2019-04-27 19:16:31.716342 : Command is AT+CEREG=1 
+2019-04-27 19:16:36,723 2019-04-27 19:16:36.723734 : Command is AT+CEREG=1 
+2019-04-27 19:16:36,724 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 19:16:38,752 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 19:16:38,752 2019-04-27 19:16:38.752867 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:16:40,758 2019-04-27 19:16:40.758121 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:16:40,759 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 19:16:40,759 Error in return code
+2019-04-27 19:16:40,760 2019-04-27 19:16:40.760305 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:16:42,765 2019-04-27 19:16:42.765467 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:16:42,766 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 19:16:44,769 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 19:16:44,770 2019-04-27 19:16:44.770199 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:46,775 2019-04-27 19:16:46.775630 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:46,776 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:46,777 Error in return code
+2019-04-27 19:16:46,777 2019-04-27 19:16:46.777722 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:48,783 2019-04-27 19:16:48.783100 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:48,784 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:48,784 Error in return code
+2019-04-27 19:16:48,785 2019-04-27 19:16:48.785292 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:50,790 2019-04-27 19:16:50.790740 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:50,791 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:50,792 Error in return code
+2019-04-27 19:16:50,793 2019-04-27 19:16:50.792875 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:52,798 2019-04-27 19:16:52.798230 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:52,799 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:52,799 Error in return code
+2019-04-27 19:16:52,800 2019-04-27 19:16:52.800472 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:54,804 2019-04-27 19:16:54.804521 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:54,805 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:54,805 Error in return code
+2019-04-27 19:16:54,805 2019-04-27 19:16:54.805725 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:56,811 2019-04-27 19:16:56.810896 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:56,811 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:56,812 Error in return code
+2019-04-27 19:16:56,813 2019-04-27 19:16:56.813015 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:58,818 2019-04-27 19:16:58.818385 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:16:58,819 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:16:58,819 Error in return code
+2019-04-27 19:16:58,820 2019-04-27 19:16:58.820573 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:00,824 2019-04-27 19:17:00.824615 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:00,825 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:17:00,825 Error in return code
+2019-04-27 19:17:00,825 2019-04-27 19:17:00.825821 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:02,831 2019-04-27 19:17:02.830997 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:02,831 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:17:02,832 Error in return code
+2019-04-27 19:17:02,833 2019-04-27 19:17:02.833154 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:04,838 2019-04-27 19:17:04.838562 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:17:04,839 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:17:04,840 Error in return code
+2019-04-27 19:17:06,842 sendCommand(AT+CGDCONT?
+)
+2019-04-27 19:17:06,843 2019-04-27 19:17:06.843793 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:17:08,868 2019-04-27 19:17:08.868685 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:17:08,869 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.6.140.0.129",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-04-27 19:17:10,872 sendCommand(AT+UHTTP=0,1,http://www.yahoo.com
+)
+2019-04-27 19:17:10,873 2019-04-27 19:17:10.873688 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:12,881 2019-04-27 19:17:12.881458 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:12,882 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:12,882 Error in return code
+2019-04-27 19:17:12,883 2019-04-27 19:17:12.883624 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:14,891 2019-04-27 19:17:14.891351 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:14,892 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:14,892 Error in return code
+2019-04-27 19:17:14,893 2019-04-27 19:17:14.893500 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:16,901 2019-04-27 19:17:16.901420 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:16,902 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:16,903 Error in return code
+2019-04-27 19:17:16,904 2019-04-27 19:17:16.903850 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:18,911 2019-04-27 19:17:18.911653 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:18,912 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:18,913 Error in return code
+2019-04-27 19:17:18,913 2019-04-27 19:17:18.913803 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:20,921 2019-04-27 19:17:20.921483 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:20,922 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:20,922 Error in return code
+2019-04-27 19:17:20,923 2019-04-27 19:17:20.923603 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:22,928 2019-04-27 19:17:22.928792 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:22,929 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:22,929 Error in return code
+2019-04-27 19:17:22,930 2019-04-27 19:17:22.930002 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:24,937 2019-04-27 19:17:24.937356 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:24,938 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:24,938 Error in return code
+2019-04-27 19:17:24,939 2019-04-27 19:17:24.939587 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:26,947 2019-04-27 19:17:26.947206 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:26,948 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:26,948 Error in return code
+2019-04-27 19:17:26,949 2019-04-27 19:17:26.949469 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:28,957 2019-04-27 19:17:28.957139 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:28,958 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:28,958 Error in return code
+2019-04-27 19:17:28,959 2019-04-27 19:17:28.959380 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:30,967 2019-04-27 19:17:30.967025 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:17:30,968 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:17:30,968 Error in return code
+2019-04-27 19:17:36,976 sendCommand(AT
+)
+2019-04-27 19:17:36,977 2019-04-27 19:17:36.977160 : Command is AT
+ 
+2019-04-27 19:17:39,048 2019-04-27 19:17:39.048236 : Command is AT
+ 
+2019-04-27 19:17:39,049 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-27 19:17:45,056 sendCommand(AT+UHTTP=0,1,https://postman-echo.com/post
+)
+2019-04-27 19:17:45,057 2019-04-27 19:17:45.057568 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:47,066 2019-04-27 19:17:47.066205 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:47,067 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:47,067 Error in return code
+2019-04-27 19:17:47,068 2019-04-27 19:17:47.068312 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:49,077 2019-04-27 19:17:49.076934 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:49,104 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:49,104 Error in return code
+2019-04-27 19:17:49,105 2019-04-27 19:17:49.105535 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:51,114 2019-04-27 19:17:51.114180 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:51,115 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:51,115 Error in return code
+2019-04-27 19:17:51,116 2019-04-27 19:17:51.116346 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:53,125 2019-04-27 19:17:53.124906 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:53,125 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:53,126 Error in return code
+2019-04-27 19:17:53,127 2019-04-27 19:17:53.127022 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:55,132 2019-04-27 19:17:55.132648 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:55,133 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:55,133 Error in return code
+2019-04-27 19:17:55,133 2019-04-27 19:17:55.133863 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:57,142 2019-04-27 19:17:57.142206 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:57,143 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:57,143 Error in return code
+2019-04-27 19:17:57,144 2019-04-27 19:17:57.144345 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:59,153 2019-04-27 19:17:59.152965 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:17:59,153 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:17:59,154 Error in return code
+2019-04-27 19:17:59,155 2019-04-27 19:17:59.155082 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:01,163 2019-04-27 19:18:01.163411 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:01,164 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:18:01,164 Error in return code
+2019-04-27 19:18:01,165 2019-04-27 19:18:01.165570 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:03,174 2019-04-27 19:18:03.174220 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:03,175 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:18:03,175 Error in return code
+2019-04-27 19:18:03,176 2019-04-27 19:18:03.176364 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:05,185 2019-04-27 19:18:05.184969 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:18:05,185 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:18:05,186 Error in return code
+2019-04-27 19:18:11,194 sendCommand(AT
+)
+2019-04-27 19:18:11,195 2019-04-27 19:18:11.195074 : Command is AT
+ 
+2019-04-27 19:18:13,274 2019-04-27 19:18:13.273908 : Command is AT
+ 
+2019-04-27 19:18:13,274 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-27 19:25:43,960 ******************************************
+2019-04-27 19:25:43,960 sendCommand(AT
+)
+2019-04-27 19:25:43,961 2019-04-27 19:25:43.960923 : Command is AT
+ 
+2019-04-27 19:25:45,965 2019-04-27 19:25:45.964832 : Command is AT
+ 
+2019-04-27 19:25:45,965 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:25:47,968 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:25:47,969 2019-04-27 19:25:47.969609 : Command is AT+CFUN=1,1 
+2019-04-27 19:25:52,974 2019-04-27 19:25:52.973800 : Command is AT+CFUN=1,1 
+2019-04-27 19:25:52,974 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:26:23,005 sendCommand(AT+CEREG=1)
+2019-04-27 19:26:23,006 2019-04-27 19:26:23.006536 : Command is AT+CEREG=1 
+2019-04-27 19:26:28,013 2019-04-27 19:26:28.013837 : Command is AT+CEREG=1 
+2019-04-27 19:26:28,014 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 19:26:30,029 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 19:26:30,030 2019-04-27 19:26:30.030547 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:26:32,036 2019-04-27 19:26:32.036052 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:26:32,037 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 19:26:32,037 Error in return code
+2019-04-27 19:26:32,038 2019-04-27 19:26:32.038133 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:26:34,043 2019-04-27 19:26:34.043397 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:26:34,044 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 19:26:36,047 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 19:26:36,048 2019-04-27 19:26:36.048096 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:38,053 2019-04-27 19:26:38.053641 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:38,054 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:38,055 Error in return code
+2019-04-27 19:26:38,055 2019-04-27 19:26:38.055756 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:40,061 2019-04-27 19:26:40.061120 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:40,062 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:40,062 Error in return code
+2019-04-27 19:26:40,063 2019-04-27 19:26:40.063250 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:42,068 2019-04-27 19:26:42.068626 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:42,069 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:42,070 Error in return code
+2019-04-27 19:26:42,070 2019-04-27 19:26:42.070772 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:44,074 2019-04-27 19:26:44.074795 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:44,075 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:44,075 Error in return code
+2019-04-27 19:26:44,076 2019-04-27 19:26:44.075977 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:46,081 2019-04-27 19:26:46.081090 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:46,082 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:46,082 Error in return code
+2019-04-27 19:26:46,083 2019-04-27 19:26:46.083197 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:48,088 2019-04-27 19:26:48.088492 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:48,091 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:48,091 Error in return code
+2019-04-27 19:26:48,092 2019-04-27 19:26:48.092471 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:50,098 2019-04-27 19:26:50.098039 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:50,099 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:50,099 Error in return code
+2019-04-27 19:26:50,100 2019-04-27 19:26:50.100340 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:52,106 2019-04-27 19:26:52.105870 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:52,106 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:52,107 Error in return code
+2019-04-27 19:26:52,108 2019-04-27 19:26:52.108097 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:54,113 2019-04-27 19:26:54.113680 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:54,118 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:54,119 Error in return code
+2019-04-27 19:26:54,119 2019-04-27 19:26:54.119683 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:56,125 2019-04-27 19:26:56.125022 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:56,125 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:56,126 Error in return code
+2019-04-27 19:26:56,127 2019-04-27 19:26:56.127121 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:58,132 2019-04-27 19:26:58.132496 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:26:58,133 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:26:58,133 Error in return code
+2019-04-27 19:26:58,134 2019-04-27 19:26:58.134622 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:00,140 2019-04-27 19:27:00.140024 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:00,141 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:00,146 Error in return code
+2019-04-27 19:27:00,147 2019-04-27 19:27:00.147124 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:02,152 2019-04-27 19:27:02.152566 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:02,153 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:02,154 Error in return code
+2019-04-27 19:27:02,154 2019-04-27 19:27:02.154681 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:04,160 2019-04-27 19:27:04.160059 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:04,161 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:04,161 Error in return code
+2019-04-27 19:27:04,162 2019-04-27 19:27:04.162160 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:06,166 2019-04-27 19:27:06.166192 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:06,166 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:06,167 Error in return code
+2019-04-27 19:27:06,167 2019-04-27 19:27:06.167404 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:08,172 2019-04-27 19:27:08.172474 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:08,173 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:08,173 Error in return code
+2019-04-27 19:27:08,174 2019-04-27 19:27:08.174598 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:10,180 2019-04-27 19:27:10.180008 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:10,180 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:10,181 Error in return code
+2019-04-27 19:27:10,182 2019-04-27 19:27:10.182123 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:12,187 2019-04-27 19:27:12.187091 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:12,188 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:12,188 Error in return code
+2019-04-27 19:27:12,189 2019-04-27 19:27:12.189315 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:14,194 2019-04-27 19:27:14.194634 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:14,195 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:14,196 Error in return code
+2019-04-27 19:27:14,196 2019-04-27 19:27:14.196742 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:16,202 2019-04-27 19:27:16.202052 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:16,203 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:16,203 Error in return code
+2019-04-27 19:27:16,204 2019-04-27 19:27:16.204137 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:18,209 2019-04-27 19:27:18.209539 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:18,210 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:18,212 Error in return code
+2019-04-27 19:27:18,213 2019-04-27 19:27:18.213632 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:20,219 2019-04-27 19:27:20.219024 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:20,219 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:20,220 Error in return code
+2019-04-27 19:27:20,221 2019-04-27 19:27:20.221138 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:22,226 2019-04-27 19:27:22.226447 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:22,227 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:22,227 Error in return code
+2019-04-27 19:27:22,228 2019-04-27 19:27:22.228718 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:24,234 2019-04-27 19:27:24.234109 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:24,235 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:24,235 Error in return code
+2019-04-27 19:27:24,236 2019-04-27 19:27:24.236226 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:26,241 2019-04-27 19:27:26.241563 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:26,242 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:26,243 Error in return code
+2019-04-27 19:27:26,243 2019-04-27 19:27:26.243675 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:28,249 2019-04-27 19:27:28.249132 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:28,250 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:28,250 Error in return code
+2019-04-27 19:27:28,251 2019-04-27 19:27:28.251252 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:30,256 2019-04-27 19:27:30.256594 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:30,257 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:30,258 Error in return code
+2019-04-27 19:27:30,258 2019-04-27 19:27:30.258777 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:32,264 2019-04-27 19:27:32.264097 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:32,265 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:32,265 Error in return code
+2019-04-27 19:27:32,266 2019-04-27 19:27:32.266181 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:34,271 2019-04-27 19:27:34.271532 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:34,272 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:34,273 Error in return code
+2019-04-27 19:27:34,273 2019-04-27 19:27:34.273686 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:36,279 2019-04-27 19:27:36.279070 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:36,285 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:36,286 Error in return code
+2019-04-27 19:27:36,287 2019-04-27 19:27:36.287080 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:38,291 2019-04-27 19:27:38.291109 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:38,291 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:38,291 Error in return code
+2019-04-27 19:27:38,292 2019-04-27 19:27:38.292311 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:40,297 2019-04-27 19:27:40.297322 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:40,298 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:40,298 Error in return code
+2019-04-27 19:27:40,299 2019-04-27 19:27:40.299507 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:42,305 2019-04-27 19:27:42.304869 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:42,305 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:42,306 Error in return code
+2019-04-27 19:27:42,307 2019-04-27 19:27:42.306995 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:44,311 2019-04-27 19:27:44.311014 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:44,311 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:44,311 Error in return code
+2019-04-27 19:27:44,312 2019-04-27 19:27:44.312203 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:46,317 2019-04-27 19:27:46.317241 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:46,318 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:46,318 Error in return code
+2019-04-27 19:27:46,319 2019-04-27 19:27:46.319500 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:48,325 2019-04-27 19:27:48.324812 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:48,327 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:48,328 Error in return code
+2019-04-27 19:27:48,329 2019-04-27 19:27:48.328876 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:50,334 2019-04-27 19:27:50.334269 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:50,335 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:50,335 Error in return code
+2019-04-27 19:27:50,336 2019-04-27 19:27:50.336458 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:52,342 2019-04-27 19:27:52.341780 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:52,342 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:52,343 Error in return code
+2019-04-27 19:27:52,343 2019-04-27 19:27:52.343853 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:54,349 2019-04-27 19:27:54.349235 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:54,350 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:54,350 Error in return code
+2019-04-27 19:27:54,351 2019-04-27 19:27:54.351360 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:56,356 2019-04-27 19:27:56.356696 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:56,357 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:56,358 Error in return code
+2019-04-27 19:27:56,359 2019-04-27 19:27:56.358928 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:58,364 2019-04-27 19:27:58.364262 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:27:58,365 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:27:58,365 Error in return code
+2019-04-27 19:27:58,366 2019-04-27 19:27:58.366386 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:00,370 2019-04-27 19:28:00.370417 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:00,371 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:00,371 Error in return code
+2019-04-27 19:28:00,371 2019-04-27 19:28:00.371609 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:02,376 2019-04-27 19:28:02.376655 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:02,377 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:02,378 Error in return code
+2019-04-27 19:28:02,379 2019-04-27 19:28:02.378902 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:04,384 2019-04-27 19:28:04.384262 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:04,385 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:04,385 Error in return code
+2019-04-27 19:28:04,386 2019-04-27 19:28:04.386348 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:06,390 2019-04-27 19:28:06.390377 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:06,390 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:06,391 Error in return code
+2019-04-27 19:28:06,391 2019-04-27 19:28:06.391566 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:08,396 2019-04-27 19:28:08.396650 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:08,397 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:08,398 Error in return code
+2019-04-27 19:28:08,399 2019-04-27 19:28:08.398862 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:10,404 2019-04-27 19:28:10.404256 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:10,405 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:10,405 Error in return code
+2019-04-27 19:28:10,406 2019-04-27 19:28:10.406391 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:12,412 2019-04-27 19:28:12.411775 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:12,412 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:12,413 Error in return code
+2019-04-27 19:28:12,414 2019-04-27 19:28:12.413915 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:14,419 2019-04-27 19:28:14.419349 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:14,420 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:14,420 Error in return code
+2019-04-27 19:28:14,421 2019-04-27 19:28:14.421480 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:16,426 2019-04-27 19:28:16.426773 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:28:16,427 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:28:16,428 Error in return code
+2019-04-27 19:28:18,431 sendCommand(AT+CGDCONT?
+)
+2019-04-27 19:28:18,432 2019-04-27 19:28:18.432097 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:28:20,456 2019-04-27 19:28:20.456628 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:28:20,457 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.6.140.0.129",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-04-27 19:28:22,458 sendCommand(AT+UHTTP=0,1,http://www.yahoo.com
+)
+2019-04-27 19:28:22,459 2019-04-27 19:28:22.459309 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:24,466 2019-04-27 19:28:24.466659 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:24,467 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:24,468 Error in return code
+2019-04-27 19:28:24,469 2019-04-27 19:28:24.468860 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:26,476 2019-04-27 19:28:26.476421 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:26,477 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:26,477 Error in return code
+2019-04-27 19:28:26,478 2019-04-27 19:28:26.478635 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:28,486 2019-04-27 19:28:28.486228 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:28,487 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:28,487 Error in return code
+2019-04-27 19:28:28,488 2019-04-27 19:28:28.488339 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:30,496 2019-04-27 19:28:30.495978 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:30,496 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:30,497 Error in return code
+2019-04-27 19:28:30,498 2019-04-27 19:28:30.498107 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:32,505 2019-04-27 19:28:32.505678 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:32,506 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:32,507 Error in return code
+2019-04-27 19:28:32,507 2019-04-27 19:28:32.507772 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:34,515 2019-04-27 19:28:34.515330 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:34,516 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:34,516 Error in return code
+2019-04-27 19:28:34,517 2019-04-27 19:28:34.517457 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:36,525 2019-04-27 19:28:36.524979 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:36,529 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:36,530 Error in return code
+2019-04-27 19:28:36,530 2019-04-27 19:28:36.530691 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:38,535 2019-04-27 19:28:38.535827 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:38,536 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:38,536 Error in return code
+2019-04-27 19:28:38,537 2019-04-27 19:28:38.537009 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:40,544 2019-04-27 19:28:40.544240 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:40,545 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:40,545 Error in return code
+2019-04-27 19:28:40,546 2019-04-27 19:28:40.546329 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:42,554 2019-04-27 19:28:42.553882 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:42,554 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:42,555 Error in return code
+2019-04-27 19:28:42,556 2019-04-27 19:28:42.556012 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:44,563 2019-04-27 19:28:44.563550 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:44,564 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:44,565 Error in return code
+2019-04-27 19:28:44,565 2019-04-27 19:28:44.565737 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:46,573 2019-04-27 19:28:46.573369 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:46,574 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:46,574 Error in return code
+2019-04-27 19:28:46,575 2019-04-27 19:28:46.575463 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:48,583 2019-04-27 19:28:48.583075 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:48,584 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:48,584 Error in return code
+2019-04-27 19:28:48,585 2019-04-27 19:28:48.585190 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:50,592 2019-04-27 19:28:50.592762 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:50,593 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:50,594 Error in return code
+2019-04-27 19:28:50,595 2019-04-27 19:28:50.594867 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:52,602 2019-04-27 19:28:52.602419 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:52,603 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:52,603 Error in return code
+2019-04-27 19:28:52,604 2019-04-27 19:28:52.604508 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:54,612 2019-04-27 19:28:54.612104 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:54,613 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:54,613 Error in return code
+2019-04-27 19:28:54,614 2019-04-27 19:28:54.614229 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:56,622 2019-04-27 19:28:56.621795 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:56,622 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:56,623 Error in return code
+2019-04-27 19:28:56,624 2019-04-27 19:28:56.623916 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:58,631 2019-04-27 19:28:58.631507 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:28:58,632 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:28:58,632 Error in return code
+2019-04-27 19:28:58,633 2019-04-27 19:28:58.633652 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:00,638 2019-04-27 19:29:00.638820 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:00,639 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:00,639 Error in return code
+2019-04-27 19:29:00,640 2019-04-27 19:29:00.640018 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:02,647 2019-04-27 19:29:02.647323 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:02,648 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:02,648 Error in return code
+2019-04-27 19:29:02,649 2019-04-27 19:29:02.649538 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:04,657 2019-04-27 19:29:04.657097 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:04,658 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:04,658 Error in return code
+2019-04-27 19:29:04,659 2019-04-27 19:29:04.659300 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:06,667 2019-04-27 19:29:06.666845 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:06,667 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:06,668 Error in return code
+2019-04-27 19:29:06,669 2019-04-27 19:29:06.669057 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:08,676 2019-04-27 19:29:08.676595 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:08,677 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:08,678 Error in return code
+2019-04-27 19:29:08,678 2019-04-27 19:29:08.678841 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:10,686 2019-04-27 19:29:10.686414 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:10,687 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:10,687 Error in return code
+2019-04-27 19:29:10,688 2019-04-27 19:29:10.688595 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:12,696 2019-04-27 19:29:12.696205 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:12,697 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:12,697 Error in return code
+2019-04-27 19:29:12,698 2019-04-27 19:29:12.698362 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:14,706 2019-04-27 19:29:14.706014 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:14,706 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:14,707 Error in return code
+2019-04-27 19:29:14,708 2019-04-27 19:29:14.708135 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:16,715 2019-04-27 19:29:16.715702 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:16,716 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:16,717 Error in return code
+2019-04-27 19:29:16,717 2019-04-27 19:29:16.717789 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:18,725 2019-04-27 19:29:18.725326 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:18,726 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:18,726 Error in return code
+2019-04-27 19:29:18,727 2019-04-27 19:29:18.727455 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:20,735 2019-04-27 19:29:20.734979 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:20,735 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:20,736 Error in return code
+2019-04-27 19:29:20,737 2019-04-27 19:29:20.737090 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:22,742 2019-04-27 19:29:22.742214 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:22,742 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:22,743 Error in return code
+2019-04-27 19:29:22,743 2019-04-27 19:29:22.743397 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:24,750 2019-04-27 19:29:24.750715 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:24,751 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:24,752 Error in return code
+2019-04-27 19:29:24,752 2019-04-27 19:29:24.752830 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:26,760 2019-04-27 19:29:26.760415 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:26,761 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:26,761 Error in return code
+2019-04-27 19:29:26,762 2019-04-27 19:29:26.762518 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:28,770 2019-04-27 19:29:28.770103 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:28,771 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:28,771 Error in return code
+2019-04-27 19:29:28,772 2019-04-27 19:29:28.772218 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:30,780 2019-04-27 19:29:30.779839 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:30,780 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:30,781 Error in return code
+2019-04-27 19:29:30,782 2019-04-27 19:29:30.781971 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:32,787 2019-04-27 19:29:32.787143 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:32,787 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:32,787 Error in return code
+2019-04-27 19:29:32,788 2019-04-27 19:29:32.788319 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:34,795 2019-04-27 19:29:34.795591 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:34,796 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:34,797 Error in return code
+2019-04-27 19:29:34,797 2019-04-27 19:29:34.797679 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:36,805 2019-04-27 19:29:36.805205 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:36,806 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:36,806 Error in return code
+2019-04-27 19:29:36,807 2019-04-27 19:29:36.807313 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:38,812 2019-04-27 19:29:38.812430 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:38,813 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:38,813 Error in return code
+2019-04-27 19:29:38,813 2019-04-27 19:29:38.813613 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:40,821 2019-04-27 19:29:40.820896 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:40,821 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:40,822 Error in return code
+2019-04-27 19:29:40,823 2019-04-27 19:29:40.822977 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:42,830 2019-04-27 19:29:42.830565 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:42,831 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:42,832 Error in return code
+2019-04-27 19:29:42,832 2019-04-27 19:29:42.832679 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:44,840 2019-04-27 19:29:44.840259 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:44,841 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:44,841 Error in return code
+2019-04-27 19:29:44,842 2019-04-27 19:29:44.842393 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:46,850 2019-04-27 19:29:46.850015 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:46,850 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:46,851 Error in return code
+2019-04-27 19:29:46,852 2019-04-27 19:29:46.852126 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:48,859 2019-04-27 19:29:48.859695 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:48,860 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:48,861 Error in return code
+2019-04-27 19:29:48,861 2019-04-27 19:29:48.861834 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:50,869 2019-04-27 19:29:50.869398 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:50,870 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:50,870 Error in return code
+2019-04-27 19:29:50,871 2019-04-27 19:29:50.871503 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:52,879 2019-04-27 19:29:52.879091 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:52,880 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:52,880 Error in return code
+2019-04-27 19:29:52,881 2019-04-27 19:29:52.881189 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:54,886 2019-04-27 19:29:54.886320 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:54,886 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:54,887 Error in return code
+2019-04-27 19:29:54,887 2019-04-27 19:29:54.887559 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:56,895 2019-04-27 19:29:56.894810 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:56,895 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:56,896 Error in return code
+2019-04-27 19:29:56,897 2019-04-27 19:29:56.896915 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:58,904 2019-04-27 19:29:58.904469 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:29:58,905 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:29:58,905 Error in return code
+2019-04-27 19:29:58,906 2019-04-27 19:29:58.906586 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:30:00,911 2019-04-27 19:30:00.911709 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:30:00,912 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:30:00,912 Error in return code
+2019-04-27 19:30:00,912 2019-04-27 19:30:00.912907 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:30:02,920 2019-04-27 19:30:02.920251 : Command is AT+UHTTP=0,1,http://www.yahoo.com
+ 
+2019-04-27 19:30:02,921 Last element in Command Return is ['AT+UHTTP=0,1,http://www.yahoo.com', 'ERROR'] 
+2019-04-27 19:30:02,921 Error in return code
+2019-04-27 19:30:08,929 sendCommand(AT
+)
+2019-04-27 19:30:08,930 2019-04-27 19:30:08.930728 : Command is AT
+ 
+2019-04-27 19:30:11,002 2019-04-27 19:30:11.002613 : Command is AT
+ 
+2019-04-27 19:30:11,003 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-27 19:30:17,012 sendCommand(AT+UHTTP=0,1,https://postman-echo.com/post
+)
+2019-04-27 19:30:17,013 2019-04-27 19:30:17.013267 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:19,021 2019-04-27 19:30:19.021554 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:19,022 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:19,023 Error in return code
+2019-04-27 19:30:19,023 2019-04-27 19:30:19.023649 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:21,032 2019-04-27 19:30:21.032143 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:21,033 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:21,033 Error in return code
+2019-04-27 19:30:21,034 2019-04-27 19:30:21.034270 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:23,040 2019-04-27 19:30:23.039893 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:23,040 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:23,040 Error in return code
+2019-04-27 19:30:23,041 2019-04-27 19:30:23.041089 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:25,049 2019-04-27 19:30:25.049320 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:25,050 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:25,050 Error in return code
+2019-04-27 19:30:25,051 2019-04-27 19:30:25.051427 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:27,060 2019-04-27 19:30:27.060031 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:27,060 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:27,061 Error in return code
+2019-04-27 19:30:27,062 2019-04-27 19:30:27.062146 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:29,070 2019-04-27 19:30:29.070695 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:29,071 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:29,075 Error in return code
+2019-04-27 19:30:29,075 2019-04-27 19:30:29.075739 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:31,084 2019-04-27 19:30:31.084307 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:31,085 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:31,085 Error in return code
+2019-04-27 19:30:31,086 2019-04-27 19:30:31.086405 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:33,092 2019-04-27 19:30:33.092005 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:33,092 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:33,092 Error in return code
+2019-04-27 19:30:33,093 2019-04-27 19:30:33.093194 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:35,101 2019-04-27 19:30:35.101445 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:35,102 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:35,102 Error in return code
+2019-04-27 19:30:35,103 2019-04-27 19:30:35.103571 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:37,112 2019-04-27 19:30:37.112117 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:37,113 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:37,113 Error in return code
+2019-04-27 19:30:37,114 2019-04-27 19:30:37.114213 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:39,122 2019-04-27 19:30:39.122752 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:39,123 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:39,124 Error in return code
+2019-04-27 19:30:39,125 2019-04-27 19:30:39.124868 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:41,133 2019-04-27 19:30:41.133360 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:41,136 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:41,137 Error in return code
+2019-04-27 19:30:41,138 2019-04-27 19:30:41.137843 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:43,146 2019-04-27 19:30:43.146531 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:43,147 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:43,147 Error in return code
+2019-04-27 19:30:43,148 2019-04-27 19:30:43.148607 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:45,157 2019-04-27 19:30:45.157089 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:45,158 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:45,158 Error in return code
+2019-04-27 19:30:45,159 2019-04-27 19:30:45.159253 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:47,167 2019-04-27 19:30:47.167725 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:47,168 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:47,169 Error in return code
+2019-04-27 19:30:47,170 2019-04-27 19:30:47.169968 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:49,178 2019-04-27 19:30:49.178495 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:49,179 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:49,180 Error in return code
+2019-04-27 19:30:49,181 2019-04-27 19:30:49.181160 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:51,190 2019-04-27 19:30:51.190020 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:51,190 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:51,191 Error in return code
+2019-04-27 19:30:51,192 2019-04-27 19:30:51.192141 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:53,200 2019-04-27 19:30:53.200700 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:53,204 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:53,205 Error in return code
+2019-04-27 19:30:53,206 2019-04-27 19:30:53.206097 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:55,211 2019-04-27 19:30:55.211702 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:55,212 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:55,212 Error in return code
+2019-04-27 19:30:55,212 2019-04-27 19:30:55.212911 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:57,221 2019-04-27 19:30:57.221186 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:57,222 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:57,222 Error in return code
+2019-04-27 19:30:57,223 2019-04-27 19:30:57.223318 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:59,232 2019-04-27 19:30:59.231848 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:30:59,237 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:30:59,238 Error in return code
+2019-04-27 19:30:59,239 2019-04-27 19:30:59.239283 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:01,248 2019-04-27 19:31:01.247806 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:01,248 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:01,249 Error in return code
+2019-04-27 19:31:01,250 2019-04-27 19:31:01.250019 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:03,258 2019-04-27 19:31:03.258504 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:03,259 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:03,260 Error in return code
+2019-04-27 19:31:03,260 2019-04-27 19:31:03.260689 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:05,269 2019-04-27 19:31:05.269220 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:05,270 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:05,270 Error in return code
+2019-04-27 19:31:05,271 2019-04-27 19:31:05.271364 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:07,280 2019-04-27 19:31:07.279923 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:07,280 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:07,281 Error in return code
+2019-04-27 19:31:07,282 2019-04-27 19:31:07.282073 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:09,290 2019-04-27 19:31:09.290610 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:09,291 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:09,292 Error in return code
+2019-04-27 19:31:09,292 2019-04-27 19:31:09.292804 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:11,301 2019-04-27 19:31:11.301592 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:11,302 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:11,303 Error in return code
+2019-04-27 19:31:11,304 2019-04-27 19:31:11.303879 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:13,312 2019-04-27 19:31:13.312468 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:13,313 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:13,313 Error in return code
+2019-04-27 19:31:13,314 2019-04-27 19:31:13.314575 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:15,323 2019-04-27 19:31:15.323069 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:15,324 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:15,324 Error in return code
+2019-04-27 19:31:15,325 2019-04-27 19:31:15.325178 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:17,330 2019-04-27 19:31:17.330791 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:17,331 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:17,331 Error in return code
+2019-04-27 19:31:17,332 2019-04-27 19:31:17.331978 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:19,340 2019-04-27 19:31:19.340178 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:19,341 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:19,341 Error in return code
+2019-04-27 19:31:19,342 2019-04-27 19:31:19.342286 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:21,350 2019-04-27 19:31:21.350769 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:21,351 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:21,352 Error in return code
+2019-04-27 19:31:21,353 2019-04-27 19:31:21.352871 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:23,361 2019-04-27 19:31:23.361411 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:23,362 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:23,362 Error in return code
+2019-04-27 19:31:23,363 2019-04-27 19:31:23.363521 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:25,372 2019-04-27 19:31:25.372062 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:25,373 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:25,373 Error in return code
+2019-04-27 19:31:25,374 2019-04-27 19:31:25.374200 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:27,379 2019-04-27 19:31:27.379823 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:27,380 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:27,386 Error in return code
+2019-04-27 19:31:27,387 2019-04-27 19:31:27.386986 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:29,395 2019-04-27 19:31:29.395206 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:29,396 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:29,396 Error in return code
+2019-04-27 19:31:29,397 2019-04-27 19:31:29.397294 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:31,405 2019-04-27 19:31:31.405762 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:31,406 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:31,407 Error in return code
+2019-04-27 19:31:31,408 2019-04-27 19:31:31.407960 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:33,416 2019-04-27 19:31:33.416500 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:33,417 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:33,417 Error in return code
+2019-04-27 19:31:33,418 2019-04-27 19:31:33.418633 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:35,427 2019-04-27 19:31:35.427107 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:35,428 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:35,428 Error in return code
+2019-04-27 19:31:35,429 2019-04-27 19:31:35.429282 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:37,437 2019-04-27 19:31:37.437761 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:37,438 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:37,439 Error in return code
+2019-04-27 19:31:37,440 2019-04-27 19:31:37.439963 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:39,448 2019-04-27 19:31:39.448419 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:39,449 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:39,449 Error in return code
+2019-04-27 19:31:39,450 2019-04-27 19:31:39.450597 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:41,459 2019-04-27 19:31:41.459117 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:41,460 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:41,460 Error in return code
+2019-04-27 19:31:41,461 2019-04-27 19:31:41.461221 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:43,470 2019-04-27 19:31:43.469777 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:43,470 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:43,474 Error in return code
+2019-04-27 19:31:43,474 2019-04-27 19:31:43.474779 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:45,483 2019-04-27 19:31:45.483324 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:45,484 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:45,484 Error in return code
+2019-04-27 19:31:45,485 2019-04-27 19:31:45.485435 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:47,494 2019-04-27 19:31:47.493940 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:47,494 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:47,495 Error in return code
+2019-04-27 19:31:47,496 2019-04-27 19:31:47.496036 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:49,501 2019-04-27 19:31:49.501620 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:49,502 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:49,502 Error in return code
+2019-04-27 19:31:49,502 2019-04-27 19:31:49.502809 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:51,511 2019-04-27 19:31:51.511091 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:51,512 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:51,512 Error in return code
+2019-04-27 19:31:51,513 2019-04-27 19:31:51.513205 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:53,522 2019-04-27 19:31:53.521806 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:53,522 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:53,523 Error in return code
+2019-04-27 19:31:53,524 2019-04-27 19:31:53.523925 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:55,532 2019-04-27 19:31:55.532095 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:55,533 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:55,533 Error in return code
+2019-04-27 19:31:55,534 2019-04-27 19:31:55.534232 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:57,542 2019-04-27 19:31:57.542721 : Command is AT+UHTTP=0,1,https://postman-echo.com/post
+ 
+2019-04-27 19:31:57,543 Last element in Command Return is ['AT+UHTTP=0,1,https://postman-echo.com/post', 'ERROR'] 
+2019-04-27 19:31:57,544 Error in return code
+2019-04-27 19:32:03,551 sendCommand(AT
+)
+2019-04-27 19:32:03,553 2019-04-27 19:32:03.552909 : Command is AT
+ 
+2019-04-27 19:32:05,635 2019-04-27 19:32:05.635764 : Command is AT
+ 
+2019-04-27 19:32:05,636 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-27 19:40:00,611 ******************************************
+2019-04-27 19:40:00,612 sendCommand(AT
+)
+2019-04-27 19:40:00,612 2019-04-27 19:40:00.612855 : Command is AT
+ 
+2019-04-27 19:40:02,617 2019-04-27 19:40:02.616861 : Command is AT
+ 
+2019-04-27 19:40:02,617 Last element in Command Return is ['AT', 'OK'] 
+2019-04-27 19:40:04,621 sendCommand(AT+CFUN=1,1)
+2019-04-27 19:40:04,622 2019-04-27 19:40:04.622762 : Command is AT+CFUN=1,1 
+2019-04-27 19:40:09,630 2019-04-27 19:40:09.630315 : Command is AT+CFUN=1,1 
+2019-04-27 19:40:09,631 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-04-27 19:40:39,662 sendCommand(AT+CEREG=1)
+2019-04-27 19:40:39,663 2019-04-27 19:40:39.663254 : Command is AT+CEREG=1 
+2019-04-27 19:40:44,671 2019-04-27 19:40:44.670743 : Command is AT+CEREG=1 
+2019-04-27 19:40:44,671 Last element in Command Return is ['AT+CEREG=1'] 
+2019-04-27 19:40:46,674 sendCommand(AT+UPSD=0,0,2
+)
+2019-04-27 19:40:46,675 2019-04-27 19:40:46.675694 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:40:48,681 2019-04-27 19:40:48.681465 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:40:48,682 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-04-27 19:40:48,683 Error in return code
+2019-04-27 19:40:48,684 2019-04-27 19:40:48.684097 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:40:50,690 2019-04-27 19:40:50.689816 : Command is AT+UPSD=0,0,2
+ 
+2019-04-27 19:40:50,690 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-04-27 19:40:52,694 sendCommand(AT+UPSDA=0,3
+)
+2019-04-27 19:40:52,695 2019-04-27 19:40:52.695778 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:54,701 2019-04-27 19:40:54.701462 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:54,702 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:40:54,703 Error in return code
+2019-04-27 19:40:54,703 2019-04-27 19:40:54.703766 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:56,709 2019-04-27 19:40:56.709444 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:56,710 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:40:56,711 Error in return code
+2019-04-27 19:40:56,711 2019-04-27 19:40:56.711743 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:58,717 2019-04-27 19:40:58.717306 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:40:58,718 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:40:58,718 Error in return code
+2019-04-27 19:40:58,719 2019-04-27 19:40:58.719618 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:00,723 2019-04-27 19:41:00.723732 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:00,724 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:00,724 Error in return code
+2019-04-27 19:41:00,725 2019-04-27 19:41:00.724949 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:02,730 2019-04-27 19:41:02.730242 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:02,731 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:02,731 Error in return code
+2019-04-27 19:41:02,732 2019-04-27 19:41:02.732463 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:04,738 2019-04-27 19:41:04.737995 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:04,739 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:04,739 Error in return code
+2019-04-27 19:41:04,740 2019-04-27 19:41:04.740265 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:06,746 2019-04-27 19:41:06.745802 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:06,746 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:06,747 Error in return code
+2019-04-27 19:41:06,748 2019-04-27 19:41:06.748024 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:08,753 2019-04-27 19:41:08.753642 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:08,754 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:08,755 Error in return code
+2019-04-27 19:41:08,756 2019-04-27 19:41:08.755864 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:10,762 2019-04-27 19:41:10.761810 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:10,763 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:10,763 Error in return code
+2019-04-27 19:41:10,764 2019-04-27 19:41:10.764606 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:12,770 2019-04-27 19:41:12.770214 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:12,771 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:12,771 Error in return code
+2019-04-27 19:41:12,772 2019-04-27 19:41:12.772431 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:14,778 2019-04-27 19:41:14.777956 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:14,779 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:14,779 Error in return code
+2019-04-27 19:41:14,780 2019-04-27 19:41:14.780282 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:16,786 2019-04-27 19:41:16.786390 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:16,787 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:16,787 Error in return code
+2019-04-27 19:41:16,788 2019-04-27 19:41:16.788682 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:18,794 2019-04-27 19:41:18.794251 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:18,795 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:18,795 Error in return code
+2019-04-27 19:41:18,796 2019-04-27 19:41:18.796473 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:20,801 2019-04-27 19:41:20.801460 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:20,802 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:20,803 Error in return code
+2019-04-27 19:41:20,803 2019-04-27 19:41:20.803692 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:22,807 2019-04-27 19:41:22.807801 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:22,808 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:22,808 Error in return code
+2019-04-27 19:41:22,809 2019-04-27 19:41:22.809076 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:24,814 2019-04-27 19:41:24.814312 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:24,815 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:24,815 Error in return code
+2019-04-27 19:41:24,816 2019-04-27 19:41:24.816594 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:26,822 2019-04-27 19:41:26.822150 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:26,823 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:26,823 Error in return code
+2019-04-27 19:41:26,824 2019-04-27 19:41:26.824370 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:28,830 2019-04-27 19:41:28.829966 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:28,830 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:28,831 Error in return code
+2019-04-27 19:41:28,832 2019-04-27 19:41:28.832189 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:30,837 2019-04-27 19:41:30.837734 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:30,838 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:30,839 Error in return code
+2019-04-27 19:41:30,840 2019-04-27 19:41:30.840029 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:32,844 2019-04-27 19:41:32.844113 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:32,844 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:32,844 Error in return code
+2019-04-27 19:41:32,845 2019-04-27 19:41:32.845341 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:34,850 2019-04-27 19:41:34.850589 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:34,851 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:34,852 Error in return code
+2019-04-27 19:41:34,852 2019-04-27 19:41:34.852805 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:36,858 2019-04-27 19:41:36.858323 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:36,859 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:36,859 Error in return code
+2019-04-27 19:41:36,860 2019-04-27 19:41:36.860578 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:38,864 2019-04-27 19:41:38.864685 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:38,865 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:38,865 Error in return code
+2019-04-27 19:41:38,865 2019-04-27 19:41:38.865910 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:40,871 2019-04-27 19:41:40.871167 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:40,872 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:40,872 Error in return code
+2019-04-27 19:41:40,873 2019-04-27 19:41:40.873370 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:42,879 2019-04-27 19:41:42.878953 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:42,879 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:42,880 Error in return code
+2019-04-27 19:41:42,881 2019-04-27 19:41:42.881173 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:44,886 2019-04-27 19:41:44.886719 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:44,887 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:44,888 Error in return code
+2019-04-27 19:41:44,889 2019-04-27 19:41:44.889014 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:46,894 2019-04-27 19:41:46.894550 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:46,895 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:46,896 Error in return code
+2019-04-27 19:41:46,896 2019-04-27 19:41:46.896759 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:48,902 2019-04-27 19:41:48.902269 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:48,910 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:48,910 Error in return code
+2019-04-27 19:41:48,911 2019-04-27 19:41:48.911509 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:50,917 2019-04-27 19:41:50.917069 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:50,918 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:50,918 Error in return code
+2019-04-27 19:41:50,919 2019-04-27 19:41:50.919351 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:52,925 2019-04-27 19:41:52.924918 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:52,925 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:52,926 Error in return code
+2019-04-27 19:41:52,927 2019-04-27 19:41:52.927125 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:54,931 2019-04-27 19:41:54.931297 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:54,931 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:54,932 Error in return code
+2019-04-27 19:41:54,932 2019-04-27 19:41:54.932518 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:56,937 2019-04-27 19:41:56.937748 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:56,938 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:56,939 Error in return code
+2019-04-27 19:41:56,940 2019-04-27 19:41:56.940178 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:58,945 2019-04-27 19:41:58.945695 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:41:58,946 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:41:58,947 Error in return code
+2019-04-27 19:41:58,948 2019-04-27 19:41:58.947909 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:00,952 2019-04-27 19:42:00.951987 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:00,952 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:00,952 Error in return code
+2019-04-27 19:42:00,953 2019-04-27 19:42:00.953205 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:02,958 2019-04-27 19:42:02.958433 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:02,959 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:02,960 Error in return code
+2019-04-27 19:42:02,960 2019-04-27 19:42:02.960701 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:04,966 2019-04-27 19:42:04.966215 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:04,967 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:04,967 Error in return code
+2019-04-27 19:42:04,968 2019-04-27 19:42:04.968419 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:06,974 2019-04-27 19:42:06.974043 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:06,975 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:06,975 Error in return code
+2019-04-27 19:42:06,976 2019-04-27 19:42:06.976270 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:08,982 2019-04-27 19:42:08.981805 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:08,982 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:08,983 Error in return code
+2019-04-27 19:42:08,984 2019-04-27 19:42:08.984000 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:10,989 2019-04-27 19:42:10.989709 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:10,990 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:10,991 Error in return code
+2019-04-27 19:42:10,992 2019-04-27 19:42:10.991932 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:12,997 2019-04-27 19:42:12.997462 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:12,998 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:12,999 Error in return code
+2019-04-27 19:42:12,999 2019-04-27 19:42:12.999785 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:15,005 2019-04-27 19:42:15.005314 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:15,006 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:15,006 Error in return code
+2019-04-27 19:42:15,007 2019-04-27 19:42:15.007542 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:17,011 2019-04-27 19:42:17.011650 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:17,012 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:17,012 Error in return code
+2019-04-27 19:42:17,012 2019-04-27 19:42:17.012844 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:19,018 2019-04-27 19:42:19.018072 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:19,019 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:19,019 Error in return code
+2019-04-27 19:42:19,020 2019-04-27 19:42:19.020346 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:21,026 2019-04-27 19:42:21.025885 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:21,026 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:21,027 Error in return code
+2019-04-27 19:42:21,028 2019-04-27 19:42:21.028083 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:23,032 2019-04-27 19:42:23.032318 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:23,032 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:23,033 Error in return code
+2019-04-27 19:42:23,033 2019-04-27 19:42:23.033533 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:25,039 2019-04-27 19:42:25.038802 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:25,039 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:25,040 Error in return code
+2019-04-27 19:42:25,041 2019-04-27 19:42:25.041054 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:27,047 2019-04-27 19:42:27.046921 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:27,047 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:27,048 Error in return code
+2019-04-27 19:42:27,049 2019-04-27 19:42:27.049616 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:29,055 2019-04-27 19:42:29.055170 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:29,056 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:29,056 Error in return code
+2019-04-27 19:42:29,057 2019-04-27 19:42:29.057415 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:31,063 2019-04-27 19:42:31.062980 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:31,067 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:31,067 Error in return code
+2019-04-27 19:42:31,068 2019-04-27 19:42:31.068632 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:33,072 2019-04-27 19:42:33.072744 : Command is AT+UPSDA=0,3
+ 
+2019-04-27 19:42:33,073 Last element in Command Return is ['AT+UPSDA=0,3', 'ERROR'] 
+2019-04-27 19:42:33,073 Error in return code
+2019-04-27 19:42:35,076 sendCommand(AT+CGDCONT?
+)
+2019-04-27 19:42:35,077 2019-04-27 19:42:35.077246 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:42:37,103 2019-04-27 19:42:37.103143 : Command is AT+CGDCONT?
+ 
+2019-04-27 19:42:37,106 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.6.140.0.129",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","","0.0.0.0 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0",0,0,0,0,0,0', 'OK'] 
+2019-04-27 19:42:39,110 sendCommand(AT+UHTTP=0,1,"http://www.yahoo.com"
+)
+2019-04-27 19:42:39,111 2019-04-27 19:42:39.111272 : Command is AT+UHTTP=0,1,"http://www.yahoo.com"
+ 
+2019-04-27 19:42:41,119 2019-04-27 19:42:41.119202 : Command is AT+UHTTP=0,1,"http://www.yahoo.com"
+ 
+2019-04-27 19:42:41,120 Last element in Command Return is ['AT+UHTTP=0,1,"http://www.yahoo.com"', 'OK'] 
+2019-04-27 19:42:47,130 sendCommand(AT
+)
+2019-04-27 19:42:47,132 2019-04-27 19:42:47.131889 : Command is AT
+ 
+2019-04-27 19:42:49,210 2019-04-27 19:42:49.210392 : Command is AT
+ 
+2019-04-27 19:42:49,211 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
+2019-04-27 19:42:55,219 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/post"
+)
+2019-04-27 19:42:55,220 2019-04-27 19:42:55.219997 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-04-27 19:42:57,228 2019-04-27 19:42:57.228586 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-04-27 19:42:57,229 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/post"', 'OK'] 
+2019-04-27 19:43:03,239 sendCommand(AT
+)
+2019-04-27 19:43:03,241 2019-04-27 19:43:03.240890 : Command is AT
+ 
+2019-04-27 19:43:05,326 2019-04-27 19:43:05.326139 : Command is AT
+ 
+2019-04-27 19:43:05,327 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",540,"HTTP/1.0 301 Moved Permanently', 'Location: http://www.google.com/', 'Content-Type: text/html; charset=UTF-8', 'Date: Wed, 30 Jan 2019 02:04:27 GMT', 'Expires: Fri, 01 Mar 2019 02:04:27 GMT', 'Cache-Control: public, max-age=2592000', 'Server: gws', 'Content-Length: 219', 'X-XSS-Protection: 1; mode=block', 'X-Frame-Options: SAMEORIGIN', '<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">', '<TITLE>301 Moved</TITLE></HEAD><BODY>', '<H1>301 Moved</H1>', 'The document has moved', '<A HREF="http://www.google.com/">here</A>.', '</BODY></HTML>', '"', 'OK', 'AT', 'OK'] 
