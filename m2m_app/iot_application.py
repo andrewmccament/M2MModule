@@ -57,16 +57,16 @@ ret = sendCommand("AT+CFUN=1,1")
 print "AT"
 print ret
 time.sleep(30)
-ret = sendCommand("AT+UPSDA=0,0\r\n")
-print "AT+UPSDA=0,0"
-print ret
-time.sleep(2)
 ret = sendCommand("AT+CEREG=1")
 print "AT+CEREG=1"
 print ret
 time.sleep(2)
 ret = sendCommand("AT+UPSD=0,0,2\r\n")
 print "AT+UPSD=0,0,2"
+print ret
+time.sleep(2)
+ret = sendCommand("AT+UPSDA=0,2\r\n")
+print "AT+UPSDA=0,2"
 print ret
 time.sleep(2)
 ret = sendCommand("AT+UPSDA=0,3\r\n")
