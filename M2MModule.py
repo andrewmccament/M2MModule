@@ -17,7 +17,7 @@ def init():
     logging.debug("******************************************")
     return ser
 
-def connect(ser):
+def reboot(ser):
     ret = sendCommand("AT\r\n", ser)
     print "AT"
     print ret
@@ -26,6 +26,9 @@ def connect(ser):
     print "AT+CFUN=1,1"
     print ret
     time.sleep(30)
+    print "LARA-R2 modem rebooted"
+    
+def connect(ser):
     ret = sendCommand("AT+CEREG=1", ser)
     print "AT+CEREG=1"
     print ret
