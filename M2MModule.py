@@ -17,13 +17,16 @@ def init():
     logging.debug("******************************************")
     return ser
 
-def connect(ser):
+def reboot(ser):
     ret = sendCommand("AT\r\n", ser)
     print ret
     time.sleep(2)
     ret = sendCommand("AT+CFUN=1,1", ser)
     print ret
     time.sleep(30)
+    print "LARA-R2 modem rebooted"
+    
+def connect(ser):
     ret = sendCommand("AT+CEREG=1", ser)
     print ret
     time.sleep(2)

@@ -65,6 +65,10 @@ ret = sendCommand("AT+UPSD=0,0,2\r\n")
 print "AT+UPSD=0,0,2"
 print ret
 time.sleep(2)
+ret = sendCommand("AT+UPSDA=0,2\r\n")
+print "AT+UPSDA=0,2"
+print ret
+time.sleep(2)
 ret = sendCommand("AT+UPSDA=0,3\r\n")
 print "AT+UPSDA=0,3"
 print ret
