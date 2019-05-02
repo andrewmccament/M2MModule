@@ -17,6 +17,36 @@ def init():
     logging.debug("******************************************")
     return ser
 
+def firmware(ser):
+    ret = sendCommand("AT+CGMI\r\n", ser)
+    print "Manufacture ID: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("AT+CGMM\r\n", ser)
+    print "Model ID: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("AT+CGMR\r\n", ser)
+    print "Firmware Version: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("ATI9\r\n", ser)
+    print "Firmware and Application Version: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("AT+CGSN\r\n", ser)
+    print "Product Serial #: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("AT+COPS?\r\n", ser)
+    print "Operator: "
+    print ret
+    time.sleep(2)
+    ret = sendCommand("AT+CCLK?\r\n", ser)
+    print "Clock: "
+    print ret
+    time.sleep(2)
+
 def reboot(ser):
     ret = sendCommand("AT\r\n", ser)
     print ret
