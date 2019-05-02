@@ -11,7 +11,7 @@ global ser
 
 def init():
     print "setting up"
-    ser = serial.Serial("/dev/ttyACM0", baudrate=115200, timeout=3.0)
+    ser = serial.Serial("/dev/ttyACM1", baudrate=115200, timeout=3.0)
     
     logging.basicConfig(filename='./log.iot_service', level=logging.DEBUG, format='%(asctime)s %(message)s')
     logging.debug("******************************************")
@@ -19,23 +19,20 @@ def init():
 
 def connect(ser):
     ret = sendCommand("AT\r\n", ser)
-    print "AT"
     print ret
     time.sleep(2)
     ret = sendCommand("AT+CFUN=1,1", ser)
-    print "AT+CFUN=1,1"
     print ret
     time.sleep(30)
     ret = sendCommand("AT+CEREG=1", ser)
-    print "AT+CEREG=1"
     print ret
     time.sleep(2)
     ret = sendCommand("AT+UPSD=0,0,2\r\n", ser)
-    print "AT+UPSD=0,0,2"
     print ret
     time.sleep(2)
-    ret = sendCommand("AT+UPSDA=0,3\r\n", ser)
-    print "AT+UPSDA=0,3"
+    ret = ser.write("AT+UPSD=0,1,\"VZWINTERNET\"")
+    time.sleep(2)
+    ret = sendCommand("AT+UPSDA=0,3", ser)
     print ret
     time.sleep(2)
     return True
@@ -47,20 +44,18 @@ def get(ser, address):
     time.sleep(2)
     
     while True:
-        ret = sendCommand('AT+UHTTP=0,1,"' + address + '"\r\n', ser)
-        print "AT+UHTTP"
+        ret = sendCommand("AT+UHTTP=0,1,\"" + address + "\"\r\n", ser)
         print ret
         time.sleep(2)
+        print 'Attempting ' + 'AT+UHTTPC=0,1,"/","r"\r\n'
         ret = ser.write('AT+UHTTPC=0,1,"/","r"\r\n')
-        print "AT+UHTTPC"
         print ret
         time.sleep(2)
+        print 'Attempting ' + 'AT+URDFILE="r"\r\n'
         ret = ser.write('AT+URDFILE="r"\r\n')
-        print "AT+URDFILE"
         print ret
         time.sleep(2)
         ret = sendCommand("AT\r\n", ser)
-        print "AT"
         print ret
         time.sleep(6)
         return True
@@ -68,19 +63,17 @@ def get(ser, address):
 def post(ser, address, data):
     while True:
         ret = sendCommand('AT+UHTTP=0,1,"' + address + '"\r\n', ser)
-        print "AT+UHTTP"
         print ret
         time.sleep(2)
+        print 'Attempting ' + 'AT+UHTTPC=0,5,"/","r","' + data + '",0\r\n'
         ret = ser.write('AT+UHTTPC=0,5,"/","r","' + data + '",0\r\n')
-        print "AT+UHTTPC"
         print ret
         time.sleep(2)
+        print 'Attempting ' + 'AT+URDFILE="r"\r\n'
         ret = ser.write('AT+URDFILE="r"\r\n')
-        print "AT+URDFILE"
         print ret
         time.sleep(2)
         ret = sendCommand("AT\r\n", ser)
-        print "AT"
         print ret
         time.sleep(6)
         return True
@@ -93,9 +86,10 @@ def sendCommand(command, ser):
         loopCount = 0;
         while tryAgain == 'yes':
             loopCount+=1
-            if (loopCount > 50):
+            if (loopCount > 25):
                 print "Error: operation " + command + " timed out with errors"
                 return ret;
+            print command
             if not ser.isOpen():
                 logging.debug('Serial Port can not be opened to send Command - check cable connections')
                 ser.close()
