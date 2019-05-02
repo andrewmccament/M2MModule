@@ -33,9 +33,9 @@ def connect(ser):
     ret = sendCommand("AT+UPSD=0,0,2\r\n", ser)
     print ret
     time.sleep(2)
-    ret = ser.write("AT+UPSD=0,1,\"VZWINTERNET\"")
+    ret = sendCommand("AT+UPSD=0,1,\"VZWINTERNET\"\r\n")
     time.sleep(2)
-    ret = sendCommand("AT+UPSDA=0,3", ser)
+    ret = sendCommand("AT+UPSDA=0,3\r\n", ser)
     print ret
     time.sleep(2)
     return True
@@ -58,7 +58,7 @@ def get(ser, address):
         ret = ser.write('AT+URDFILE="r"\r\n')
         print ret
         time.sleep(2)
-        ret = sendCommand("AT\r\n", ser)
+        print
         print ret
         time.sleep(6)
         return True
