@@ -18,33 +18,40 @@ def init():
     return ser
 
 def firmware(ser):
-    ret = sendCommand("AT+CGMI\r\n", ser)
+    ret = sendCommand("AT+CGMI\r", ser)
     print "Manufacture ID: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("AT+CGMM\r\n", ser)
+    ret = sendCommand("AT+CGMM\r", ser)
     print "Model ID: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("AT+CGMR\r\n", ser)
+    ret = sendCommand("AT+CGMR\r", ser)
     print "Firmware Version: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("ATI9\r\n", ser)
+    ret = sendCommand("ATI9\r", ser)
     print "Firmware and Application Version: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("AT+CGSN\r\n", ser)
+    ret = sendCommand("AT+CGSN\r", ser)
     print "Product Serial #: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("AT+COPS?\r\n", ser)
+    ret = sendCommand("AT+COPS?\r", ser)
     print "Operator: "
     print ret
+    print "\n"
     time.sleep(2)
-    ret = sendCommand("AT+CCLK?\r\n", ser)
+    ret = sendCommand("AT+CCLK?\r", ser)
     print "Clock: "
     print ret
+    print "\n"
     time.sleep(2)
 
 def reboot(ser):
