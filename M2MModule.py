@@ -11,7 +11,7 @@ global ser
 
 def init():
     print "setting up"
-    ser = serial.Serial("/dev/ttyACM1", baudrate=115200, timeout=3.0)
+    ser = serial.Serial("/dev/ttyACM0", baudrate=115200, timeout=3.0)
     
     logging.basicConfig(filename='./log.iot_service', level=logging.DEBUG, format='%(asctime)s %(message)s')
     logging.debug("******************************************")
@@ -19,7 +19,7 @@ def init():
 
 def firmware(ser):
     ret = sendCommand("AT+CGMI\r\n", ser)
-    print "Manufacture ID: "
+    print "Manufacturer ID: "
     print ret
     time.sleep(2)
     ret = sendCommand("AT+CGMM\r\n", ser)
@@ -80,30 +80,30 @@ def get(ser, address):
         ret = sendCommand("AT+UHTTP=0,1,\"" + address + "\"\r\n", ser)
         print ret
         time.sleep(2)
-        print 'Attempting ' + 'AT+UHTTPC=0,1,"/","r"\r\n'
-        ret = ser.write('AT+UHTTPC=0,1,"/","r"\r\n')
+        ret = sendCommand("AT+UHTTPC=0,1,\"/\",\"r\"\r\n", ser)
         print ret
         time.sleep(2)
-        print 'Attempting ' + 'AT+URDFILE="r"\r\n'
-        ret = ser.write('AT+URDFILE="r"\r\n')
+        ret = sendCommand("AT+URDFILE=\"r\"\r\n", ser)
         print ret
         time.sleep(2)
-        print
         print ret
         time.sleep(6)
         return True
 
 def post(ser, address, data):
+    ret = sendCommand("AT+CGDCONT?\r\n", ser)
+    print "AT+CGDCONT"
+    print ret
+    time.sleep(2)
+    
     while True:
-        ret = sendCommand('AT+UHTTP=0,1,"' + address + '"\r\n', ser)
+        ret = sendCommand("AT+UHTTP=0,1,\"" + address + "\"\r\n", ser)
         print ret
         time.sleep(2)
-        print 'Attempting ' + 'AT+UHTTPC=0,5,"/","r","' + data + '",0\r\n'
-        ret = ser.write('AT+UHTTPC=0,5,"/","r","' + data + '",0\r\n')
+        ret = sendCommand("AT+UHTTPC=0,5,\"/\",\"r\",\"" + data + "\",0\r\n", ser)
         print ret
         time.sleep(2)
-        print 'Attempting ' + 'AT+URDFILE="r"\r\n'
-        ret = ser.write('AT+URDFILE="r"\r\n')
+        ret = sendCommand("AT+URDFILE=\"r\"\r\n", ser)
         print ret
         time.sleep(2)
         ret = sendCommand("AT\r\n", ser)
@@ -119,13 +119,14 @@ def sendCommand(command, ser):
         loopCount = 0;
         while tryAgain == 'yes':
             loopCount+=1
-            if (loopCount > 25):
+            if (loopCount > 10):
                 print "Error: operation " + command + " timed out with errors"
                 return ret;
-            print command
             if not ser.isOpen():
                 logging.debug('Serial Port can not be opened to send Command - check cable connections')
                 ser.close()
+                return 'Serial Port can not be opened to send Command - check cable connections'
+            print "Attempting command: " + command
             ser.write(command)
             logging.debug('%s : Command is %s ' % (datetime.now(), command))
             time.sleep(2)

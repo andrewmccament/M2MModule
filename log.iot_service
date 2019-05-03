@@ -10390,3 +10390,1771 @@
 2019-05-02 15:56:51,421 2019-05-02 15:56:51.420807 : Command is AT
  
 2019-05-02 15:56:51,421 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",280,"HTTP/1.0 301 Moved Permanently', 'Date: Wed, 01 May 2019 23:02:29 GMT', 'Server: ATS', 'Cache-Control: no-store, no-cache', 'Content-Type: text/html', 'Content-Language: en', 'Connection: keep-alive', 'X-Frame-Options: SAMEORIGIN', 'Location: https://www.yahoo.com/', 'Content-Length: 8', 'redirect"', 'OK', 'AT', 'OK'] 
+2019-05-02 19:03:00,404 ******************************************
+2019-05-02 19:03:00,405 sendCommand(AT
+)
+2019-05-02 19:03:00,413 2019-05-02 19:03:00.413550 : Command is AT
+ 
+2019-05-02 19:03:02,424 2019-05-02 19:03:02.424236 : Command is AT
+ 
+2019-05-02 19:03:02,425 Last element in Command Return is ['WI: 0,1', '+', 'AT', 'OK'] 
+2019-05-02 19:03:04,428 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:03:04,429 2019-05-02 19:03:04.428990 : Command is AT+CFUN=1,1 
+2019-05-02 19:03:09,436 2019-05-02 19:03:09.436630 : Command is AT+CFUN=1,1 
+2019-05-02 19:03:09,437 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:03:39,468 sendCommand(AT+CEREG=1)
+2019-05-02 19:03:39,469 2019-05-02 19:03:39.469731 : Command is AT+CEREG=1 
+2019-05-02 19:03:44,491 2019-05-02 19:03:44.491695 : Command is AT+CEREG=1 
+2019-05-02 19:03:44,492 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:03:46,497 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:03:46,498 2019-05-02 19:03:46.498501 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:03:48,504 2019-05-02 19:03:48.504172 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:03:48,505 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:03:48,505 Error in return code
+2019-05-02 19:03:48,506 2019-05-02 19:03:48.506354 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:03:50,511 2019-05-02 19:03:50.511575 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:03:50,512 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:03:52,515 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:03:52,516 2019-05-02 19:03:52.516424 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:03:54,523 2019-05-02 19:03:54.523089 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:03:54,524 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:03:56,526 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:03:56,528 2019-05-02 19:03:56.528005 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:03:58,549 2019-05-02 19:03:58.549205 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:03:58,550 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.91.216.90"'] 
+2019-05-02 19:04:00,552 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:04:00,554 2019-05-02 19:04:00.554012 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:04:02,581 2019-05-02 19:04:02.581434 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:04:02,584 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.31.252.169",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.91.216.90 254.128.0.0.0.0.0.0.0.0.0.92.162.6.166.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:04:04,587 sendCommand(AT+UHTTP=0,1,"http://www.yahoo.com"
+)
+2019-05-02 19:04:04,588 2019-05-02 19:04:04.588462 : Command is AT+UHTTP=0,1,"http://www.yahoo.com"
+ 
+2019-05-02 19:04:06,596 2019-05-02 19:04:06.596174 : Command is AT+UHTTP=0,1,"http://www.yahoo.com"
+ 
+2019-05-02 19:04:06,597 Last element in Command Return is ['AT+UHTTP=0,1,"http://www.yahoo.com"', 'OK'] 
+2019-05-02 19:04:18,610 sendCommand(AT+CGMI
+)
+2019-05-02 19:04:18,612 2019-05-02 19:04:18.612202 : Command is AT+CGMI
+ 
+2019-05-02 19:04:20,690 2019-05-02 19:04:20.690276 : Command is AT+CGMI
+ 
+2019-05-02 19:04:20,690 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1', 'AT+URDFILE="r"', '+URDFILE: "r",688,"HTTP/1.0 400 Invalid HTTP Request', 'Date: Fri, 03 May 2019 00:04:08 GMT', 'Server: ATS', 'Cache-Control: no-store', 'Content-Type: text/html', 'Content-Language: en', 'X-Frame-Options: DENY', 'X-Content-Type-Options: nosniff', 'X-XSS-Protection: 1; mode=block', 'Referrer-Policy: strict-origin-when-cross-origin', "Content-Security-Policy: sandbox; default-src 'self'; script-src 'none'; object-src 'none'; report-uri https://csp.yahoo.com/beacon/csp?src=generic", 'Content-Length: 220', '<HTML>', '<HEAD>', '<TITLE>Bad Request</TITLE>', '</HEAD>', '<BODY BGCOLOR="white" FGCOLOR="black">', '<H1>Bad Request</H1>', '<HR>', '<FONT FACE="Helvetica,Arial"><B>', 'Description: Could not process this request.', '</B></FONT>', '<HR>', '</BODY>', '"', 'OK', 'AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:04:22,693 sendCommand(AT+CGMM
+)
+2019-05-02 19:04:22,694 2019-05-02 19:04:22.694565 : Command is AT+CGMM
+ 
+2019-05-02 19:04:24,700 2019-05-02 19:04:24.700712 : Command is AT+CGMM
+ 
+2019-05-02 19:04:24,701 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:04:26,704 sendCommand(AT+CGMR
+)
+2019-05-02 19:04:26,705 2019-05-02 19:04:26.705528 : Command is AT+CGMR
+ 
+2019-05-02 19:04:28,711 2019-05-02 19:04:28.710983 : Command is AT+CGMR
+ 
+2019-05-02 19:04:28,711 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:04:30,714 sendCommand(ATI9
+)
+2019-05-02 19:04:30,715 2019-05-02 19:04:30.715709 : Command is ATI9
+ 
+2019-05-02 19:04:32,722 2019-05-02 19:04:32.722452 : Command is ATI9
+ 
+2019-05-02 19:04:32,723 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:04:34,726 sendCommand(AT+CGSN
+)
+2019-05-02 19:04:34,727 2019-05-02 19:04:34.727062 : Command is AT+CGSN
+ 
+2019-05-02 19:04:36,734 2019-05-02 19:04:36.733866 : Command is AT+CGSN
+ 
+2019-05-02 19:04:36,734 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:04:38,737 sendCommand(AT+COPS?
+)
+2019-05-02 19:04:38,738 2019-05-02 19:04:38.738477 : Command is AT+COPS?
+ 
+2019-05-02 19:04:40,747 2019-05-02 19:04:40.747426 : Command is AT+COPS?
+ 
+2019-05-02 19:04:40,748 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:04:42,751 sendCommand(AT+CCLK?
+)
+2019-05-02 19:04:42,752 2019-05-02 19:04:42.752233 : Command is AT+CCLK?
+ 
+2019-05-02 19:04:44,760 2019-05-02 19:04:44.760473 : Command is AT+CCLK?
+ 
+2019-05-02 19:04:44,761 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/02,19:04:42-20"', 'OK'] 
+2019-05-02 19:04:46,764 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/post"
+)
+2019-05-02 19:04:46,765 2019-05-02 19:04:46.765249 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:04:48,774 2019-05-02 19:04:48.773819 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:04:48,774 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/post"', 'OK'] 
+2019-05-02 19:04:54,782 sendCommand(AT
+)
+2019-05-02 19:04:54,783 2019-05-02 19:04:54.783529 : Command is AT
+ 
+2019-05-02 19:04:56,804 2019-05-02 19:04:56.804170 : Command is AT
+ 
+2019-05-02 19:04:56,805 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-02 19:07:15,192 ******************************************
+2019-05-02 19:07:15,193 sendCommand(AT
+)
+2019-05-02 19:07:15,194 2019-05-02 19:07:15.193980 : Command is AT
+ 
+2019-05-02 19:07:17,198 2019-05-02 19:07:17.198006 : Command is AT
+ 
+2019-05-02 19:07:17,199 Last element in Command Return is ['AT', 'OK'] 
+2019-05-02 19:07:19,201 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:07:19,203 2019-05-02 19:07:19.203150 : Command is AT+CFUN=1,1 
+2019-05-02 19:07:24,210 2019-05-02 19:07:24.210743 : Command is AT+CFUN=1,1 
+2019-05-02 19:07:24,211 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:07:54,242 sendCommand(AT+CEREG=1)
+2019-05-02 19:07:54,244 2019-05-02 19:07:54.244184 : Command is AT+CEREG=1 
+2019-05-02 19:07:59,251 2019-05-02 19:07:59.251574 : Command is AT+CEREG=1 
+2019-05-02 19:07:59,254 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:08:01,257 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:08:01,258 2019-05-02 19:08:01.258579 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:03,264 2019-05-02 19:08:03.264308 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:03,265 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:03,265 Error in return code
+2019-05-02 19:08:03,266 2019-05-02 19:08:03.266814 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:05,272 2019-05-02 19:08:05.272410 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:05,273 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:05,274 Error in return code
+2019-05-02 19:08:05,274 2019-05-02 19:08:05.274722 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:07,280 2019-05-02 19:08:07.280312 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:07,281 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:07,281 Error in return code
+2019-05-02 19:08:07,282 2019-05-02 19:08:07.282727 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:09,288 2019-05-02 19:08:09.288369 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:09,289 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:09,289 Error in return code
+2019-05-02 19:08:09,290 2019-05-02 19:08:09.290707 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:11,296 2019-05-02 19:08:11.296274 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:11,299 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:11,300 Error in return code
+2019-05-02 19:08:11,301 2019-05-02 19:08:11.301146 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:13,306 2019-05-02 19:08:13.306719 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:13,307 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:13,308 Error in return code
+2019-05-02 19:08:13,309 2019-05-02 19:08:13.308920 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:15,314 2019-05-02 19:08:15.314539 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:15,315 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:08:15,316 Error in return code
+2019-05-02 19:08:15,316 2019-05-02 19:08:15.316772 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:08:16,695 2019-05-02 19:08:16.695193 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-02 19:09:14,223 ******************************************
+2019-05-02 19:09:14,223 sendCommand(AT
+)
+2019-05-02 19:09:14,234 2019-05-02 19:09:14.233963 : Command is AT
+ 
+2019-05-02 19:09:16,240 2019-05-02 19:09:16.240521 : Command is AT
+ 
+2019-05-02 19:09:16,241 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-02 19:09:18,244 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:09:18,245 2019-05-02 19:09:18.245509 : Command is AT+CFUN=1,1 
+2019-05-02 19:09:23,253 2019-05-02 19:09:23.253293 : Command is AT+CFUN=1,1 
+2019-05-02 19:09:23,254 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:09:53,282 sendCommand(AT+CEREG=1)
+2019-05-02 19:09:53,297 2019-05-02 19:09:53.297131 : Command is AT+CEREG=1 
+2019-05-02 19:09:58,305 2019-05-02 19:09:58.304813 : Command is AT+CEREG=1 
+2019-05-02 19:09:58,309 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:10:00,312 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:10:00,313 2019-05-02 19:10:00.313402 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:10:02,319 2019-05-02 19:10:02.319289 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:10:02,320 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:10:02,320 Error in return code
+2019-05-02 19:10:02,321 2019-05-02 19:10:02.321608 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:10:04,327 2019-05-02 19:10:04.327060 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:10:04,330 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:10:06,333 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:10:06,335 2019-05-02 19:10:06.334777 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:10:08,341 2019-05-02 19:10:08.341654 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:10:08,342 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:10:10,345 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:10:10,349 2019-05-02 19:10:10.349294 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:10:13,899 2019-05-02 19:10:13.898829 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:10:13,899 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.81.241.210"'] 
+2019-05-02 19:10:15,902 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:10:15,904 2019-05-02 19:10:15.903881 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:10:17,933 2019-05-02 19:10:17.933178 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:10:17,934 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.32.162.245",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.81.241.210 254.128.0.0.0.0.0.0.0.0.0.71.50.230.189.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:10:19,937 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+)
+2019-05-02 19:10:19,938 2019-05-02 19:10:19.938342 : Command is AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+ 
+2019-05-02 19:10:21,949 2019-05-02 19:10:21.949451 : Command is AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+ 
+2019-05-02 19:10:21,950 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"', 'OK'] 
+2019-05-02 19:10:33,965 sendCommand(AT+CGMI
+)
+2019-05-02 19:10:33,966 2019-05-02 19:10:33.966159 : Command is AT+CGMI
+ 
+2019-05-02 19:10:35,982 2019-05-02 19:10:35.982632 : Command is AT+CGMI
+ 
+2019-05-02 19:10:35,983 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:10:37,986 sendCommand(AT+CGMM
+)
+2019-05-02 19:10:37,987 2019-05-02 19:10:37.987797 : Command is AT+CGMM
+ 
+2019-05-02 19:10:39,994 2019-05-02 19:10:39.994247 : Command is AT+CGMM
+ 
+2019-05-02 19:10:39,995 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:10:41,998 sendCommand(AT+CGMR
+)
+2019-05-02 19:10:41,999 2019-05-02 19:10:41.999404 : Command is AT+CGMR
+ 
+2019-05-02 19:10:44,005 2019-05-02 19:10:44.005422 : Command is AT+CGMR
+ 
+2019-05-02 19:10:44,006 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:10:46,009 sendCommand(ATI9
+)
+2019-05-02 19:10:46,010 2019-05-02 19:10:46.010480 : Command is ATI9
+ 
+2019-05-02 19:10:48,017 2019-05-02 19:10:48.016921 : Command is ATI9
+ 
+2019-05-02 19:10:48,017 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:10:50,020 sendCommand(AT+CGSN
+)
+2019-05-02 19:10:50,022 2019-05-02 19:10:50.022208 : Command is AT+CGSN
+ 
+2019-05-02 19:10:52,029 2019-05-02 19:10:52.029386 : Command is AT+CGSN
+ 
+2019-05-02 19:10:52,030 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:10:54,032 sendCommand(AT+COPS?
+)
+2019-05-02 19:10:54,034 2019-05-02 19:10:54.034095 : Command is AT+COPS?
+ 
+2019-05-02 19:10:56,043 2019-05-02 19:10:56.043406 : Command is AT+COPS?
+ 
+2019-05-02 19:10:56,044 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:10:58,047 sendCommand(AT+CCLK?
+)
+2019-05-02 19:10:58,048 2019-05-02 19:10:58.048729 : Command is AT+CCLK?
+ 
+2019-05-02 19:11:00,057 2019-05-02 19:11:00.057496 : Command is AT+CCLK?
+ 
+2019-05-02 19:11:00,058 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/02,19:10:57-20"', 'OK'] 
+2019-05-02 19:11:02,061 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/post"
+)
+2019-05-02 19:11:02,062 2019-05-02 19:11:02.062697 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:11:04,071 2019-05-02 19:11:04.071655 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:11:04,072 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/post"', 'OK'] 
+2019-05-02 19:11:10,081 sendCommand(AT
+)
+2019-05-02 19:11:10,082 2019-05-02 19:11:10.082258 : Command is AT
+ 
+2019-05-02 19:11:12,104 2019-05-02 19:11:12.103909 : Command is AT
+ 
+2019-05-02 19:11:12,104 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-02 19:19:54,380 ******************************************
+2019-05-02 19:19:54,380 sendCommand(AT
+)
+2019-05-02 19:19:54,381 2019-05-02 19:19:54.381234 : Command is AT
+ 
+2019-05-02 19:19:56,393 2019-05-02 19:19:56.393311 : Command is AT
+ 
+2019-05-02 19:19:56,394 Last element in Command Return is ['AT', 'OK', '+UMWI: 0,1', '+UMWI: 0,2', '+UMWI: 0,3', '+UMWI: 0,4', '+UMWI: 0,5'] 
+2019-05-02 19:19:58,397 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:19:58,398 2019-05-02 19:19:58.398168 : Command is AT+CFUN=1,1 
+2019-05-02 19:20:03,405 2019-05-02 19:20:03.405750 : Command is AT+CFUN=1,1 
+2019-05-02 19:20:03,406 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:20:33,437 sendCommand(AT+CEREG=1)
+2019-05-02 19:20:33,438 2019-05-02 19:20:33.438729 : Command is AT+CEREG=1 
+2019-05-02 19:20:38,446 2019-05-02 19:20:38.446308 : Command is AT+CEREG=1 
+2019-05-02 19:20:38,447 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:20:40,452 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:20:40,453 2019-05-02 19:20:40.453203 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:20:42,459 2019-05-02 19:20:42.459101 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:20:42,460 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:20:42,460 Error in return code
+2019-05-02 19:20:42,461 2019-05-02 19:20:42.461360 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:20:44,467 2019-05-02 19:20:44.466840 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:20:44,467 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:20:46,470 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:20:46,471 2019-05-02 19:20:46.471727 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:20:48,478 2019-05-02 19:20:48.478491 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:20:48,479 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:20:50,482 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:20:50,483 2019-05-02 19:20:50.483400 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:20:54,025 2019-05-02 19:20:54.024987 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:20:54,026 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.69.107.68"'] 
+2019-05-02 19:20:56,028 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:20:56,030 2019-05-02 19:20:56.030278 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:20:58,072 2019-05-02 19:20:58.071857 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:20:58,072 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.33.161.75",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.69.107.68 254.128.0.0.0.0.0.0.0.0.0.82.150.166.176.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:21:00,075 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+)
+2019-05-02 19:21:00,077 2019-05-02 19:21:00.077154 : Command is AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+ 
+2019-05-02 19:21:02,088 2019-05-02 19:21:02.088194 : Command is AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"
+ 
+2019-05-02 19:21:02,089 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/get?foo1=bar1&foo2=bar2"', 'OK'] 
+2019-05-02 19:21:04,092 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-02 19:21:04,093 2019-05-02 19:21:04.093655 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:21:06,102 2019-05-02 19:21:06.102355 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:21:06,103 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-02 19:21:08,106 sendCommand(AT+URDFILE="r"
+)
+2019-05-02 19:21:08,107 2019-05-02 19:21:08.107537 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:21:10,115 2019-05-02 19:21:10.115587 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:21:10,116 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-02 19:21:18,125 sendCommand(AT+CGMI
+)
+2019-05-02 19:21:18,126 2019-05-02 19:21:18.126756 : Command is AT+CGMI
+ 
+2019-05-02 19:21:20,133 2019-05-02 19:21:20.132743 : Command is AT+CGMI
+ 
+2019-05-02 19:21:20,133 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:21:22,136 sendCommand(AT+CGMM
+)
+2019-05-02 19:21:22,138 2019-05-02 19:21:22.137818 : Command is AT+CGMM
+ 
+2019-05-02 19:21:24,144 2019-05-02 19:21:24.144236 : Command is AT+CGMM
+ 
+2019-05-02 19:21:24,145 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:21:26,148 sendCommand(AT+CGMR
+)
+2019-05-02 19:21:26,149 2019-05-02 19:21:26.149153 : Command is AT+CGMR
+ 
+2019-05-02 19:21:28,155 2019-05-02 19:21:28.155224 : Command is AT+CGMR
+ 
+2019-05-02 19:21:28,156 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:21:30,159 sendCommand(ATI9
+)
+2019-05-02 19:21:30,160 2019-05-02 19:21:30.160713 : Command is ATI9
+ 
+2019-05-02 19:21:32,167 2019-05-02 19:21:32.167121 : Command is ATI9
+ 
+2019-05-02 19:21:32,168 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:21:34,171 sendCommand(AT+CGSN
+)
+2019-05-02 19:21:34,172 2019-05-02 19:21:34.172155 : Command is AT+CGSN
+ 
+2019-05-02 19:21:36,179 2019-05-02 19:21:36.179400 : Command is AT+CGSN
+ 
+2019-05-02 19:21:36,180 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:21:38,183 sendCommand(AT+COPS?
+)
+2019-05-02 19:21:38,184 2019-05-02 19:21:38.184490 : Command is AT+COPS?
+ 
+2019-05-02 19:21:40,193 2019-05-02 19:21:40.193727 : Command is AT+COPS?
+ 
+2019-05-02 19:21:40,194 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:21:42,197 sendCommand(AT+CCLK?
+)
+2019-05-02 19:21:42,198 2019-05-02 19:21:42.198209 : Command is AT+CCLK?
+ 
+2019-05-02 19:21:44,206 2019-05-02 19:21:44.206676 : Command is AT+CCLK?
+ 
+2019-05-02 19:21:44,207 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/02,19:21:41-20"', 'OK'] 
+2019-05-02 19:21:46,210 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/post"
+)
+2019-05-02 19:21:46,211 2019-05-02 19:21:46.211719 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:21:48,220 2019-05-02 19:21:48.220690 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:21:48,221 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/post"', 'OK'] 
+2019-05-02 19:21:54,229 sendCommand(AT
+)
+2019-05-02 19:21:54,231 2019-05-02 19:21:54.230950 : Command is AT
+ 
+2019-05-02 19:21:56,252 2019-05-02 19:21:56.252462 : Command is AT
+ 
+2019-05-02 19:21:56,253 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-02 19:22:26,263 ******************************************
+2019-05-02 19:22:26,263 sendCommand(AT
+)
+2019-05-02 19:22:26,264 2019-05-02 19:22:26.264279 : Command is AT
+ 
+2019-05-02 19:22:28,268 2019-05-02 19:22:28.268335 : Command is AT
+ 
+2019-05-02 19:22:28,269 Last element in Command Return is ['AT', 'OK'] 
+2019-05-02 19:22:30,272 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:22:30,273 2019-05-02 19:22:30.273181 : Command is AT+CFUN=1,1 
+2019-05-02 19:22:35,281 2019-05-02 19:22:35.280799 : Command is AT+CFUN=1,1 
+2019-05-02 19:22:35,281 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:23:05,312 sendCommand(AT+CEREG=1)
+2019-05-02 19:23:05,314 2019-05-02 19:23:05.313837 : Command is AT+CEREG=1 
+2019-05-02 19:23:10,321 2019-05-02 19:23:10.321293 : Command is AT+CEREG=1 
+2019-05-02 19:23:10,322 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:23:12,325 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:23:12,326 2019-05-02 19:23:12.326351 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:14,332 2019-05-02 19:23:14.332040 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:14,333 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:23:14,333 Error in return code
+2019-05-02 19:23:14,334 2019-05-02 19:23:14.334291 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:16,340 2019-05-02 19:23:16.339894 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:16,340 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:23:16,341 Error in return code
+2019-05-02 19:23:16,342 2019-05-02 19:23:16.342089 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:18,347 2019-05-02 19:23:18.347761 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:18,348 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:23:18,349 Error in return code
+2019-05-02 19:23:18,350 2019-05-02 19:23:18.350057 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:23:18,812 2019-05-02 19:23:18.812048 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-02 19:24:02,930 ******************************************
+2019-05-02 19:24:02,930 sendCommand(AT
+)
+2019-05-02 19:24:02,939 2019-05-02 19:24:02.939307 : Command is AT
+ 
+2019-05-02 19:24:04,945 2019-05-02 19:24:04.945670 : Command is AT
+ 
+2019-05-02 19:24:04,946 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-02 19:24:06,949 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:24:06,950 2019-05-02 19:24:06.950662 : Command is AT+CFUN=1,1 
+2019-05-02 19:24:11,958 2019-05-02 19:24:11.958285 : Command is AT+CFUN=1,1 
+2019-05-02 19:24:11,959 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:24:41,990 sendCommand(AT+CEREG=1)
+2019-05-02 19:24:41,991 2019-05-02 19:24:41.991218 : Command is AT+CEREG=1 
+2019-05-02 19:24:46,998 2019-05-02 19:24:46.998699 : Command is AT+CEREG=1 
+2019-05-02 19:24:47,016 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:24:49,019 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:24:49,020 2019-05-02 19:24:49.020716 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:24:51,026 2019-05-02 19:24:51.026595 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:24:51,027 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:24:51,028 Error in return code
+2019-05-02 19:24:51,028 2019-05-02 19:24:51.028855 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:24:53,034 2019-05-02 19:24:53.034253 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:24:53,035 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:24:55,038 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:24:55,039 2019-05-02 19:24:55.039297 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:24:57,046 2019-05-02 19:24:57.046095 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:24:57,047 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:24:59,049 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:24:59,051 2019-05-02 19:24:59.051086 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:25:01,058 2019-05-02 19:25:01.058762 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:25:01,059 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.110.84.48"'] 
+2019-05-02 19:25:03,062 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:25:03,064 2019-05-02 19:25:03.064025 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:25:05,093 2019-05-02 19:25:05.093098 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:25:05,094 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.34.0.145",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.110.84.48 254.128.0.0.0.0.0.0.0.0.0.37.235.29.162.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:25:07,097 sendCommand(AT+UHTTP=0,1,"http://www.msn.com/"
+)
+2019-05-02 19:25:07,098 2019-05-02 19:25:07.098374 : Command is AT+UHTTP=0,1,"http://www.msn.com/"
+ 
+2019-05-02 19:25:09,106 2019-05-02 19:25:09.106315 : Command is AT+UHTTP=0,1,"http://www.msn.com/"
+ 
+2019-05-02 19:25:09,107 Last element in Command Return is ['AT+UHTTP=0,1,"http://www.msn.com/"', 'OK'] 
+2019-05-02 19:25:11,110 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-02 19:25:11,111 2019-05-02 19:25:11.111433 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:25:13,120 2019-05-02 19:25:13.120176 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:25:13,121 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-02 19:25:15,124 sendCommand(AT+URDFILE="r"
+)
+2019-05-02 19:25:15,125 2019-05-02 19:25:15.125265 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:25:17,133 2019-05-02 19:25:17.133221 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:25:17,134 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-02 19:25:25,143 sendCommand(AT+CGMI
+)
+2019-05-02 19:25:25,144 2019-05-02 19:25:25.144460 : Command is AT+CGMI
+ 
+2019-05-02 19:25:27,150 2019-05-02 19:25:27.150586 : Command is AT+CGMI
+ 
+2019-05-02 19:25:27,151 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:25:29,154 sendCommand(AT+CGMM
+)
+2019-05-02 19:25:29,155 2019-05-02 19:25:29.155562 : Command is AT+CGMM
+ 
+2019-05-02 19:25:31,162 2019-05-02 19:25:31.162047 : Command is AT+CGMM
+ 
+2019-05-02 19:25:31,163 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:25:33,166 sendCommand(AT+CGMR
+)
+2019-05-02 19:25:33,167 2019-05-02 19:25:33.167296 : Command is AT+CGMR
+ 
+2019-05-02 19:25:35,173 2019-05-02 19:25:35.173352 : Command is AT+CGMR
+ 
+2019-05-02 19:25:35,174 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:25:37,177 sendCommand(ATI9
+)
+2019-05-02 19:25:37,178 2019-05-02 19:25:37.178320 : Command is ATI9
+ 
+2019-05-02 19:25:39,185 2019-05-02 19:25:39.184830 : Command is ATI9
+ 
+2019-05-02 19:25:39,185 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:25:41,188 sendCommand(AT+CGSN
+)
+2019-05-02 19:25:41,189 2019-05-02 19:25:41.189800 : Command is AT+CGSN
+ 
+2019-05-02 19:25:43,197 2019-05-02 19:25:43.196855 : Command is AT+CGSN
+ 
+2019-05-02 19:25:43,197 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:25:45,200 sendCommand(AT+COPS?
+)
+2019-05-02 19:25:45,202 2019-05-02 19:25:45.202027 : Command is AT+COPS?
+ 
+2019-05-02 19:25:47,211 2019-05-02 19:25:47.211472 : Command is AT+COPS?
+ 
+2019-05-02 19:25:47,212 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:25:49,215 sendCommand(AT+CCLK?
+)
+2019-05-02 19:25:49,216 2019-05-02 19:25:49.216581 : Command is AT+CCLK?
+ 
+2019-05-02 19:25:51,225 2019-05-02 19:25:51.225467 : Command is AT+CCLK?
+ 
+2019-05-02 19:25:51,226 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/02,19:25:48-20"', 'OK'] 
+2019-05-02 19:25:53,229 sendCommand(AT+UHTTP=0,1,"https://postman-echo.com/post"
+)
+2019-05-02 19:25:53,230 2019-05-02 19:25:53.230589 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:25:55,239 2019-05-02 19:25:55.239677 : Command is AT+UHTTP=0,1,"https://postman-echo.com/post"
+ 
+2019-05-02 19:25:55,240 Last element in Command Return is ['AT+UHTTP=0,1,"https://postman-echo.com/post"', 'OK'] 
+2019-05-02 19:26:01,249 sendCommand(AT
+)
+2019-05-02 19:26:01,250 2019-05-02 19:26:01.250159 : Command is AT
+ 
+2019-05-02 19:26:03,272 2019-05-02 19:26:03.271816 : Command is AT
+ 
+2019-05-02 19:26:03,273 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-02 19:29:04,506 ******************************************
+2019-05-02 19:29:04,507 sendCommand(AT
+)
+2019-05-02 19:29:04,516 2019-05-02 19:29:04.516205 : Command is AT
+ 
+2019-05-02 19:29:06,522 2019-05-02 19:29:06.522387 : Command is AT
+ 
+2019-05-02 19:29:06,523 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-02 19:29:08,526 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:29:08,527 2019-05-02 19:29:08.527334 : Command is AT+CFUN=1,1 
+2019-05-02 19:29:13,535 2019-05-02 19:29:13.534901 : Command is AT+CFUN=1,1 
+2019-05-02 19:29:13,537 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:29:43,568 sendCommand(AT+CEREG=1)
+2019-05-02 19:29:43,569 2019-05-02 19:29:43.569819 : Command is AT+CEREG=1 
+2019-05-02 19:29:48,577 2019-05-02 19:29:48.577302 : Command is AT+CEREG=1 
+2019-05-02 19:29:48,581 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:29:50,584 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:29:50,586 2019-05-02 19:29:50.585888 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:29:52,591 2019-05-02 19:29:52.591765 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:29:52,592 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:29:52,593 Error in return code
+2019-05-02 19:29:52,594 2019-05-02 19:29:52.594134 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:29:54,599 2019-05-02 19:29:54.599594 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:29:54,603 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:29:56,606 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:29:56,608 2019-05-02 19:29:56.607941 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:29:58,615 2019-05-02 19:29:58.614812 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:29:58,615 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:30:00,618 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:30:00,620 2019-05-02 19:30:00.619813 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:30:02,629 2019-05-02 19:30:02.628786 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:30:02,629 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.112.132.76"'] 
+2019-05-02 19:30:04,632 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:30:04,634 2019-05-02 19:30:04.633938 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:30:06,663 2019-05-02 19:30:06.663425 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:30:06,667 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.34.119.137",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.112.132.76 254.128.0.0.0.0.0.0.0.0.0.104.246.180.128.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:30:08,670 sendCommand(AT+UHTTP=0,1,"www.msn.com"
+)
+2019-05-02 19:30:08,671 2019-05-02 19:30:08.671749 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:30:10,678 2019-05-02 19:30:10.678704 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:30:10,679 Last element in Command Return is ['AT+UHTTP=0,1,"www.msn.com"', 'OK'] 
+2019-05-02 19:30:12,683 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-02 19:30:12,684 2019-05-02 19:30:12.684720 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:30:14,693 2019-05-02 19:30:14.693441 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-02 19:30:14,694 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-02 19:30:16,697 sendCommand(AT+URDFILE="r"
+)
+2019-05-02 19:30:16,698 2019-05-02 19:30:16.698614 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:30:18,727 2019-05-02 19:30:18.726912 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:30:18,728 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",178,"HTTP/1.1 200 OK', 'Cache-Control: no-cache, no-store, no-transform', 'Pragma: no-cache', 'Content-Length: 47296', 'Content-Type: text/html; charset=utf-8', 'Expires: -1', 'Vary: User-Agent', '"', 'OK'] 
+2019-05-02 19:30:26,737 sendCommand(AT+CGMI
+)
+2019-05-02 19:30:26,738 2019-05-02 19:30:26.738620 : Command is AT+CGMI
+ 
+2019-05-02 19:30:28,745 2019-05-02 19:30:28.744753 : Command is AT+CGMI
+ 
+2019-05-02 19:30:28,745 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:30:30,748 sendCommand(AT+CGMM
+)
+2019-05-02 19:30:30,749 2019-05-02 19:30:30.749695 : Command is AT+CGMM
+ 
+2019-05-02 19:30:32,756 2019-05-02 19:30:32.756188 : Command is AT+CGMM
+ 
+2019-05-02 19:30:32,757 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:30:34,760 sendCommand(AT+CGMR
+)
+2019-05-02 19:30:34,761 2019-05-02 19:30:34.761377 : Command is AT+CGMR
+ 
+2019-05-02 19:30:36,767 2019-05-02 19:30:36.767363 : Command is AT+CGMR
+ 
+2019-05-02 19:30:36,768 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:30:38,771 sendCommand(ATI9
+)
+2019-05-02 19:30:38,774 2019-05-02 19:30:38.774601 : Command is ATI9
+ 
+2019-05-02 19:30:40,781 2019-05-02 19:30:40.781168 : Command is ATI9
+ 
+2019-05-02 19:30:40,782 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:30:42,785 sendCommand(AT+CGSN
+)
+2019-05-02 19:30:42,786 2019-05-02 19:30:42.786163 : Command is AT+CGSN
+ 
+2019-05-02 19:30:44,793 2019-05-02 19:30:44.793300 : Command is AT+CGSN
+ 
+2019-05-02 19:30:44,794 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:30:46,797 sendCommand(AT+COPS?
+)
+2019-05-02 19:30:46,798 2019-05-02 19:30:46.798392 : Command is AT+COPS?
+ 
+2019-05-02 19:30:48,808 2019-05-02 19:30:48.807744 : Command is AT+COPS?
+ 
+2019-05-02 19:30:48,808 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:34:59,006 ******************************************
+2019-05-02 19:34:59,006 sendCommand(AT
+)
+2019-05-02 19:34:59,017 2019-05-02 19:34:59.017471 : Command is AT
+ 
+2019-05-02 19:35:01,023 2019-05-02 19:35:01.023766 : Command is AT
+ 
+2019-05-02 19:35:01,024 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-02 19:35:03,027 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:35:03,028 2019-05-02 19:35:03.028587 : Command is AT+CFUN=1,1 
+2019-05-02 19:35:08,036 2019-05-02 19:35:08.036180 : Command is AT+CFUN=1,1 
+2019-05-02 19:35:08,037 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:35:38,068 sendCommand(AT+CEREG=1)
+2019-05-02 19:35:38,069 2019-05-02 19:35:38.069138 : Command is AT+CEREG=1 
+2019-05-02 19:35:43,076 2019-05-02 19:35:43.076593 : Command is AT+CEREG=1 
+2019-05-02 19:35:43,077 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:35:45,080 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:35:45,081 2019-05-02 19:35:45.081473 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:35:47,087 2019-05-02 19:35:47.087128 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:35:47,088 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:35:47,088 Error in return code
+2019-05-02 19:35:47,089 2019-05-02 19:35:47.089308 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:35:49,094 2019-05-02 19:35:49.094592 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:35:49,095 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:35:51,098 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:35:51,099 2019-05-02 19:35:51.099577 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:35:53,106 2019-05-02 19:35:53.106194 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:35:53,107 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:35:55,109 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:35:55,111 2019-05-02 19:35:55.111081 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:35:57,119 2019-05-02 19:35:57.119546 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:35:57,120 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.75.197.10"'] 
+2019-05-02 19:35:59,123 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:35:59,125 2019-05-02 19:35:59.125549 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:36:01,153 2019-05-02 19:36:01.153410 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:36:01,154 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.34.228.170",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.75.197.10 254.128.0.0.0.0.0.0.0.0.0.81.157.176.202.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:36:03,158 sendCommand(AT+UHTTP=0,1,"www.msn.com"
+)
+2019-05-02 19:36:03,159 2019-05-02 19:36:03.159027 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:36:05,166 2019-05-02 19:36:05.165789 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:36:05,166 Last element in Command Return is ['AT+UHTTP=0,1,"www.msn.com"', 'OK'] 
+2019-05-02 19:36:07,169 sendCommand(AT+UHTTPC=0,1,"/www.msn.com",r"
+)
+2019-05-02 19:36:07,170 2019-05-02 19:36:07.170666 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:09,178 2019-05-02 19:36:09.178160 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:09,179 Last element in Command Return is ['AT+UHTTPC=0,1,"/www.msn.com",r"', 'ERROR'] 
+2019-05-02 19:36:09,179 Error in return code
+2019-05-02 19:36:09,180 2019-05-02 19:36:09.180374 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:11,188 2019-05-02 19:36:11.187831 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:11,188 Last element in Command Return is ['AT+UHTTPC=0,1,"/www.msn.com",r"', 'ERROR'] 
+2019-05-02 19:36:11,189 Error in return code
+2019-05-02 19:36:11,190 2019-05-02 19:36:11.190027 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:13,197 2019-05-02 19:36:13.197456 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:13,198 Last element in Command Return is ['AT+UHTTPC=0,1,"/www.msn.com",r"', 'ERROR'] 
+2019-05-02 19:36:13,198 Error in return code
+2019-05-02 19:36:13,199 2019-05-02 19:36:13.199781 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:15,207 2019-05-02 19:36:15.207287 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:15,208 Last element in Command Return is ['AT+UHTTPC=0,1,"/www.msn.com",r"', 'ERROR'] 
+2019-05-02 19:36:15,208 Error in return code
+2019-05-02 19:36:15,209 2019-05-02 19:36:15.209493 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:17,217 2019-05-02 19:36:17.216999 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:17,217 Last element in Command Return is ['AT+UHTTPC=0,1,"/www.msn.com",r"', 'ERROR'] 
+2019-05-02 19:36:17,218 Error in return code
+2019-05-02 19:36:17,219 2019-05-02 19:36:17.219197 : Command is AT+UHTTPC=0,1,"/www.msn.com",r"
+ 
+2019-05-02 19:36:17,247 2019-05-02 19:36:17.246804 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-02 19:37:03,744 ******************************************
+2019-05-02 19:37:03,745 sendCommand(AT
+)
+2019-05-02 19:37:03,752 2019-05-02 19:37:03.752762 : Command is AT
+ 
+2019-05-02 19:37:05,759 2019-05-02 19:37:05.759362 : Command is AT
+ 
+2019-05-02 19:37:05,760 Last element in Command Return is ['MWI: 0,1', '+', 'AT', 'OK'] 
+2019-05-02 19:37:07,763 sendCommand(AT+CFUN=1,1)
+2019-05-02 19:37:07,772 2019-05-02 19:37:07.772283 : Command is AT+CFUN=1,1 
+2019-05-02 19:37:12,780 2019-05-02 19:37:12.780166 : Command is AT+CFUN=1,1 
+2019-05-02 19:37:12,783 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-02 19:37:42,814 sendCommand(AT+CEREG=1)
+2019-05-02 19:37:42,815 2019-05-02 19:37:42.815465 : Command is AT+CEREG=1 
+2019-05-02 19:37:47,823 2019-05-02 19:37:47.823054 : Command is AT+CEREG=1 
+2019-05-02 19:37:47,824 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-02 19:37:49,826 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-02 19:37:49,828 2019-05-02 19:37:49.828022 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:37:51,834 2019-05-02 19:37:51.833940 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:37:51,834 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-02 19:37:51,835 Error in return code
+2019-05-02 19:37:51,836 2019-05-02 19:37:51.836307 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:37:53,841 2019-05-02 19:37:53.841743 : Command is AT+UPSD=0,0,2
+ 
+2019-05-02 19:37:53,842 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-02 19:37:55,845 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-02 19:37:55,846 2019-05-02 19:37:55.846746 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:37:57,853 2019-05-02 19:37:57.853607 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-02 19:37:57,854 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-02 19:37:59,857 sendCommand(AT+UPSDA=0,3
+)
+2019-05-02 19:37:59,858 2019-05-02 19:37:59.858473 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:38:03,684 2019-05-02 19:38:03.683932 : Command is AT+UPSDA=0,3
+ 
+2019-05-02 19:38:03,684 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.91.156.0"'] 
+2019-05-02 19:38:05,687 sendCommand(AT+CGDCONT?
+)
+2019-05-02 19:38:05,689 2019-05-02 19:38:05.689042 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:38:07,717 2019-05-02 19:38:07.717467 : Command is AT+CGDCONT?
+ 
+2019-05-02 19:38:07,718 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.35.40.247",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.91.156.0 254.128.0.0.0.0.0.0.0.0.0.9.219.195.3.1",0,0,0,0,0,0', 'OK'] 
+2019-05-02 19:38:09,721 sendCommand(AT+UHTTP=0,1,"www.msn.com"
+)
+2019-05-02 19:38:09,722 2019-05-02 19:38:09.722672 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:38:11,729 2019-05-02 19:38:11.729615 : Command is AT+UHTTP=0,1,"www.msn.com"
+ 
+2019-05-02 19:38:11,732 Last element in Command Return is ['AT+UHTTP=0,1,"www.msn.com"', 'OK'] 
+2019-05-02 19:38:13,735 sendCommand(AT+UHTTPC=0,1,"www.msn.com","r"
+)
+2019-05-02 19:38:13,737 2019-05-02 19:38:13.737029 : Command is AT+UHTTPC=0,1,"www.msn.com","r"
+ 
+2019-05-02 19:38:15,747 2019-05-02 19:38:15.746834 : Command is AT+UHTTPC=0,1,"www.msn.com","r"
+ 
+2019-05-02 19:38:15,747 Last element in Command Return is ['AT+UHTTPC=0,1,"www.msn.com","r"', 'OK', '+UUHTTPCR: 0,1,1'] 
+2019-05-02 19:38:17,750 sendCommand(AT+URDFILE="r"
+)
+2019-05-02 19:38:17,752 2019-05-02 19:38:17.752021 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:38:19,812 2019-05-02 19:38:19.812379 : Command is AT+URDFILE="r"
+ 
+2019-05-02 19:38:19,813 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",472,"HTTP/1.1 400 Bad Request', 'Content-Type: text/html; charset=us-ascii', 'Date: Fri, 03 May 2019 00:38:13 GMT', 'Connection: close', 'Content-Length: 324', '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">', '<HTML><HEAD><TITLE>Bad Request</TITLE>', '<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>', '<BODY><h2>Bad Request - Invalid URL</h2>', '<hr><p>HTTP Error 400. The request URL is invalid.</p>', '</BODY></HTML>', '"', 'OK'] 
+2019-05-02 19:38:27,822 sendCommand(AT+CGMI
+)
+2019-05-02 19:38:27,824 2019-05-02 19:38:27.824071 : Command is AT+CGMI
+ 
+2019-05-02 19:38:29,830 2019-05-02 19:38:29.830170 : Command is AT+CGMI
+ 
+2019-05-02 19:38:29,831 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-02 19:38:31,834 sendCommand(AT+CGMM
+)
+2019-05-02 19:38:31,835 2019-05-02 19:38:31.835372 : Command is AT+CGMM
+ 
+2019-05-02 19:38:33,842 2019-05-02 19:38:33.841774 : Command is AT+CGMM
+ 
+2019-05-02 19:38:33,842 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-02 19:38:35,845 sendCommand(AT+CGMR
+)
+2019-05-02 19:38:35,847 2019-05-02 19:38:35.846944 : Command is AT+CGMR
+ 
+2019-05-02 19:38:37,853 2019-05-02 19:38:37.852945 : Command is AT+CGMR
+ 
+2019-05-02 19:38:37,853 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-02 19:38:39,856 sendCommand(ATI9
+)
+2019-05-02 19:38:39,858 2019-05-02 19:38:39.858173 : Command is ATI9
+ 
+2019-05-02 19:38:41,864 2019-05-02 19:38:41.864666 : Command is ATI9
+ 
+2019-05-02 19:38:41,865 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-02 19:38:43,868 sendCommand(AT+CGSN
+)
+2019-05-02 19:38:43,869 2019-05-02 19:38:43.869670 : Command is AT+CGSN
+ 
+2019-05-02 19:38:45,876 2019-05-02 19:38:45.876733 : Command is AT+CGSN
+ 
+2019-05-02 19:38:45,877 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-02 19:38:47,880 sendCommand(AT+COPS?
+)
+2019-05-02 19:38:47,882 2019-05-02 19:38:47.881944 : Command is AT+COPS?
+ 
+2019-05-02 19:38:49,891 2019-05-02 19:38:49.891237 : Command is AT+COPS?
+ 
+2019-05-02 19:38:49,892 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-02 19:38:51,895 sendCommand(AT+CCLK?
+)
+2019-05-02 19:38:51,896 2019-05-02 19:38:51.896455 : Command is AT+CCLK?
+ 
+2019-05-02 19:38:53,905 2019-05-02 19:38:53.905241 : Command is AT+CCLK?
+ 
+2019-05-02 19:38:53,906 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/02,19:38:51-20"', 'OK'] 
+2019-05-02 19:38:55,909 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-02 19:38:55,910 2019-05-02 19:38:55.910361 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-02 19:38:57,918 2019-05-02 19:38:57.918411 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-02 19:38:57,919 Last element in Command Return is ['AT+UHTTP=0,1,"postman-echo.com/post"', 'OK'] 
+2019-05-02 19:39:03,928 sendCommand(AT
+)
+2019-05-02 19:39:03,930 2019-05-02 19:39:03.930186 : Command is AT
+ 
+2019-05-02 19:39:05,951 2019-05-02 19:39:05.951628 : Command is AT
+ 
+2019-05-02 19:39:05,952 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-03 09:49:43,798 ******************************************
+2019-05-03 09:49:43,800 sendCommand(AT
+)
+2019-05-03 09:49:43,804 2019-05-03 09:49:43.804517 : Command is AT
+ 
+2019-05-03 09:49:45,815 2019-05-03 09:49:45.815556 : Command is AT
+ 
+2019-05-03 09:49:45,816 Last element in Command Return is [': 0,1', '+', '+UAT', 'OK'] 
+2019-05-03 09:49:47,819 sendCommand(AT+CFUN=1,1)
+2019-05-03 09:49:47,821 2019-05-03 09:49:47.821305 : Command is AT+CFUN=1,1 
+2019-05-03 09:49:52,829 2019-05-03 09:49:52.828864 : Command is AT+CFUN=1,1 
+2019-05-03 09:49:52,829 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 09:50:22,863 sendCommand(AT+CEREG=1)
+2019-05-03 09:50:22,864 2019-05-03 09:50:22.864670 : Command is AT+CEREG=1 
+2019-05-03 09:50:27,872 2019-05-03 09:50:27.872073 : Command is AT+CEREG=1 
+2019-05-03 09:50:27,873 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 09:50:29,875 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 09:50:29,877 2019-05-03 09:50:29.876963 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 09:50:31,882 2019-05-03 09:50:31.882595 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 09:50:31,883 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 09:50:31,884 Error in return code
+2019-05-03 09:50:31,885 2019-05-03 09:50:31.885099 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 09:50:33,890 2019-05-03 09:50:33.890471 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 09:50:33,891 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 09:50:35,894 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 09:50:35,895 2019-05-03 09:50:35.895663 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 09:50:37,902 2019-05-03 09:50:37.902321 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 09:50:37,903 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 09:50:39,905 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 09:50:39,907 2019-05-03 09:50:39.907066 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 09:50:43,440 2019-05-03 09:50:43.440349 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 09:50:43,441 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.115.126.201"'] 
+2019-05-03 09:50:45,444 sendCommand(AT+CGDCONT?
+)
+2019-05-03 09:50:45,445 2019-05-03 09:50:45.445506 : Command is AT+CGDCONT?
+ 
+2019-05-03 09:50:47,473 2019-05-03 09:50:47.473629 : Command is AT+CGDCONT?
+ 
+2019-05-03 09:50:47,474 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.113.9.99",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.115.126.201 254.128.0.0.0.0.0.0.0.0.0.108.227.119.111.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 09:50:49,477 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 09:50:49,479 2019-05-03 09:50:49.479025 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 09:50:51,487 2019-05-03 09:50:51.487427 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 09:50:51,488 Last element in Command Return is ['AT+UHTTP=0,1,"www.yahoo.com"', 'OK'] 
+2019-05-03 09:50:53,491 sendCommand(AT+UHTTPC=0,1,"www.yahoo.com","r"
+)
+2019-05-03 09:50:53,492 2019-05-03 09:50:53.492634 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 09:50:55,502 2019-05-03 09:50:55.502344 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 09:50:55,503 Last element in Command Return is ['AT+UHTTPC=0,1,"www.yahoo.com","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-03 09:50:57,506 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 09:50:57,507 2019-05-03 09:50:57.507519 : Command is AT+URDFILE="r"
+ 
+2019-05-03 09:50:59,535 2019-05-03 09:50:59.535517 : Command is AT+URDFILE="r"
+ 
+2019-05-03 09:50:59,536 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",188,"HTTP/1.0 301 Moved Permanently', 'Date: Fri, 03 May 2019 14:50:54 GMT', 'Server: ATS', 'Cache-Control: no-store, no-cache', 'Content-Type: text/html', 'Content-Language: en', 'Connection: keep-alive', '"', 'OK'] 
+2019-05-03 09:51:07,545 sendCommand(AT+CGMI
+)
+2019-05-03 09:51:07,547 2019-05-03 09:51:07.546881 : Command is AT+CGMI
+ 
+2019-05-03 09:51:09,553 2019-05-03 09:51:09.552777 : Command is AT+CGMI
+ 
+2019-05-03 09:51:09,553 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 09:51:11,556 sendCommand(AT+CGMM
+)
+2019-05-03 09:51:11,557 2019-05-03 09:51:11.557762 : Command is AT+CGMM
+ 
+2019-05-03 09:51:13,564 2019-05-03 09:51:13.564006 : Command is AT+CGMM
+ 
+2019-05-03 09:51:13,565 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 09:51:15,567 sendCommand(AT+CGMR
+)
+2019-05-03 09:51:15,569 2019-05-03 09:51:15.568974 : Command is AT+CGMR
+ 
+2019-05-03 09:51:17,575 2019-05-03 09:51:17.574788 : Command is AT+CGMR
+ 
+2019-05-03 09:51:17,575 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-03 09:51:19,578 sendCommand(ATI9
+)
+2019-05-03 09:51:19,579 2019-05-03 09:51:19.579679 : Command is ATI9
+ 
+2019-05-03 09:51:21,586 2019-05-03 09:51:21.585920 : Command is ATI9
+ 
+2019-05-03 09:51:21,586 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-03 09:51:23,589 sendCommand(AT+CGSN
+)
+2019-05-03 09:51:23,591 2019-05-03 09:51:23.590839 : Command is AT+CGSN
+ 
+2019-05-03 09:51:25,597 2019-05-03 09:51:25.597704 : Command is AT+CGSN
+ 
+2019-05-03 09:51:25,598 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-03 09:51:27,601 sendCommand(AT+COPS?
+)
+2019-05-03 09:51:27,602 2019-05-03 09:51:27.602695 : Command is AT+COPS?
+ 
+2019-05-03 09:51:29,612 2019-05-03 09:51:29.611779 : Command is AT+COPS?
+ 
+2019-05-03 09:51:29,612 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-03 09:51:31,615 sendCommand(AT+CCLK?
+)
+2019-05-03 09:51:31,616 2019-05-03 09:51:31.616720 : Command is AT+CCLK?
+ 
+2019-05-03 09:51:33,625 2019-05-03 09:51:33.625182 : Command is AT+CCLK?
+ 
+2019-05-03 09:51:33,626 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/03,09:51:30-20"', 'OK'] 
+2019-05-03 09:51:35,628 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-03 09:51:35,630 2019-05-03 09:51:35.630073 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 09:51:37,638 2019-05-03 09:51:37.637936 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 09:51:37,638 Last element in Command Return is ['AT+UHTTP=0,1,"postman-echo.com/post"', 'OK'] 
+2019-05-03 09:51:43,646 sendCommand(AT
+)
+2019-05-03 09:51:43,647 2019-05-03 09:51:43.647799 : Command is AT
+ 
+2019-05-03 09:51:45,668 2019-05-03 09:51:45.668543 : Command is AT
+ 
+2019-05-03 09:51:45,669 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0', 'AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK', 'AT', 'OK'] 
+2019-05-03 09:59:31,162 ******************************************
+2019-05-03 09:59:31,162 sendCommand(AT
+)
+2019-05-03 09:59:31,163 2019-05-03 09:59:31.163310 : Command is AT
+ 
+2019-05-03 09:59:33,167 2019-05-03 09:59:33.167235 : Command is AT
+ 
+2019-05-03 09:59:33,168 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 09:59:35,170 sendCommand(AT+CFUN=1,1)
+2019-05-03 09:59:35,172 2019-05-03 09:59:35.172088 : Command is AT+CFUN=1,1 
+2019-05-03 09:59:40,179 2019-05-03 09:59:40.179369 : Command is AT+CFUN=1,1 
+2019-05-03 09:59:40,180 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:00:10,210 sendCommand(AT+CEREG=1)
+2019-05-03 10:00:10,212 2019-05-03 10:00:10.211874 : Command is AT+CEREG=1 
+2019-05-03 10:00:15,219 2019-05-03 10:00:15.218975 : Command is AT+CEREG=1 
+2019-05-03 10:00:15,222 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:00:17,225 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:00:17,227 2019-05-03 10:00:17.226971 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:19,233 2019-05-03 10:00:19.232819 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:19,233 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:19,234 Error in return code
+2019-05-03 10:00:19,235 2019-05-03 10:00:19.235423 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:21,241 2019-05-03 10:00:21.241284 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:21,242 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:21,242 Error in return code
+2019-05-03 10:00:21,244 2019-05-03 10:00:21.244243 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:23,250 2019-05-03 10:00:23.250138 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:23,251 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:23,251 Error in return code
+2019-05-03 10:00:23,252 2019-05-03 10:00:23.252817 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:25,258 2019-05-03 10:00:25.258618 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:25,259 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:25,260 Error in return code
+2019-05-03 10:00:25,261 2019-05-03 10:00:25.261023 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:27,267 2019-05-03 10:00:27.266843 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:27,267 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:27,268 Error in return code
+2019-05-03 10:00:27,269 2019-05-03 10:00:27.269240 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:29,275 2019-05-03 10:00:29.275058 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:29,276 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:29,276 Error in return code
+2019-05-03 10:00:29,277 2019-05-03 10:00:29.277481 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:31,283 2019-05-03 10:00:31.283205 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:31,284 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:31,284 Error in return code
+2019-05-03 10:00:31,285 2019-05-03 10:00:31.285666 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:33,291 2019-05-03 10:00:33.291554 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:33,292 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:33,293 Error in return code
+2019-05-03 10:00:33,294 2019-05-03 10:00:33.293917 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:35,299 2019-05-03 10:00:35.299719 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:35,300 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:35,301 Error in return code
+2019-05-03 10:00:35,302 2019-05-03 10:00:35.302159 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:37,308 2019-05-03 10:00:37.307920 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:00:37,309 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:00:37,309 Error in return code
+2019-05-03 10:00:39,312 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:00:39,314 2019-05-03 10:00:39.313868 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:00:41,321 2019-05-03 10:00:41.321185 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:00:41,322 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'ERROR'] 
+2019-05-03 10:00:41,322 Error in return code
+2019-05-03 10:00:41,323 2019-05-03 10:00:41.323485 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:00:43,330 2019-05-03 10:00:43.330693 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:00:43,331 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'ERROR'] 
+2019-05-03 10:00:43,332 Error in return code
+2019-05-03 10:00:43,333 2019-05-03 10:00:43.332989 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:00:45,336 2019-05-03 10:00:45.335941 : sendCommand() ERROR!: <type 'exceptions.IOError'> 
+2019-05-03 10:00:47,339 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:00:47,340 2019-05-03 10:00:47.340237 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:00:49,343 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:00:49,344 2019-05-03 10:00:49.344300 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:00:51,347 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:00:51,348 2019-05-03 10:00:51.348479 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:01:13,236 ******************************************
+2019-05-03 10:01:13,236 sendCommand(AT
+)
+2019-05-03 10:01:13,246 2019-05-03 10:01:13.246195 : Command is AT
+ 
+2019-05-03 10:01:15,252 2019-05-03 10:01:15.252379 : Command is AT
+ 
+2019-05-03 10:01:15,253 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-03 10:01:17,256 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:01:17,257 2019-05-03 10:01:17.257282 : Command is AT+CFUN=1,1 
+2019-05-03 10:01:22,265 2019-05-03 10:01:22.264792 : Command is AT+CFUN=1,1 
+2019-05-03 10:01:22,265 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:01:52,296 sendCommand(AT+CEREG=1)
+2019-05-03 10:01:52,297 2019-05-03 10:01:52.297746 : Command is AT+CEREG=1 
+2019-05-03 10:01:57,305 2019-05-03 10:01:57.305119 : Command is AT+CEREG=1 
+2019-05-03 10:01:57,306 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:01:59,308 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:01:59,310 2019-05-03 10:01:59.309958 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:02:01,315 2019-05-03 10:02:01.315590 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:02:01,316 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:02:01,317 Error in return code
+2019-05-03 10:02:01,317 2019-05-03 10:02:01.317779 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:02:03,323 2019-05-03 10:02:03.323015 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:02:03,323 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:02:05,326 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:02:05,328 2019-05-03 10:02:05.328219 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:02:07,335 2019-05-03 10:02:07.334853 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:02:07,335 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:02:09,338 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:02:09,340 2019-05-03 10:02:09.339819 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:02:13,437 2019-05-03 10:02:13.437571 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:02:13,438 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.83.27.130"'] 
+2019-05-03 10:02:15,440 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:02:15,442 2019-05-03 10:02:15.442156 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:02:17,469 2019-05-03 10:02:17.469686 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:02:17,470 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.114.77.52",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.83.27.130 254.128.0.0.0.0.0.0.0.0.0.97.237.13.126.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 10:02:19,473 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:02:19,474 2019-05-03 10:02:19.474807 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:02:21,481 2019-05-03 10:02:21.481757 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:02:21,482 Last element in Command Return is ['AT+UHTTP=0,1,"www.yahoo.com"', 'OK'] 
+2019-05-03 10:02:23,485 sendCommand(AT+UHTTPC=0,1,"www.yahoo.com","r"
+)
+2019-05-03 10:02:23,486 2019-05-03 10:02:23.486557 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 10:02:25,496 2019-05-03 10:02:25.496196 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 10:02:25,497 Last element in Command Return is ['AT+UHTTPC=0,1,"www.yahoo.com","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-03 10:02:27,499 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:02:27,501 2019-05-03 10:02:27.501056 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:02:29,529 2019-05-03 10:02:29.528966 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:02:29,529 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",188,"HTTP/1.0 301 Moved Permanently', 'Date: Fri, 03 May 2019 15:02:23 GMT', 'Server: ATS', 'Cache-Control: no-store, no-cache', 'Content-Type: text/html', 'Content-Language: en', 'Connection: keep-alive', '"', 'OK'] 
+2019-05-03 10:02:37,539 sendCommand(AT+CGMI
+)
+2019-05-03 10:02:37,540 2019-05-03 10:02:37.540383 : Command is AT+CGMI
+ 
+2019-05-03 10:02:39,550 2019-05-03 10:02:39.550409 : Command is AT+CGMI
+ 
+2019-05-03 10:02:39,551 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 10:02:41,554 sendCommand(AT+CGMM
+)
+2019-05-03 10:02:41,555 2019-05-03 10:02:41.555375 : Command is AT+CGMM
+ 
+2019-05-03 10:02:43,562 2019-05-03 10:02:43.561854 : Command is AT+CGMM
+ 
+2019-05-03 10:02:43,562 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 10:02:45,565 sendCommand(AT+CGMR
+)
+2019-05-03 10:02:45,567 2019-05-03 10:02:45.566826 : Command is AT+CGMR
+ 
+2019-05-03 10:02:47,573 2019-05-03 10:02:47.572840 : Command is AT+CGMR
+ 
+2019-05-03 10:02:47,573 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-03 10:02:49,576 sendCommand(ATI9
+)
+2019-05-03 10:02:49,578 2019-05-03 10:02:49.578041 : Command is ATI9
+ 
+2019-05-03 10:02:51,584 2019-05-03 10:02:51.584473 : Command is ATI9
+ 
+2019-05-03 10:02:51,585 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-03 10:02:53,588 sendCommand(AT+CGSN
+)
+2019-05-03 10:02:53,589 2019-05-03 10:02:53.589554 : Command is AT+CGSN
+ 
+2019-05-03 10:02:55,596 2019-05-03 10:02:55.596667 : Command is AT+CGSN
+ 
+2019-05-03 10:02:55,597 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-03 10:02:57,600 sendCommand(AT+COPS?
+)
+2019-05-03 10:02:57,602 2019-05-03 10:02:57.601799 : Command is AT+COPS?
+ 
+2019-05-03 10:02:59,611 2019-05-03 10:02:59.611129 : Command is AT+COPS?
+ 
+2019-05-03 10:02:59,612 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-03 10:03:01,615 sendCommand(AT+CCLK?
+)
+2019-05-03 10:03:01,616 2019-05-03 10:03:01.616257 : Command is AT+CCLK?
+ 
+2019-05-03 10:03:03,625 2019-05-03 10:03:03.624955 : Command is AT+CCLK?
+ 
+2019-05-03 10:03:03,625 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/03,10:03:00-20"', 'OK'] 
+2019-05-03 10:03:05,628 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:03:05,630 2019-05-03 10:03:05.630240 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:03:07,659 2019-05-03 10:03:07.659252 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:03:07,660 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.114.77.52",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.83.27.130 254.128.0.0.0.0.0.0.0.0.0.97.237.13.126.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 10:03:09,663 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-03 10:03:09,664 2019-05-03 10:03:09.664372 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:03:11,672 2019-05-03 10:03:11.672632 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:03:11,673 Last element in Command Return is ['AT+UHTTP=0,1,"postman-echo.com/post"', 'OK'] 
+2019-05-03 10:03:13,676 sendCommand(AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+)
+2019-05-03 10:03:13,677 2019-05-03 10:03:13.677621 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:03:15,693 2019-05-03 10:03:15.693379 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:03:15,694 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0'] 
+2019-05-03 10:03:17,697 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:03:17,698 2019-05-03 10:03:17.698414 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:03:19,706 2019-05-03 10:03:19.706432 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:03:19,707 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-03 10:03:21,710 sendCommand(AT
+)
+2019-05-03 10:03:21,711 2019-05-03 10:03:21.711449 : Command is AT
+ 
+2019-05-03 10:03:23,715 2019-05-03 10:03:23.715732 : Command is AT
+ 
+2019-05-03 10:03:23,716 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 10:05:45,416 ******************************************
+2019-05-03 10:05:45,417 sendCommand(AT
+)
+2019-05-03 10:05:45,417 2019-05-03 10:05:45.417822 : Command is AT
+ 
+2019-05-03 10:05:47,422 2019-05-03 10:05:47.421874 : Command is AT
+ 
+2019-05-03 10:05:47,422 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 10:06:34,196 ******************************************
+2019-05-03 10:06:34,197 sendCommand(AT
+)
+2019-05-03 10:06:34,197 2019-05-03 10:06:34.197750 : Command is AT
+ 
+2019-05-03 10:06:36,202 2019-05-03 10:06:36.201857 : Command is AT
+ 
+2019-05-03 10:06:36,202 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 10:06:38,205 sendCommand(AT+CFUN=1,1
+)
+2019-05-03 10:06:38,207 2019-05-03 10:06:38.206874 : Command is AT+CFUN=1,1
+ 
+2019-05-03 10:06:40,210 2019-05-03 10:06:40.209846 : sendCommand() ERROR!: <type 'exceptions.IOError'> 
+2019-05-03 10:07:10,240 sendCommand(AT+CEREG=1
+)
+2019-05-03 10:07:10,242 2019-05-03 10:07:10.241943 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:12,245 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:07:12,246 2019-05-03 10:07:12.246052 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:14,249 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:07:14,250 2019-05-03 10:07:14.250227 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:16,253 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:07:16,254 2019-05-03 10:07:16.254299 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:18,257 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:07:18,258 2019-05-03 10:07:18.258470 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:20,261 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:07:20,264 2019-05-03 10:07:20.264345 : sendCommand() ERROR!: <class 'serial.serialutil.SerialException'> 
+2019-05-03 10:07:51,166 ******************************************
+2019-05-03 10:07:51,167 sendCommand(AT
+)
+2019-05-03 10:07:51,168 2019-05-03 10:07:51.168433 : Command is AT
+ 
+2019-05-03 10:07:53,181 2019-05-03 10:07:53.181431 : Command is AT
+ 
+2019-05-03 10:07:53,182 Last element in Command Return is ['AT', 'OK', '+UMWI: 0,1', '+UMWI: 0,2', '+UMWI: 0,3', '+UMWI: 0,4', '+UMWI: 0,5'] 
+2019-05-03 10:07:55,185 sendCommand(AT+CFUN=1,1
+)
+2019-05-03 10:07:55,186 2019-05-03 10:07:55.186289 : Command is AT+CFUN=1,1
+ 
+2019-05-03 10:07:57,189 2019-05-03 10:07:57.188994 : sendCommand() ERROR!: <type 'exceptions.IOError'> 
+2019-05-03 10:08:03,924 ******************************************
+2019-05-03 10:08:03,924 sendCommand(AT
+)
+2019-05-03 10:08:03,937 2019-05-03 10:08:03.937467 : Command is AT
+ 
+2019-05-03 10:08:05,944 2019-05-03 10:08:05.943808 : Command is AT
+ 
+2019-05-03 10:08:05,950 Last element in Command Return is ['+UMWI: 0,1', '+AT', 'OK'] 
+2019-05-03 10:08:07,953 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:08:07,954 2019-05-03 10:08:07.954232 : Command is AT+CFUN=1,1 
+2019-05-03 10:08:12,961 2019-05-03 10:08:12.961726 : Command is AT+CFUN=1,1 
+2019-05-03 10:08:12,962 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:08:42,993 sendCommand(AT+CEREG=1)
+2019-05-03 10:08:42,995 2019-05-03 10:08:42.994989 : Command is AT+CEREG=1 
+2019-05-03 10:08:48,002 2019-05-03 10:08:48.002439 : Command is AT+CEREG=1 
+2019-05-03 10:08:48,010 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:08:50,013 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:08:50,015 2019-05-03 10:08:50.014981 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:08:52,021 2019-05-03 10:08:52.020921 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:08:52,021 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:08:52,022 Error in return code
+2019-05-03 10:08:52,023 2019-05-03 10:08:52.023170 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:08:54,029 2019-05-03 10:08:54.028702 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:08:54,029 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:08:56,035 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:08:56,037 2019-05-03 10:08:56.036896 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:08:58,044 2019-05-03 10:08:58.043793 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:08:58,044 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:09:00,047 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:09:00,050 2019-05-03 10:09:00.050493 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:09:04,068 2019-05-03 10:09:04.067796 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:09:04,068 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.97.235.200"'] 
+2019-05-03 10:09:06,071 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:09:06,073 2019-05-03 10:09:06.072876 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:09:08,113 2019-05-03 10:09:08.113420 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:09:08,114 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.115.3.188",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.97.235.200 254.128.0.0.0.0.0.0.0.0.0.99.167.107.141.1",0,0,0,0,0,0', '+CGDCONT: 31,"IPV4V6","VZWADMIN","10.129.196.155 254.128.0.0.0.0.0.0.0.0.0.99.167.107.144.1",0,0', 'OK'] 
+2019-05-03 10:09:10,117 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:09:10,118 2019-05-03 10:09:10.118664 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:09:12,126 2019-05-03 10:09:12.125969 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:09:12,127 Last element in Command Return is ['AT+UHTTP=0,1,"www.yahoo.com"', 'OK'] 
+2019-05-03 10:09:14,129 sendCommand(AT+UHTTPC=0,1,"www.yahoo.com","r"
+)
+2019-05-03 10:09:14,131 2019-05-03 10:09:14.131161 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 10:09:16,141 2019-05-03 10:09:16.141330 : Command is AT+UHTTPC=0,1,"www.yahoo.com","r"
+ 
+2019-05-03 10:09:16,142 Last element in Command Return is ['AT+UHTTPC=0,1,"www.yahoo.com","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-03 10:09:18,145 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:09:18,160 2019-05-03 10:09:18.159947 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:09:20,190 2019-05-03 10:09:20.189828 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:09:20,190 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",188,"HTTP/1.0 301 Moved Permanently', 'Date: Fri, 03 May 2019 15:09:14 GMT', 'Server: ATS', 'Cache-Control: no-store, no-cache', 'Content-Type: text/html', 'Content-Language: en', 'Connection: keep-alive', '"', 'OK'] 
+2019-05-03 10:09:28,200 sendCommand(AT+CGMI
+)
+2019-05-03 10:09:28,201 2019-05-03 10:09:28.201633 : Command is AT+CGMI
+ 
+2019-05-03 10:09:30,207 2019-05-03 10:09:30.207745 : Command is AT+CGMI
+ 
+2019-05-03 10:09:30,208 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 10:09:32,211 sendCommand(AT+CGMM
+)
+2019-05-03 10:09:32,213 2019-05-03 10:09:32.212946 : Command is AT+CGMM
+ 
+2019-05-03 10:09:34,219 2019-05-03 10:09:34.219424 : Command is AT+CGMM
+ 
+2019-05-03 10:09:34,220 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 10:09:36,223 sendCommand(AT+CGMR
+)
+2019-05-03 10:09:36,224 2019-05-03 10:09:36.224633 : Command is AT+CGMR
+ 
+2019-05-03 10:09:37,213 2019-05-03 10:09:37.212964 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-03 10:11:14,080 ******************************************
+2019-05-03 10:11:14,081 sendCommand(AT
+)
+2019-05-03 10:11:14,092 2019-05-03 10:11:14.092278 : Command is AT
+ 
+2019-05-03 10:11:16,098 2019-05-03 10:11:16.098557 : Command is AT
+ 
+2019-05-03 10:11:16,099 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-03 10:11:18,102 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:11:18,108 2019-05-03 10:11:18.108063 : Command is AT+CFUN=1,1 
+2019-05-03 10:11:23,116 2019-05-03 10:11:23.115797 : Command is AT+CFUN=1,1 
+2019-05-03 10:11:23,117 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:11:53,149 sendCommand(AT+CEREG=1)
+2019-05-03 10:11:53,150 2019-05-03 10:11:53.150109 : Command is AT+CEREG=1 
+2019-05-03 10:11:58,157 2019-05-03 10:11:58.157462 : Command is AT+CEREG=1 
+2019-05-03 10:11:58,161 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:12:00,164 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:12:00,165 2019-05-03 10:12:00.165280 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:12:02,171 2019-05-03 10:12:02.171154 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:12:02,172 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:12:02,172 Error in return code
+2019-05-03 10:12:02,173 2019-05-03 10:12:02.173466 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:12:04,179 2019-05-03 10:12:04.179001 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:12:04,180 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:12:06,182 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:12:06,184 2019-05-03 10:12:06.183930 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:12:08,191 2019-05-03 10:12:08.190767 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:12:08,191 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:12:10,194 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:12:10,198 2019-05-03 10:12:10.198394 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:12:12,255 2019-05-03 10:12:12.255006 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:12:12,255 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.89.153.174"'] 
+2019-05-03 10:12:14,258 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:12:14,260 2019-05-03 10:12:14.260120 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:12:16,288 2019-05-03 10:12:16.288060 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:12:16,289 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.115.45.184",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.89.153.174 254.128.0.0.0.0.0.0.0.0.0.99.34.19.17.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 10:12:18,292 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:12:18,293 2019-05-03 10:12:18.293440 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:12:20,300 2019-05-03 10:12:20.300443 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:12:20,301 Last element in Command Return is ['AT+UHTTP=0,1,"www.yahoo.com"', 'OK'] 
+2019-05-03 10:12:22,304 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-03 10:12:22,305 2019-05-03 10:12:22.305357 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:12:24,317 2019-05-03 10:12:24.317410 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:12:24,318 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1'] 
+2019-05-03 10:12:26,321 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:12:26,322 2019-05-03 10:12:26.322568 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:12:28,564 2019-05-03 10:12:28.564682 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:12:28,565 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",3780,"HTTP/1.0 301 Moved Permanently', 'Date: Fri, 03 May 2019 15:12:22 GMT', 'P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"', 'Location: https://www.yahoo.com/', 'Cache-Control: no-store, no-cache', 'Content-Length: 3187', 'Content-Type: text/html', 'Age: 0', 'Server: ATS', 'X-Frame-Options: SAMEORIGIN', 'X-Content-Type-Options: nosniff', 'X-XSS-Protection: 1; mode=block', 'Referrer-Policy: no-referrer-when-downgrade', 'Connection: keep-alive', '<!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">', '<html><head><title>Yahoo - 301 Moved Permanently</title><style>', '/* nn4 hide */', '/*/*/', 'body {font:small/1.2em arial,helvetica,clean,sans-serif;font:x-small;text-align:center;}table {font-size:inherit;font:x-small;}', 'html>body {font:83%/1.2em arial,helvetica,clean,sans-serif;}input {font-size:100%;vertical-align:middle;}p, form {margin:0;padding:0;}', 'p {padding-bottom:6px;margin-bottom:10px;}#doc {width:48.5em;margin:0 auto;border:1px solid #fff;text-align:center;}#ygma {text-align:right;margin-bottom:53px}', '#ygma img {float:left;}#ygma div {border-bottom:1px solid #ccc;padding-bottom:8px;margin-left:152px;}#bd {clear:both;text-align:left;width:75%;margin:0 auto 20px;}', 'h1 {font-size:135%;text-align:center;margin:0 0 15px;}legend {display:none;}fieldset {border:0 solid #fff;padding:.8em 0 .8em 4.5em;}', 'form {position:relative;background:#eee;margin-bottom:15px;border:1px solid #ccc;border-width:1px 0;}', '#s1p {width:15em;margin-right:.1em;}', 'form span {position:absolute;left:70%;top:.8em;}form a {font:78%/1.2em arial;display:block;padding-left:.8em;white-space:nowrap;background: url(http://l.yimg.com/a/i/s/bullet.gif) no-repeat left center;}', 'form .sep {display:none;}.more {text-align:center;}#ft {padding-top:10px;border-top:1px solid #999;}#ft p {text-align:center;font:78% arial;}', '/* end nn4 hide */', '</style></head>', '<body><div id="doc">', '<div id="ygma"><a href="http://us.rd.yahoo.com/301/*http://www.yahoo.com"><img src=http://l.yimg.com/a/i/yahoo.gif width=147 height=31 border=0 alt="Yahoo"></a><div><a href="http://us.rd.yahoo.com/301/*http://www.yahoo.com">Yahoo</a> - <a href="http://us.rd.yahoo.com/301/*http://help.yahoo.com">Help</a></div></div><div id="bd"><p>The document has moved <a href="https://www.yahoo.com/">here</a>.</p>', '<p>Please check the URL for proper spelling and capitalization. If', "you're having trouble locating a destination on Yahoo, try visiting the", '<strong><a', 'href="http://us.rd.yahoo.com/301/*http://www.yahoo.com">Yahoo home', 'page</a></strong> or look through a list of <strong><a', 'href="http://us.rd.yahoo.com/301/*http://docs.yahoo.com/docs/family/more/">Yahoo\'s', "online services</a></strong>. Also, you may find what you're looking for", 'if you try searching below.</p>', '<form name="s1" action="http://us.rd.yahoo.com/301/*-http://search.yahoo.com/search"><fieldset>', '<legend><label for="s1p">Search the Web</label></legend>', '<input type="text" size=30 name="p" id="s1p" title="enter search terms here">', '<input type="submit" value="Search">', '<span><a href="http://us.rd.yahoo.com/301/*http://search.yahoo.com/search/options?p=">advanced search</a> <span class=sep>|</span> </span>', '</fieldset></form>', '<p class="more">Please try <strong><a href="http://us.rd.yahoo.com/301/*http://help.yahoo.com">Yahoo Help Central</a></strong> if you need more assistance.</p>', '</div><div id="ft"><p>Copyright &copy; 2019 Yahoo Inc. All rights reserved. <a href="http://us.rd.yahoo.com/301/*http://privacy.yahoo.com">Privacy Policy</a> - <a href="http://us.rd.yahoo.com/301/*http://info.yahoo.com/legal/us/yahoo/utos/terms/">Terms of Service</a></p></div>', '</div></body></html>', '"', 'OK'] 
+2019-05-03 10:12:36,576 sendCommand(AT+CGMI
+)
+2019-05-03 10:12:36,578 2019-05-03 10:12:36.577846 : Command is AT+CGMI
+ 
+2019-05-03 10:12:38,583 2019-05-03 10:12:38.583757 : Command is AT+CGMI
+ 
+2019-05-03 10:12:38,584 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 10:12:40,587 sendCommand(AT+CGMM
+)
+2019-05-03 10:12:40,588 2019-05-03 10:12:40.588720 : Command is AT+CGMM
+ 
+2019-05-03 10:12:42,595 2019-05-03 10:12:42.594999 : Command is AT+CGMM
+ 
+2019-05-03 10:12:42,595 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 10:12:44,598 sendCommand(AT+CGMR
+)
+2019-05-03 10:12:44,600 2019-05-03 10:12:44.599855 : Command is AT+CGMR
+ 
+2019-05-03 10:12:46,605 2019-05-03 10:12:46.605663 : Command is AT+CGMR
+ 
+2019-05-03 10:12:46,606 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-03 10:12:48,609 sendCommand(ATI9
+)
+2019-05-03 10:12:48,610 2019-05-03 10:12:48.610665 : Command is ATI9
+ 
+2019-05-03 10:12:50,617 2019-05-03 10:12:50.616902 : Command is ATI9
+ 
+2019-05-03 10:12:50,617 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-03 10:12:52,620 sendCommand(AT+CGSN
+)
+2019-05-03 10:12:52,622 2019-05-03 10:12:52.622038 : Command is AT+CGSN
+ 
+2019-05-03 10:12:54,629 2019-05-03 10:12:54.628977 : Command is AT+CGSN
+ 
+2019-05-03 10:12:54,629 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-03 10:12:56,632 sendCommand(AT+COPS?
+)
+2019-05-03 10:12:56,634 2019-05-03 10:12:56.634158 : Command is AT+COPS?
+ 
+2019-05-03 10:12:58,643 2019-05-03 10:12:58.643221 : Command is AT+COPS?
+ 
+2019-05-03 10:12:58,644 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-03 10:13:00,647 sendCommand(AT+CCLK?
+)
+2019-05-03 10:13:00,648 2019-05-03 10:13:00.648413 : Command is AT+CCLK?
+ 
+2019-05-03 10:13:02,657 2019-05-03 10:13:02.656940 : Command is AT+CCLK?
+ 
+2019-05-03 10:13:02,657 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/03,10:12:59-20"', 'OK'] 
+2019-05-03 10:13:04,660 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:13:04,662 2019-05-03 10:13:04.661938 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:13:06,689 2019-05-03 10:13:06.689485 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:13:06,690 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.115.45.184",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.89.153.174 254.128.0.0.0.0.0.0.0.0.0.99.34.19.17.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 10:13:08,693 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-03 10:13:08,694 2019-05-03 10:13:08.694695 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:13:10,702 2019-05-03 10:13:10.702532 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:13:10,703 Last element in Command Return is ['AT+UHTTP=0,1,"postman-echo.com/post"', 'OK'] 
+2019-05-03 10:13:12,706 sendCommand(AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+)
+2019-05-03 10:13:12,707 2019-05-03 10:13:12.707561 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:13:14,722 2019-05-03 10:13:14.722730 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:13:14,723 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0'] 
+2019-05-03 10:13:16,726 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:13:16,728 2019-05-03 10:13:16.727810 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:13:18,735 2019-05-03 10:13:18.735458 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:13:18,736 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-03 10:13:20,739 sendCommand(AT
+)
+2019-05-03 10:13:20,740 2019-05-03 10:13:20.740570 : Command is AT
+ 
+2019-05-03 10:13:22,744 2019-05-03 10:13:22.744749 : Command is AT
+ 
+2019-05-03 10:13:22,745 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 10:16:11,628 ******************************************
+2019-05-03 10:16:11,629 sendCommand(AT
+)
+2019-05-03 10:16:11,630 2019-05-03 10:16:11.630574 : Command is AT
+ 
+2019-05-03 10:16:13,635 2019-05-03 10:16:13.635152 : Command is AT
+ 
+2019-05-03 10:16:13,636 Last element in Command Return is ['AT', 'OK'] 
+2019-05-03 10:16:15,639 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:16:15,641 2019-05-03 10:16:15.640989 : Command is AT+CFUN=1,1 
+2019-05-03 10:16:20,648 2019-05-03 10:16:20.648602 : Command is AT+CFUN=1,1 
+2019-05-03 10:16:20,651 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:16:50,682 sendCommand(AT+CEREG=1)
+2019-05-03 10:16:50,683 2019-05-03 10:16:50.683810 : Command is AT+CEREG=1 
+2019-05-03 10:16:55,689 2019-05-03 10:16:55.689044 : Command is AT+CEREG=1 
+2019-05-03 10:16:55,698 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:16:57,700 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:16:57,702 2019-05-03 10:16:57.702027 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:16:59,708 2019-05-03 10:16:59.707880 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:16:59,709 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:16:59,709 Error in return code
+2019-05-03 10:16:59,710 2019-05-03 10:16:59.710349 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:17:01,716 2019-05-03 10:17:01.716142 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:17:01,717 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:17:01,717 Error in return code
+2019-05-03 10:17:01,718 2019-05-03 10:17:01.718443 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:17:03,724 2019-05-03 10:17:03.724337 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:17:03,725 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:17:03,725 Error in return code
+2019-05-03 10:17:03,726 2019-05-03 10:17:03.726648 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:17:04,814 2019-05-03 10:17:04.813998 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-03 10:17:17,926 ******************************************
+2019-05-03 10:17:17,926 sendCommand(AT
+)
+2019-05-03 10:17:17,927 2019-05-03 10:17:17.926990 : Command is AT
+ 
+2019-05-03 10:17:19,939 2019-05-03 10:17:19.939090 : Command is AT
+ 
+2019-05-03 10:17:19,940 Last element in Command Return is ['AT', 'OK', '+UMWI: 0,1', '+UMWI: 0,2', '+UMWI: 0,3', '+UMWI: 0,4', '+UMWI: 0,5'] 
+2019-05-03 10:17:21,945 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:17:21,946 2019-05-03 10:17:21.946578 : Command is AT+CFUN=1,1 
+2019-05-03 10:17:26,954 2019-05-03 10:17:26.953970 : Command is AT+CFUN=1,1 
+2019-05-03 10:17:26,955 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:17:56,986 sendCommand(AT+CEREG=1)
+2019-05-03 10:17:56,987 2019-05-03 10:17:56.987633 : Command is AT+CEREG=1 
+2019-05-03 10:18:01,995 2019-05-03 10:18:01.994954 : Command is AT+CEREG=1 
+2019-05-03 10:18:01,997 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:18:04,000 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:18:04,001 2019-05-03 10:18:04.001771 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:18:06,007 2019-05-03 10:18:06.007350 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:18:06,008 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:18:06,008 Error in return code
+2019-05-03 10:18:06,010 2019-05-03 10:18:06.009925 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:18:08,015 2019-05-03 10:18:08.015112 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:18:08,018 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:18:10,021 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:18:10,022 2019-05-03 10:18:10.022317 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:18:12,029 2019-05-03 10:18:12.029349 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:18:12,030 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:18:14,033 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:18:14,034 2019-05-03 10:18:14.034264 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:18:18,136 2019-05-03 10:18:18.136147 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:18:18,137 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.90.204.130"'] 
+2019-05-03 10:18:20,139 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:18:20,143 2019-05-03 10:18:20.143242 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:18:22,173 2019-05-03 10:18:22.172769 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:18:22,173 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.115.221.9",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.90.204.130 254.128.0.0.0.0.0.0.0.0.0.38.46.9.133.1",0,0,0,0,0,0', 'OK'] 
+2019-05-03 10:18:24,176 sendCommand(AT+UHTTP=0,1,"https://www.yahoo.com/"
+)
+2019-05-03 10:18:24,178 2019-05-03 10:18:24.177900 : Command is AT+UHTTP=0,1,"https://www.yahoo.com/"
+ 
+2019-05-03 10:18:26,186 2019-05-03 10:18:26.186248 : Command is AT+UHTTP=0,1,"https://www.yahoo.com/"
+ 
+2019-05-03 10:18:26,187 Last element in Command Return is ['AT+UHTTP=0,1,"https://www.yahoo.com/"', 'OK'] 
+2019-05-03 10:18:28,190 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-03 10:18:28,191 2019-05-03 10:18:28.191276 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:18:30,200 2019-05-03 10:18:30.200199 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:18:30,201 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,0'] 
+2019-05-03 10:18:32,204 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:18:32,205 2019-05-03 10:18:32.205277 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:18:34,213 2019-05-03 10:18:34.213298 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:18:34,214 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-03 10:18:42,223 sendCommand(AT+CGMI
+)
+2019-05-03 10:18:42,224 2019-05-03 10:18:42.224747 : Command is AT+CGMI
+ 
+2019-05-03 10:18:44,231 2019-05-03 10:18:44.230966 : Command is AT+CGMI
+ 
+2019-05-03 10:18:44,231 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 10:18:46,234 sendCommand(AT+CGMM
+)
+2019-05-03 10:18:46,236 2019-05-03 10:18:46.236175 : Command is AT+CGMM
+ 
+2019-05-03 10:18:48,242 2019-05-03 10:18:48.242586 : Command is AT+CGMM
+ 
+2019-05-03 10:18:48,256 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 10:18:50,260 sendCommand(AT+CGMR
+)
+2019-05-03 10:18:50,261 2019-05-03 10:18:50.261175 : Command is AT+CGMR
+ 
+2019-05-03 10:18:51,106 2019-05-03 10:18:51.106447 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
