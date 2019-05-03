@@ -12158,3 +12158,277 @@
 2019-05-03 10:18:50,261 2019-05-03 10:18:50.261175 : Command is AT+CGMR
  
 2019-05-03 10:18:51,106 2019-05-03 10:18:51.106447 : sendCommand() ERROR!: <type 'exceptions.KeyboardInterrupt'> 
+2019-05-03 10:22:47,138 ******************************************
+2019-05-03 10:22:47,138 sendCommand(AT
+)
+2019-05-03 10:22:47,147 2019-05-03 10:22:47.147287 : Command is AT
+ 
+2019-05-03 10:22:49,153 2019-05-03 10:22:49.153642 : Command is AT
+ 
+2019-05-03 10:22:49,154 Last element in Command Return is ['UMWI: 0,1', '+AT', 'OK'] 
+2019-05-03 10:22:51,157 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:22:51,158 2019-05-03 10:22:51.158509 : Command is AT+CFUN=1,1 
+2019-05-03 10:22:56,166 2019-05-03 10:22:56.166210 : Command is AT+CFUN=1,1 
+2019-05-03 10:22:56,167 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:23:26,189 sendCommand(AT+CEREG=1)
+2019-05-03 10:23:26,190 2019-05-03 10:23:26.190131 : Command is AT+CEREG=1 
+2019-05-03 10:23:31,197 2019-05-03 10:23:31.197594 : Command is AT+CEREG=1 
+2019-05-03 10:23:31,198 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:23:33,201 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:23:33,202 2019-05-03 10:23:33.202487 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:23:35,208 2019-05-03 10:23:35.208197 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:23:35,209 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:23:35,209 Error in return code
+2019-05-03 10:23:35,210 2019-05-03 10:23:35.210495 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:23:37,216 2019-05-03 10:23:37.215812 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:23:37,216 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:23:39,219 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:23:39,220 2019-05-03 10:23:39.220447 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:23:41,227 2019-05-03 10:23:41.227153 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:23:41,228 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:23:43,230 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:23:43,232 2019-05-03 10:23:43.231828 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:23:45,309 2019-05-03 10:23:45.309684 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:23:45,312 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.86.97.83"'] 
+2019-05-03 10:23:47,315 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:23:47,316 2019-05-03 10:23:47.316410 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:23:52,324 2019-05-03 10:23:52.324385 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:23:52,325 Last element in Command Return is ['AT+CGDCONT?'] 
+2019-05-03 10:23:54,328 sendCommand(AT+UHTTP=0,1,"yahoo.com"
+)
+2019-05-03 10:23:54,329 2019-05-03 10:23:54.329597 : Command is AT+UHTTP=0,1,"yahoo.com"
+ 
+2019-05-03 10:23:56,332 2019-05-03 10:23:56.332657 : Command is AT+UHTTP=0,1,"yahoo.com"
+ 
+2019-05-03 10:23:56,333 Last element in Command Return is [] 
+2019-05-03 10:23:58,336 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-03 10:23:58,338 2019-05-03 10:23:58.337869 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:24:00,341 2019-05-03 10:24:00.340893 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:24:00,341 Last element in Command Return is [] 
+2019-05-03 10:24:02,344 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:24:02,346 2019-05-03 10:24:02.345931 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:24:04,349 2019-05-03 10:24:04.348994 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:24:04,365 Last element in Command Return is [] 
+2019-05-03 10:24:12,374 sendCommand(AT+CGMI
+)
+2019-05-03 10:24:12,376 2019-05-03 10:24:12.376044 : Command is AT+CGMI
+ 
+2019-05-03 10:24:14,379 2019-05-03 10:24:14.379028 : Command is AT+CGMI
+ 
+2019-05-03 10:24:14,380 Last element in Command Return is [] 
+2019-05-03 10:24:16,383 sendCommand(AT+CGMM)
+2019-05-03 10:24:16,384 2019-05-03 10:24:16.384233 : Command is AT+CGMM 
+2019-05-03 10:24:18,387 2019-05-03 10:24:18.387266 : Command is AT+CGMM 
+2019-05-03 10:24:18,388 Last element in Command Return is [] 
+2019-05-03 10:24:20,391 sendCommand(AT+CGMR)
+2019-05-03 10:24:20,392 2019-05-03 10:24:20.392424 : Command is AT+CGMR 
+2019-05-03 10:24:22,395 2019-05-03 10:24:22.395549 : Command is AT+CGMR 
+2019-05-03 10:24:22,396 Last element in Command Return is [] 
+2019-05-03 10:24:24,399 sendCommand(ATI9)
+2019-05-03 10:24:24,402 2019-05-03 10:24:24.402537 : Command is ATI9 
+2019-05-03 10:24:26,406 2019-05-03 10:24:26.405878 : Command is ATI9 
+2019-05-03 10:24:26,406 Last element in Command Return is [] 
+2019-05-03 10:24:28,409 sendCommand(AT+CGSN)
+2019-05-03 10:24:28,411 2019-05-03 10:24:28.411105 : Command is AT+CGSN 
+2019-05-03 10:24:30,414 2019-05-03 10:24:30.414150 : Command is AT+CGSN 
+2019-05-03 10:24:30,415 Last element in Command Return is [] 
+2019-05-03 10:24:32,418 sendCommand(AT+COPS?)
+2019-05-03 10:24:32,419 2019-05-03 10:24:32.419499 : Command is AT+COPS? 
+2019-05-03 10:24:34,422 2019-05-03 10:24:34.422622 : Command is AT+COPS? 
+2019-05-03 10:24:34,423 Last element in Command Return is [] 
+2019-05-03 10:24:36,426 sendCommand(AT+CCLK?)
+2019-05-03 10:24:36,430 2019-05-03 10:24:36.430362 : Command is AT+CCLK? 
+2019-05-03 10:24:38,433 2019-05-03 10:24:38.433692 : Command is AT+CCLK? 
+2019-05-03 10:24:38,434 Last element in Command Return is [] 
+2019-05-03 10:24:40,437 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:24:40,439 2019-05-03 10:24:40.439025 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:24:42,442 2019-05-03 10:24:42.442023 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:24:42,443 Last element in Command Return is [] 
+2019-05-03 10:24:44,446 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-03 10:24:44,447 2019-05-03 10:24:44.447178 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:24:46,450 2019-05-03 10:24:46.450212 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:24:46,451 Last element in Command Return is [] 
+2019-05-03 10:24:48,454 sendCommand(AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+)
+2019-05-03 10:24:48,455 2019-05-03 10:24:48.455384 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:24:50,458 2019-05-03 10:24:50.458415 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:24:50,459 Last element in Command Return is [] 
+2019-05-03 10:24:52,462 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:24:52,463 2019-05-03 10:24:52.463611 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:24:54,466 2019-05-03 10:24:54.466580 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:24:54,469 Last element in Command Return is [] 
+2019-05-03 10:24:56,472 sendCommand(AT
+)
+2019-05-03 10:24:56,473 2019-05-03 10:24:56.473418 : Command is AT
+ 
+2019-05-03 10:24:58,476 2019-05-03 10:24:58.476332 : Command is AT
+ 
+2019-05-03 10:24:58,477 Last element in Command Return is [] 
+2019-05-03 10:25:56,925 ******************************************
+2019-05-03 10:25:56,926 sendCommand(AT
+)
+2019-05-03 10:25:56,926 2019-05-03 10:25:56.926653 : Command is AT
+ 
+2019-05-03 10:25:58,938 2019-05-03 10:25:58.938623 : Command is AT
+ 
+2019-05-03 10:25:58,939 Last element in Command Return is ['AT', 'OK', '+UMWI: 0,1', '+UMWI: 0,2', '+UMWI: 0,3', '+UMWI: 0,4', '+UMWI: 0,5'] 
+2019-05-03 10:26:00,942 sendCommand(AT+CFUN=1,1)
+2019-05-03 10:26:00,943 2019-05-03 10:26:00.943739 : Command is AT+CFUN=1,1 
+2019-05-03 10:26:05,953 2019-05-03 10:26:05.953157 : Command is AT+CFUN=1,1 
+2019-05-03 10:26:05,956 Last element in Command Return is ['AT+CFUN=1,1'] 
+2019-05-03 10:26:35,979 sendCommand(AT+CEREG=1)
+2019-05-03 10:26:35,981 2019-05-03 10:26:35.980981 : Command is AT+CEREG=1 
+2019-05-03 10:26:40,988 2019-05-03 10:26:40.988552 : Command is AT+CEREG=1 
+2019-05-03 10:26:40,989 Last element in Command Return is ['AT+CEREG=1'] 
+2019-05-03 10:26:42,992 sendCommand(AT+UPSD=0,0,2
+)
+2019-05-03 10:26:42,993 2019-05-03 10:26:42.993593 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:26:44,999 2019-05-03 10:26:44.999541 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:26:45,000 Last element in Command Return is ['AT+UPSD=0,0,2', 'ERROR'] 
+2019-05-03 10:26:45,001 Error in return code
+2019-05-03 10:26:45,002 2019-05-03 10:26:45.001823 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:26:47,007 2019-05-03 10:26:47.007280 : Command is AT+UPSD=0,0,2
+ 
+2019-05-03 10:26:47,008 Last element in Command Return is ['AT+UPSD=0,0,2', 'OK'] 
+2019-05-03 10:26:49,011 sendCommand(AT+UPSD=0,1,"VZWINTERNET"
+)
+2019-05-03 10:26:49,014 2019-05-03 10:26:49.014290 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:26:51,021 2019-05-03 10:26:51.021470 : Command is AT+UPSD=0,1,"VZWINTERNET"
+ 
+2019-05-03 10:26:51,022 Last element in Command Return is ['AT+UPSD=0,1,"VZWINTERNET"', 'OK'] 
+2019-05-03 10:26:53,025 sendCommand(AT+UPSDA=0,3
+)
+2019-05-03 10:26:53,026 2019-05-03 10:26:53.026445 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:26:57,157 2019-05-03 10:26:57.157283 : Command is AT+UPSDA=0,3
+ 
+2019-05-03 10:26:57,158 Last element in Command Return is ['AT+UPSDA=0,3', 'OK', '+UUPSDA: 0,"100.89.145.210"'] 
+2019-05-03 10:26:59,161 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:26:59,162 2019-05-03 10:26:59.162540 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:27:01,203 2019-05-03 10:27:01.202950 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:27:01,204 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.116.167.113",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.89.145.210 254.128.0.0.0.0.0.0.0.0.0.1.229.17.75.1",0,0,0,0,0,0', '+CGDCONT: 31,"IPV4V6","VZWADMIN","10.130.205.177 254.128.0.0.0.0.0.0.0.0.0.1.229.17.74.1",0,0', 'OK'] 
+2019-05-03 10:27:03,206 sendCommand(AT+UHTTP=0,1,"www.yahoo.com"
+)
+2019-05-03 10:27:03,208 2019-05-03 10:27:03.208092 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:27:05,215 2019-05-03 10:27:05.215399 : Command is AT+UHTTP=0,1,"www.yahoo.com"
+ 
+2019-05-03 10:27:05,216 Last element in Command Return is ['AT+UHTTP=0,1,"www.yahoo.com"', 'OK'] 
+2019-05-03 10:27:07,219 sendCommand(AT+UHTTPC=0,1,"/","r"
+)
+2019-05-03 10:27:07,220 2019-05-03 10:27:07.220446 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:27:09,229 2019-05-03 10:27:09.229327 : Command is AT+UHTTPC=0,1,"/","r"
+ 
+2019-05-03 10:27:09,230 Last element in Command Return is ['AT+UHTTPC=0,1,"/","r"', 'OK', '+UUHTTPCR: 0,1,1'] 
+2019-05-03 10:27:11,233 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:27:11,234 2019-05-03 10:27:11.234395 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:27:13,497 2019-05-03 10:27:13.497633 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:27:13,498 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",3780,"HTTP/1.0 301 Moved Permanently', 'Date: Fri, 03 May 2019 15:27:07 GMT', 'P3P: policyref="https://policies.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"', 'Location: https://www.yahoo.com/', 'Cache-Control: no-store, no-cache', 'Content-Length: 3187', 'Content-Type: text/html', 'Age: 0', 'Server: ATS', 'X-Frame-Options: SAMEORIGIN', 'X-Content-Type-Options: nosniff', 'X-XSS-Protection: 1; mode=block', 'Referrer-Policy: no-referrer-when-downgrade', 'Connection: keep-alive', '<!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">', '<html><head><title>Yahoo - 301 Moved Permanently</title><style>', '/* nn4 hide */', '/*/*/', 'body {font:small/1.2em arial,helvetica,clean,sans-serif;font:x-small;text-align:center;}table {font-size:inherit;font:x-small;}', 'html>body {font:83%/1.2em arial,helvetica,clean,sans-serif;}input {font-size:100%;vertical-align:middle;}p, form {margin:0;padding:0;}', 'p {padding-bottom:6px;margin-bottom:10px;}#doc {width:48.5em;margin:0 auto;border:1px solid #fff;text-align:center;}#ygma {text-align:right;margin-bottom:53px}', '#ygma img {float:left;}#ygma div {border-bottom:1px solid #ccc;padding-bottom:8px;margin-left:152px;}#bd {clear:both;text-align:left;width:75%;margin:0 auto 20px;}', 'h1 {font-size:135%;text-align:center;margin:0 0 15px;}legend {display:none;}fieldset {border:0 solid #fff;padding:.8em 0 .8em 4.5em;}', 'form {position:relative;background:#eee;margin-bottom:15px;border:1px solid #ccc;border-width:1px 0;}', '#s1p {width:15em;margin-right:.1em;}', 'form span {position:absolute;left:70%;top:.8em;}form a {font:78%/1.2em arial;display:block;padding-left:.8em;white-space:nowrap;background: url(http://l.yimg.com/a/i/s/bullet.gif) no-repeat left center;}', 'form .sep {display:none;}.more {text-align:center;}#ft {padding-top:10px;border-top:1px solid #999;}#ft p {text-align:center;font:78% arial;}', '/* end nn4 hide */', '</style></head>', '<body><div id="doc">', '<div id="ygma"><a href="http://us.rd.yahoo.com/301/*http://www.yahoo.com"><img src=http://l.yimg.com/a/i/yahoo.gif width=147 height=31 border=0 alt="Yahoo"></a><div><a href="http://us.rd.yahoo.com/301/*http://www.yahoo.com">Yahoo</a> - <a href="http://us.rd.yahoo.com/301/*http://help.yahoo.com">Help</a></div></div><div id="bd"><p>The document has moved <a href="https://www.yahoo.com/">here</a>.</p>', '<p>Please check the URL for proper spelling and capitalization. If', "you're having trouble locating a destination on Yahoo, try visiting the", '<strong><a', 'href="http://us.rd.yahoo.com/301/*http://www.yahoo.com">Yahoo home', 'page</a></strong> or look through a list of <strong><a', 'href="http://us.rd.yahoo.com/301/*http://docs.yahoo.com/docs/family/more/">Yahoo\'s', "online services</a></strong>. Also, you may find what you're looking for", 'if you try searching below.</p>', '<form name="s1" action="http://us.rd.yahoo.com/301/*-http://search.yahoo.com/search"><fieldset>', '<legend><label for="s1p">Search the Web</label></legend>', '<input type="text" size=30 name="p" id="s1p" title="enter search terms here">', '<input type="submit" value="Search">', '<span><a href="http://us.rd.yahoo.com/301/*http://search.yahoo.com/search/options?p=">advanced search</a> <span class=sep>|</span> </span>', '</fieldset></form>', '<p class="more">Please try <strong><a href="http://us.rd.yahoo.com/301/*http://help.yahoo.com">Yahoo Help Central</a></strong> if you need more assistance.</p>', '</div><div id="ft"><p>Copyright &copy; 2019 Yahoo Inc. All rights reserved. <a href="http://us.rd.yahoo.com/301/*http://privacy.yahoo.com">Privacy Policy</a> - <a href="http://us.rd.yahoo.com/301/*http://info.yahoo.com/legal/us/yahoo/utos/terms/">Terms of Service</a></p></div>', '</div></body></html>', '"', 'OK'] 
+2019-05-03 10:27:21,509 sendCommand(AT+CGMI
+)
+2019-05-03 10:27:21,511 2019-05-03 10:27:21.510785 : Command is AT+CGMI
+ 
+2019-05-03 10:27:23,517 2019-05-03 10:27:23.516884 : Command is AT+CGMI
+ 
+2019-05-03 10:27:23,517 Last element in Command Return is ['AT+CGMI', 'u-blox', 'OK'] 
+2019-05-03 10:27:25,520 sendCommand(AT+CGMM)
+2019-05-03 10:27:25,522 2019-05-03 10:27:25.522030 : Command is AT+CGMM 
+2019-05-03 10:27:27,528 2019-05-03 10:27:27.528494 : Command is AT+CGMM 
+2019-05-03 10:27:27,529 Last element in Command Return is ['AT+CGMM', 'LARA-R204', 'OK'] 
+2019-05-03 10:27:29,532 sendCommand(AT+CGMR)
+2019-05-03 10:27:29,533 2019-05-03 10:27:29.533556 : Command is AT+CGMR 
+2019-05-03 10:27:31,539 2019-05-03 10:27:31.539695 : Command is AT+CGMR 
+2019-05-03 10:27:31,540 Last element in Command Return is ['AT+CGMR', '31.34', 'OK'] 
+2019-05-03 10:27:33,543 sendCommand(ATI9)
+2019-05-03 10:27:33,544 2019-05-03 10:27:33.544637 : Command is ATI9 
+2019-05-03 10:27:35,551 2019-05-03 10:27:35.551041 : Command is ATI9 
+2019-05-03 10:27:35,552 Last element in Command Return is ['ATI9', '31.34,A01.00', 'OK'] 
+2019-05-03 10:27:37,554 sendCommand(AT+CGSN)
+2019-05-03 10:27:37,556 2019-05-03 10:27:37.556042 : Command is AT+CGSN 
+2019-05-03 10:27:39,563 2019-05-03 10:27:39.563179 : Command is AT+CGSN 
+2019-05-03 10:27:39,564 Last element in Command Return is ['AT+CGSN', '357648070167189', 'OK'] 
+2019-05-03 10:27:41,567 sendCommand(AT+COPS?)
+2019-05-03 10:27:41,568 2019-05-03 10:27:41.568141 : Command is AT+COPS? 
+2019-05-03 10:27:43,577 2019-05-03 10:27:43.577605 : Command is AT+COPS? 
+2019-05-03 10:27:43,578 Last element in Command Return is ['AT+COPS?', '+COPS: 0,0,"Verizon Wireless US",7', 'OK'] 
+2019-05-03 10:27:45,581 sendCommand(AT+CCLK?)
+2019-05-03 10:27:45,583 2019-05-03 10:27:45.582878 : Command is AT+CCLK? 
+2019-05-03 10:27:47,592 2019-05-03 10:27:47.591777 : Command is AT+CCLK? 
+2019-05-03 10:27:47,592 Last element in Command Return is ['AT+CCLK?', '+CCLK: "19/05/03,10:27:44-20"', 'OK'] 
+2019-05-03 10:27:49,595 sendCommand(AT+CGDCONT?
+)
+2019-05-03 10:27:49,597 2019-05-03 10:27:49.596805 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:27:51,637 2019-05-03 10:27:51.637098 : Command is AT+CGDCONT?
+ 
+2019-05-03 10:27:51,638 Last element in Command Return is ['AT+CGDCONT?', '+CGDCONT: 1,"IPV6","vzwims.mnc480.mcc311.gprs","254.128.0.0.0.0.0.0.0.0.0.0.9.116.167.113",0,0,0,0,0,0', '+CGDCONT: 8,"IPV4V6","VZWINTERNET","100.89.145.210 254.128.0.0.0.0.0.0.0.0.0.1.229.17.75.1",0,0,0,0,0,0', '+CGDCONT: 31,"IPV4V6","VZWADMIN","10.128.204.102 254.128.0.0.0.0.0.0.0.0.0.1.229.17.103.1",0,0', 'OK'] 
+2019-05-03 10:27:53,641 sendCommand(AT+UHTTP=0,1,"postman-echo.com/post"
+)
+2019-05-03 10:27:53,642 2019-05-03 10:27:53.642417 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:27:55,650 2019-05-03 10:27:55.650607 : Command is AT+UHTTP=0,1,"postman-echo.com/post"
+ 
+2019-05-03 10:27:55,651 Last element in Command Return is ['AT+UHTTP=0,1,"postman-echo.com/post"', 'OK'] 
+2019-05-03 10:27:57,654 sendCommand(AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+)
+2019-05-03 10:27:57,655 2019-05-03 10:27:57.655614 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:27:59,671 2019-05-03 10:27:59.671542 : Command is AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0
+ 
+2019-05-03 10:27:59,672 Last element in Command Return is ['AT+UHTTPC=0,5,"/","r","This is expected to be sent back as part of response body.",0', 'OK', '+UUHTTPCR: 0,5,0'] 
+2019-05-03 10:28:01,675 sendCommand(AT+URDFILE="r"
+)
+2019-05-03 10:28:01,676 2019-05-03 10:28:01.676540 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:28:03,684 2019-05-03 10:28:03.684451 : Command is AT+URDFILE="r"
+ 
+2019-05-03 10:28:03,685 Last element in Command Return is ['AT+URDFILE="r"', '+URDFILE: "r",0,""', 'OK'] 
+2019-05-03 10:28:05,688 sendCommand(AT
+)
+2019-05-03 10:28:05,689 2019-05-03 10:28:05.689553 : Command is AT
+ 
+2019-05-03 10:28:07,694 2019-05-03 10:28:07.693904 : Command is AT
+ 
+2019-05-03 10:28:07,694 Last element in Command Return is ['AT', 'OK'] 
